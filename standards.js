@@ -1,5 +1,5 @@
 'use strict';
-// NXT Gen Plans 0.1 R2 traffic-control reference catalog.
+// NXT Gen Plans 0.1 R3 traffic-control reference catalog.
 // Sign codes/names are plan-review references; exact fabrication geometry should be verified
 // against the current TMUTCD / TxDOT SHSD / applicable TxDOT standard sheet.
 

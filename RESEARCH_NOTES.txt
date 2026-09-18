@@ -1,57 +1,119 @@
-NXT GEN PLANS 0.1 R2 — RESEARCH / DESIGN NOTES
+NXT GEN PLANS 0.1 R3 — RESEARCH / DESIGN NOTES
 ==============================================
 
-The application uses original UI/code. Research was used to understand common professional workflows, not to copy proprietary source code, icons, or layouts.
+NXT Gen Plans uses original UI/code. Research was used to understand professional interaction patterns and interoperability requirements, not to copy proprietary source code, icons, or branding.
 
-WORKSPACE / REVIEW WORKFLOWS
-----------------------------
-Adobe Acrobat Pro / Acrobat desktop documentation
-- Hand, Select, marquee zoom, fit page / fit width / actual-size concepts
-- Comment shapes, callouts, stamps, measuring, PDF annotation conventions
+ADOBE ACROBAT / ACROBAT PRO
+---------------------------
+Useful observed/documented patterns applied to R3:
+- Hand, Select, Marquee Zoom and temporary Spacebar Hand navigation.
+- Fit Page / Actual Size / Fit Width and standard zoom controls.
+- Shape/drawing comments with move/resize handles.
+- Right-click comment Properties and the ability to make appearance properties defaults.
+- Custom stamps.
+- Page thumbnails and page organization concepts.
+- Print/export scaling concepts: Fit, Actual Size, and Shrink Oversized Pages.
+- Comments/markups can be included in printed/exported review output.
 
-Bluebeam Revu documentation
-- construction markup/property workflow
-- Tool Chest / appearance reuse concepts
-- Markups List
-- clouds, hatches, lines, measurements, dockable-panel behavior
+Reference areas reviewed:
+- Acrobat workspace / Quick tools
+- keyboard shortcuts
+- shapes and drawing markups
+- comment properties
+- page thumbnails
+- page size/custom size/print settings
+- comment lists and summaries
 
-Invarion RapidPlan documentation
-- traffic-control object/property concepts
-- device runs / delineators
-- arrow boards and message-sign concepts
-- legends / manifests
+BLUEBEAM REVU
+-------------
+Useful observed/documented patterns applied to R3:
+- Main plan canvas gets most of the workspace.
+- Menu/toolbars remain near the top.
+- Properties controls are contextual to selected markups.
+- Side access bars/panels and the bottom Markups List can be hidden/collapsed.
+- Right-click / properties-driven construction markup workflow.
+- Markups List tracks subject, status, comment, date and other metadata.
+- Tool Chest / reusable appearance concepts.
+- Clouds, lines, hatches, measurements, layers and construction-centric markups.
 
-TEXAS CIVIL / TRAFFIC CONTROL BASIS
+This supported keeping the user-requested NXT canvas-first layout: all large palettes are closed at startup and appear only as floating palettes/popovers.
+
+
+COMMUNITY / FIELD-WORKFLOW CHECK
+--------------------------------
+Public Bluebeam user discussions reinforced that practical construction review repeatedly centers on measurements, polygons, hatch/dot fills, text boxes, stamps, reusable tool sets, layers, statuses, overlays, and exportable markup data. Reviewers also described assigning markups to a dedicated Comments layer and exporting markup data for comment trackers. R3 therefore keeps those workflows visible in the architecture without adding permanent panels: layer assignment/status metadata remain on each markup, the Markups & Notes palette filters the project log, and R3 adds CSV export of that log.
+
+INVARION RAPIDPLAN / RAPIDPLAN ONLINE
+-------------------------------------
+Useful observed/documented patterns applied to R3:
+- New plan workflow can begin from blank canvas, template, basemap, or PDF.
+- Sign palette uses search + sign library/category browsing and sign thumbnails.
+- Traffic-control items are objects with editable properties rather than static screenshots.
+- Layers/print regions/plan scale are first-class concepts.
+- Print/export uses a defined print region, page size/orientation/margins and PDF/image output.
+- Traffic manifests/legends can be exported in several data/document formats.
+
+This supported NXT's single compact Traffic button, searchable floating sign/device library, separate Traffic Control layer, and standards-based plan sheet/export controls.
+
+MUTCD-SVG-MAIN ASSET AUDIT
+---------------------------
+The GitHub project now contains:
+  assets/Signs SVGs/mutcd-svg-main/
+
+Its index.json describes 1,054 vector sign faces:
+- regulatory: 428
+- warning: 271
+- guide: 253
+- school: 14
+- other: 88
+
+Prefix counts observed:
+- R: 428
+- W: 271
+- D: 152
+- M: 72
+- E: 63
+- I: 25
+- EM: 15
+- S: 14
+- OM: 10
+- G: 4
+
+R3 uses the JSON manifest directly when the folder is present instead of maintaining a second 1,054-item hard-coded database. Search reads code/name/category metadata; thumbnails point to the local SVG files. When a sign is placed, the SVG is read and embedded as a data URI in the markup object for reliable project save/export.
+
+The W20-W26 family provides especially useful construction/TTC assets, including Road Work, Detour, Road Closed, One Lane Road, Lane Closed, Flagger, Workers, Shoulder Work/Closed, Survey Crew, Utility Work, Mowing, Blasting Zone, Slow Traffic, New Traffic Pattern and related warning/plaque graphics. Direct inspection of W20-01.svg confirmed that the vector artwork itself carries the orange work-zone face; NXT therefore treats the SVG artwork as the visual source of truth when the asset is present rather than reconstructing its colors from manifest metadata.
+
+TEXAS CIVIL / TRAFFIC-CONTROL BASIS
 -----------------------------------
-TxDOT — Texas Manual on Uniform Traffic Control Devices (TMUTCD)
-- Current Texas standard: 2025 TMUTCD
-- Became effective January 18, 2026
-- Texas TMUTCD Revision 1 process was in progress during this build
-
-TxDOT — Work Zone Traffic Control
-- 2025 TMUTCD Part 6 Temporary Traffic Control
+TxDOT resources reviewed for the Texas-oriented library/workflow:
+- Texas Manual on Uniform Traffic Control Devices (TMUTCD)
+- Work Zone Traffic Control resources
 - Barricade and Construction (BC) Standards
 - Work Zone (WZ) Standards
 - Traffic Control Plan (TCP) Standards
+- PS&E Preparation Manual / Traffic Control Plan Sheets
+- Standard Highway Sign Designs for Texas (SHSD)
 
-TxDOT — PS&E Preparation Manual / Traffic Control Plan Sheets
-- TCP layouts identify construction signs, pavement markings, work-zone markings, traffic-control devices, lane widths, tapers, buffers, and construction stages.
-- TxDOT standard sheets should be used when practical.
+During R3 development, the current Texas manual was the 2025 TMUTCD, effective January 18, 2026. Texas-specific sign/TCP references are kept separate from the federal MUTCD SVG catalog so NXT does not imply that every federal graphic is automatically the governing Texas fabrication/application detail.
 
-TxDOT — Standard Highway Sign Designs for Texas (SHSD)
-- Texas fabrication/detail source for standard sign designs.
+PDF ENGINE DECISION
+-------------------
+R2's imported-PDF mode used the browser's native PDF viewer in an iframe. That isolated the PDF from NXT's SVG drawing surface and intentionally blocked drawing tools, which is why stamps/lines/shapes could not be placed on imported construction plans.
 
-FHWA — MUTCD 11th Edition / Standard Highway Signs
-- Federal MUTCD sign codes and Part 6 temporary traffic-control concepts.
-- Standard Highway Signs 2024 designs were released in phases; the sixth/final phased release was published February 10, 2026, while additional design detail publication continues.
+R3 replaces that architecture with a locally bundled PDF.js renderer:
+1. PDF page is rendered to an underlay canvas.
+2. A selectable transparent PDF text layer sits over the PDF page when Text Select is active.
+3. NXT's SVG markup layer occupies the same page coordinate system above the PDF underlay.
+4. Selection/resize handles remain on NXT's interaction layer.
 
-OPEN PUBLIC-DOMAIN SIGN REFERENCE RESEARCH
-------------------------------------------
-whizy76/mutcd-svg on GitHub
-- Repository describes 1,054 FHWA MUTCD 11th Edition sign SVGs repackaged with a JSON manifest.
-- Repository identifies the sign graphics as originating from FHWA public-domain traffic-control-device designs and dedicates its packaging to CC0.
-- NXT Gen Plans R2 DOES NOT yet bundle that complete external SVG package. R2 contains an internal curated code/name reference catalog and lightweight plan-reference sign rendering. A later standards-asset milestone can replace these previews with a vetted complete offline asset set.
+This enables normal construction-plan markup while maintaining pan/zoom alignment.
+
+EXPORT / INTEROPERABILITY
+-------------------------
+R3 exports flattened PDF 1.7 review files. The PDF page MediaBox uses real standard dimensions in PDF points. Flattening is intentional at this stage because it gives reliable visual output in normal PDF viewers and printers even for NXT-specific hatches/clouds/custom artwork.
+
+R3 retains editable objects in .NXP. Native standard-PDF annotation objects and vector-preserving source-page export are appropriate later milestones after the R3 PDF workspace is accepted.
 
 IMPORTANT STANDARDS NOTE
 ------------------------
-NXT Gen Plans is an editing/review tool. The built-in traffic library is a convenience reference and does not supersede current TMUTCD, TxDOT SHSD, TxDOT traffic standards, sealed project documents, or engineering judgment. Modified TxDOT standards may also create documentation/sealing requirements; always use the current official source for final design/construction documents.
+NXT Gen Plans is an editing/review tool. Built-in traffic content is a convenience reference and does not supersede current TMUTCD, TxDOT SHSD, TxDOT standard sheets, sealed project documents, engineering judgment, or agency requirements.

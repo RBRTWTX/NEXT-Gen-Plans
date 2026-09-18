@@ -3,17 +3,17 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title>NXT Gen Plans 0.1 R2</title>
+<title>NXT Gen Plans 0.1 R3</title>
 <link rel="stylesheet" href="styles.css">
 </head>
 <body>
 <div id="app">
   <header class="topline">
-    <div class="brand"><span class="brandMark">N</span><strong>NXT Gen Plans</strong><small>0.1 R2</small></div>
+    <div class="brand"><span class="brandMark">N</span><strong>NXT Gen Plans</strong><small>0.1 R3</small></div>
     <div id="docTitle" class="docTitle">Untitled Plan</div>
     <div class="fileQuick"><button id="btnOpen" title="Open">Open</button><button id="btnSaveProject" title="Save NXT project">Save</button><button id="btnExportPdf" class="primary" title="Export flattened PDF">PDF</button></div>
   </header>
-  <nav class="menubar"><button>File</button><button>Edit</button><button>View</button><button>Document</button><button>Tools</button><button>Window</button><button>Help</button></nav>
+  <nav class="menubar" id="menuBar"><button data-menu="file">File</button><button data-menu="edit">Edit</button><button data-menu="view">View</button><button data-menu="document">Document</button><button data-menu="tools">Tools</button><button data-menu="window">Window</button><button data-menu="help">Help</button></nav>
   <div class="toolbar" id="mainToolbar">
     <div class="toolgroup">
       <button class="iconTool active" data-tool="hand" title="Hand / Pan (H)">✋</button>
@@ -40,10 +40,10 @@
 
   <main class="workspace">
     <section class="canvasArea" id="canvasArea">
-      <div class="nativePdfNotice hidden" id="pdfNotice"><strong>Native PDF view</strong><span>Viewing/text selection is active. NXT editable overlays on imported PDF pages remain a later PDF-engine checkpoint.</span><button id="closePdfMode">Plan Canvas</button></div>
-      <iframe id="pdfFrame" class="hidden" title="Imported PDF viewer"></iframe>
       <div class="canvasScroller" id="canvasScroller">
         <div class="pageStage" id="pageStage">
+          <canvas id="pdfCanvas" class="pdfUnderlay hidden" aria-label="Rendered PDF page"></canvas>
+          <div id="pdfTextLayer" class="pdfTextLayer hidden" aria-label="Selectable PDF text"></div>
           <svg id="pageSvg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 792 612" aria-label="Plan sheet">
             <defs id="svgDefs"><marker id="arrowHead" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto" markerUnits="strokeWidth"><path d="M0,0 L0,6 L9,3 z" fill="context-stroke"/></marker><marker id="arrowStart" markerWidth="10" markerHeight="10" refX="0" refY="3" orient="auto-start-reverse" markerUnits="strokeWidth"><path d="M9,0 L9,6 L0,3 z" fill="context-stroke"/></marker></defs>
             <rect class="paper" x="0" y="0" width="792" height="612" fill="white"/>
@@ -123,12 +123,18 @@
   </section>
 
   <section class="palette widePalette hidden" id="markupsPalette" data-floating="true">
-    <div class="paletteHead"><strong>Markups & Notes</strong><span id="markupCount">0 markups</span><button data-close>×</button></div><div class="paletteBody markupsBody"><input id="markupFilter" placeholder="Filter markups"><div class="markupTableWrap"><table><thead><tr><th>Pg</th><th>Subject</th><th>Status</th><th>Comment</th><th>Modified</th></tr></thead><tbody id="markupRows"></tbody></table></div></div>
+    <div class="paletteHead"><strong>Markups & Notes</strong><span id="markupCount">0 markups</span><button data-close>×</button></div><div class="paletteBody markupsBody"><div class="markupActions"><input id="markupFilter" placeholder="Filter markups"><button id="exportMarkupCsv" title="Export markup log to CSV">CSV</button></div><div class="markupTableWrap"><table><thead><tr><th>Pg</th><th>Subject</th><th>Status</th><th>Comment</th><th>Modified</th></tr></thead><tbody id="markupRows"></tbody></table></div></div>
   </section>
 
   <div id="contextMenu" class="contextMenu hidden"><button data-cmd="properties">Properties…</button><button data-cmd="editText" class="textOnly">Edit Text</button><button data-cmd="duplicate">Duplicate</button><button data-cmd="front">Bring to Front</button><button data-cmd="back">Send to Back</button><button data-cmd="lock">Lock / Unlock</button><button data-cmd="preset">Use Appearance as Default</button><hr><button data-cmd="delete" class="dangerText">Delete</button></div>
 
-  <div id="modalBackdrop" class="modalBackdrop hidden"><div class="modal"><h2>New Blank Plan Sheet</h2><label>Sheet size<select id="sheetSize"><option value="612,792,Letter Portrait">Letter Portrait</option><option value="792,612,Letter Landscape">Letter Landscape</option><option value="792,1224,Legal Portrait">Legal Portrait</option><option value="1224,792,Legal Landscape">Legal Landscape</option><option value="792,612,ANSI A Landscape">ANSI A (8.5×11) Landscape</option><option value="1224,792,ANSI B Landscape">ANSI B (11×17) Landscape</option><option value="1584,1224,ANSI C Landscape">ANSI C (17×22) Landscape</option><option value="2448,1584,ANSI D Landscape">ANSI D (22×34) Landscape</option><option value="3168,2448,ANSI E Landscape">ANSI E (34×44) Landscape</option><option value="864,648,ARCH A Landscape">ARCH A (9×12)</option><option value="1296,864,ARCH B Landscape">ARCH B (12×18)</option><option value="1728,1296,ARCH C Landscape">ARCH C (18×24)</option><option value="2592,1728,ARCH D Landscape">ARCH D (24×36)</option><option value="3456,2592,ARCH E Landscape">ARCH E (36×48)</option></select></label><div class="modalActions"><button id="cancelModal">Cancel</button><button id="createPage" class="primary">Create</button></div></div></div>
+  <div id="modalBackdrop" class="modalBackdrop hidden"><div class="modal"><h2>New Blank Plan Sheet</h2><label>Sheet size<select id="sheetSize"><option value="612,792,Letter Portrait">Letter Portrait</option><option value="792,612,Letter Landscape">Letter Landscape</option><option value="612,1008,Legal Portrait">Legal (8.5×14) Portrait</option><option value="1008,612,Legal Landscape">Legal (14×8.5) Landscape</option><option value="792,1224,Tabloid Portrait">Tabloid / ANSI B Portrait</option><option value="1224,792,Tabloid Landscape">Tabloid / ANSI B Landscape</option><option value="792,612,ANSI A Landscape">ANSI A (8.5×11) Landscape</option><option value="1224,792,ANSI B Landscape">ANSI B (11×17) Landscape</option><option value="1584,1224,ANSI C Landscape">ANSI C (17×22) Landscape</option><option value="2448,1584,ANSI D Landscape">ANSI D (22×34) Landscape</option><option value="3168,2448,ANSI E Landscape">ANSI E (34×44) Landscape</option><option value="864,648,ARCH A Landscape">ARCH A (9×12)</option><option value="1296,864,ARCH B Landscape">ARCH B (12×18)</option><option value="1728,1296,ARCH C Landscape">ARCH C (18×24)</option><option value="2592,1728,ARCH D Landscape">ARCH D (24×36)</option><option value="3456,2592,ARCH E Landscape">ARCH E (36×48)</option><option value="3024,2160,ARCH E1 Landscape">ARCH E1 (30×42)</option></select></label><div class="modalActions"><button id="cancelModal">Cancel</button><button id="createPage" class="primary">Create</button></div></div></div>
+
+  <div id="menuHost" class="menuHost"></div>
+
+  <div id="exportBackdrop" class="modalBackdrop hidden"><div class="modal compactModal"><h2>Export Review PDF</h2><label>Output sheet size<select id="exportSize"><option value="source">Keep each source page size</option><option value="612,792,Letter Portrait">Letter Portrait</option><option value="792,612,Letter Landscape">Letter Landscape</option><option value="612,1008,Legal Portrait">Legal Portrait</option><option value="1008,612,Legal Landscape">Legal Landscape</option><option value="1224,792,ANSI B Landscape">ANSI B / 11×17</option><option value="1584,1224,ANSI C Landscape">ANSI C / 17×22</option><option value="2448,1584,ANSI D Landscape">ANSI D / 22×34</option><option value="3168,2448,ANSI E Landscape">ANSI E / 34×44</option><option value="1728,1296,ARCH C Landscape">ARCH C / 18×24</option><option value="2592,1728,ARCH D Landscape">ARCH D / 24×36</option><option value="3456,2592,ARCH E Landscape">ARCH E / 36×48</option><option value="3024,2160,ARCH E1 Landscape">ARCH E1 / 30×42</option></select></label><label>Render quality<select id="exportDpi"><option value="110">Draft — 110 DPI</option><option value="150" selected>Review — 150 DPI</option><option value="200">High — 200 DPI</option><option value="300">Print — 300 DPI (large files)</option></select></label><label>Pages<select id="exportPages"><option value="all" selected>All pages</option><option value="current">Current page only</option></select></label><label>Placement<select id="exportPlacement"><option value="fit" selected>Fit to output sheet</option><option value="shrink">Shrink oversized pages only</option><option value="actual">Actual size, centered</option></select></label><small>R3 exports a flattened PDF for reliable Adobe/Bluebeam viewing and printing. NXT project files retain editable markups.</small><div class="modalActions"><button id="cancelExport">Cancel</button><button id="runExport" class="primary">Export PDF</button></div></div></div>
+
+  <div id="helpBackdrop" class="modalBackdrop hidden"><div class="modal helpModal"><h2 id="helpTitle">NXT Gen Plans</h2><div id="helpBody"></div><div class="modalActions"><button id="closeHelp" class="primary">Close</button></div></div></div>
   <div id="toast" class="toast hidden"></div>
 </div>
 <input type="file" id="fileOpen" accept="application/pdf,image/*,.nxp" hidden><input type="file" id="imageOpen" accept="image/*" hidden><input type="file" id="stampOpen" accept="image/png,image/jpeg,image/svg+xml" hidden>

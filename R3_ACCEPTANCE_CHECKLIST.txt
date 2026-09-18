@@ -1,0 +1,77 @@
+NXT GEN PLANS 0.1 R3 — WINDOWS ACCEPTANCE CHECKLIST
+===================================================
+
+Recommended first test after extracting/merging R3:
+
+1. Launch
+   [ ] Double-click START_NXT_GEN_PLANS.bat.
+   [ ] NXT opens maximized without an installer/admin prompt.
+   [ ] Tools, Properties, Pages, Layers, Stamps, Traffic and Notes palettes are all closed at startup.
+
+2. Imported construction PDF — critical R3 gate
+   [ ] File > Open a multi-page construction-plan PDF.
+   [ ] PDF appears in the NXT page canvas (not the browser's separate native PDF viewer).
+   [ ] H pans the page.
+   [ ] Z draws a marquee and zooms to that area.
+   [ ] Ctrl+0 fits page; Ctrl+2 fits width.
+   [ ] Draw a red line directly on the imported PDF.
+   [ ] Draw a cloud and a hatch area directly on the imported PDF.
+   [ ] Place FIELD INSPECTION REQUIRED or PASSED INSPECTION stamp directly on the PDF.
+   [ ] Select V and move/resize those markups.
+   [ ] Right-click a markup > Properties and change line color/width/style/fill/hatch.
+
+3. Text
+   [ ] Place Text Box on imported PDF.
+   [ ] Type directly inside the box on the plan.
+   [ ] Resize the box wide/tall using handles.
+   [ ] Double-click text and edit it in place.
+   [ ] Undo/Redo a text edit.
+
+4. PDF text selection
+   [ ] Tools > PDF Text Select (or top I button).
+   [ ] Drag across selectable PDF text.
+   [ ] Tools > Highlight Selected PDF Text creates NXT highlight geometry.
+
+5. Menus
+   [ ] File, Edit, View, Document, Tools, Window and Help all open command menus.
+   [ ] Edit > Undo/Redo works.
+   [ ] Document > Rotate Page works on a PDF page.
+   [ ] Document > Duplicate Page and Delete Page work.
+
+6. Save/reopen
+   [ ] Ctrl+S saves an .NXP file.
+   [ ] Close/reopen NXT and open the .NXP file.
+   [ ] Source PDF returns.
+   [ ] All markups remain editable and aligned.
+   [ ] Deleted/duplicated/rotated pages remain exactly as saved.
+
+7. MUTCD / traffic library
+   If merged over the GitHub Desktop repo containing assets/Signs SVGs/mutcd-svg-main:
+   [ ] Open Traffic.
+   [ ] Library reports 1,054 vector sign faces loaded.
+   [ ] Search W20-1 and locate W20-01 Road Work.
+   [ ] Place it on the PDF and verify the actual orange SVG sign face is shown.
+   [ ] Search by words such as lane closed, flagger, detour, utility work.
+   [ ] Place a cone/drum/barricade/device object.
+
+8. Custom stamps
+   [ ] Stamps > Custom Stamps > import PNG/JPG/SVG.
+   [ ] Place the custom stamp.
+   [ ] Actual stamp artwork, not merely its filename, appears on the sheet.
+   [ ] Resize and right-click Properties.
+
+9. Markups log
+   [ ] Notes opens as a floating bottom palette only when requested.
+   [ ] Filter works.
+   [ ] CSV exports the markup log.
+
+10. PDF export
+   [ ] Ctrl+P opens Export Review PDF.
+   [ ] Export using Keep each source page size / All Pages / Review 150 DPI.
+   [ ] Open exported PDF in Adobe Acrobat/Reader.
+   [ ] Original plan and NXT markups are visible/aligned.
+   [ ] Repeat with Current Page only.
+   [ ] If desired, test ANSI D 22x34 or ARCH D 24x36 output and confirm page size in Acrobat properties/print dialog.
+
+R3 acceptance goal:
+Imported PDFs must function as the NXT markup workspace. If any markup is blocked from being placed on an imported PDF, record which tool was selected, the PDF page number, and what happened on click/drag.
