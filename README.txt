@@ -1,4 +1,4 @@
-NXT GEN PLANS — VERSION 0.1 R3 PORTABLE
+NXT GEN PLANS — VERSION 0.1 R3 PORTABLE — REAL MUTCD SVG FIX
 ========================================
 
 PURPOSE
@@ -10,7 +10,7 @@ STARTING THE PROGRAM
 1. Extract the ZIP to a writable folder such as Documents, Desktop, or a USB drive.
 2. Double-click START_NXT_GEN_PLANS.bat.
 3. The launcher prefers Microsoft Edge or Google Chrome in maximized app mode and enables local-file access needed by the bundled PDF engine.
-4. No administrator rights, installer, service, login, or internet connection is required for the program itself.
+4. No administrator rights or installer is required. On first launch, if the real MUTCD asset folder is not already available locally, the launcher downloads that asset folder from the project GitHub repository and verifies all 1,054 SVG files. After that, the traffic-sign library works offline.
 
 If you are using the GitHub Desktop project folder, extract/copy the R3 files over the repository root. Windows folder merge will retain the existing assets/Signs SVGs/mutcd-svg-main folder. That activates the full 1,054-sign offline MUTCD SVG library already present in the repository.
 
@@ -194,7 +194,7 @@ The supplied repository library contains:
 
 W20-W26 work-zone signs include Road Work, Detour, Road Closed, One Lane Road, Lane Closed, Flagger, Workers, Shoulder Work/Closed, Survey Crew, Utility Work, Mowing, Blasting Zone, Slow Traffic, New Traffic Pattern, and related signs.
 
-If the full SVG folder is absent, R3 falls back to the built-in 179-sign reference catalog plus Texas/TxDOT references and traffic-control plan objects.
+Generated federal fallback signs are DISABLED in this corrected build. If the full SVG folder is absent or incomplete, the Traffic library reports the missing real assets instead of displaying generated substitute signs. The launcher attempts to copy the complete library from a local GitHub Desktop clone first, then downloads it from the project GitHub repository when needed.
 
 Texas-specific references remain separately identified from federal MUTCD artwork. Final sign application/fabrication must be verified against the current TMUTCD, TxDOT SHSD, project documents, and applicable TxDOT standards.
 
@@ -250,5 +250,17 @@ The bundled PDF.js engine, worker, CMaps, standard fonts, ICC resources, and WAS
 
 VERSION
 -------
-NXT Gen Plans 0.1 R3
+NXT Gen Plans 0.1 R3 — Real MUTCD SVG Fix
 PDF markup-engine foundation / Texas civil plan-review build.
+
+R3 LOCAL MUTCD CORRECTION
+-------------------------
+START_NXT_GEN_PLANS.bat no longer runs PowerShell and never downloads anything.
+It opens the app normally and performs only a silent, best-effort copy of the real
+MUTCD assets if a local NEXT-Gen-Plans GitHub clone is found in a common location.
+
+VERIFY_MUTCD_ASSETS.bat is optional and reports whether index.json and exactly
+1,054 real SVG files are present under:
+  assets\Signs SVGs\mutcd-svg-main\svg
+
+The old generated federal sign catalog is not used as the federal MUTCD source.

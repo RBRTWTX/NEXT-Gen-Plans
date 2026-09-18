@@ -1,31 +1,36 @@
 @echo off
-setlocal
+setlocal EnableExtensions
 cd /d "%~dp0"
+
+title NXT Gen Plans R3
+
+rem Best-effort local MUTCD asset copy. This NEVER blocks startup.
+if exist "%~dp0COPY_MUTCD_FROM_LOCAL_REPO.bat" call "%~dp0COPY_MUTCD_FROM_LOCAL_REPO.bat" >nul 2>&1
+
 set "APP=%~dp0index.html"
 set "APPURL=file:///%APP:\=/%"
 
-rem Prefer an installed Chromium browser in app mode: no tabs/address bar, no install/admin required.
 if exist "%ProgramFiles(x86)%\Microsoft\Edge\Application\msedge.exe" (
-  start "NXT Gen Plans" "%ProgramFiles(x86)%\Microsoft\Edge\Application\msedge.exe" --allow-file-access-from-files --app="%APPURL%" --start-maximized
+  start "" "%ProgramFiles(x86)%\Microsoft\Edge\Application\msedge.exe" --allow-file-access-from-files --app="%APPURL%" --start-maximized
   exit /b 0
 )
 if exist "%ProgramFiles%\Microsoft\Edge\Application\msedge.exe" (
-  start "NXT Gen Plans" "%ProgramFiles%\Microsoft\Edge\Application\msedge.exe" --allow-file-access-from-files --app="%APPURL%" --start-maximized
+  start "" "%ProgramFiles%\Microsoft\Edge\Application\msedge.exe" --allow-file-access-from-files --app="%APPURL%" --start-maximized
   exit /b 0
 )
 if exist "%LOCALAPPDATA%\Microsoft\Edge\Application\msedge.exe" (
-  start "NXT Gen Plans" "%LOCALAPPDATA%\Microsoft\Edge\Application\msedge.exe" --allow-file-access-from-files --app="%APPURL%" --start-maximized
+  start "" "%LOCALAPPDATA%\Microsoft\Edge\Application\msedge.exe" --allow-file-access-from-files --app="%APPURL%" --start-maximized
   exit /b 0
 )
 if exist "%ProgramFiles%\Google\Chrome\Application\chrome.exe" (
-  start "NXT Gen Plans" "%ProgramFiles%\Google\Chrome\Application\chrome.exe" --allow-file-access-from-files --app="%APPURL%" --start-maximized
+  start "" "%ProgramFiles%\Google\Chrome\Application\chrome.exe" --allow-file-access-from-files --app="%APPURL%" --start-maximized
   exit /b 0
 )
 if exist "%ProgramFiles(x86)%\Google\Chrome\Application\chrome.exe" (
-  start "NXT Gen Plans" "%ProgramFiles(x86)%\Google\Chrome\Application\chrome.exe" --allow-file-access-from-files --app="%APPURL%" --start-maximized
+  start "" "%ProgramFiles(x86)%\Google\Chrome\Application\chrome.exe" --allow-file-access-from-files --app="%APPURL%" --start-maximized
   exit /b 0
 )
 
-rem Fallback: use the normal Windows default handler for local HTML.
-start "NXT Gen Plans" "%APP%"
+rem Final fallback: open index.html with the Windows default browser.
+start "" "%APP%"
 exit /b 0
