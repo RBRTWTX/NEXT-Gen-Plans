@@ -1,0 +1,57 @@
+NXT GEN PLANS 0.1 R2 — RESEARCH / DESIGN NOTES
+==============================================
+
+The application uses original UI/code. Research was used to understand common professional workflows, not to copy proprietary source code, icons, or layouts.
+
+WORKSPACE / REVIEW WORKFLOWS
+----------------------------
+Adobe Acrobat Pro / Acrobat desktop documentation
+- Hand, Select, marquee zoom, fit page / fit width / actual-size concepts
+- Comment shapes, callouts, stamps, measuring, PDF annotation conventions
+
+Bluebeam Revu documentation
+- construction markup/property workflow
+- Tool Chest / appearance reuse concepts
+- Markups List
+- clouds, hatches, lines, measurements, dockable-panel behavior
+
+Invarion RapidPlan documentation
+- traffic-control object/property concepts
+- device runs / delineators
+- arrow boards and message-sign concepts
+- legends / manifests
+
+TEXAS CIVIL / TRAFFIC CONTROL BASIS
+-----------------------------------
+TxDOT — Texas Manual on Uniform Traffic Control Devices (TMUTCD)
+- Current Texas standard: 2025 TMUTCD
+- Became effective January 18, 2026
+- Texas TMUTCD Revision 1 process was in progress during this build
+
+TxDOT — Work Zone Traffic Control
+- 2025 TMUTCD Part 6 Temporary Traffic Control
+- Barricade and Construction (BC) Standards
+- Work Zone (WZ) Standards
+- Traffic Control Plan (TCP) Standards
+
+TxDOT — PS&E Preparation Manual / Traffic Control Plan Sheets
+- TCP layouts identify construction signs, pavement markings, work-zone markings, traffic-control devices, lane widths, tapers, buffers, and construction stages.
+- TxDOT standard sheets should be used when practical.
+
+TxDOT — Standard Highway Sign Designs for Texas (SHSD)
+- Texas fabrication/detail source for standard sign designs.
+
+FHWA — MUTCD 11th Edition / Standard Highway Signs
+- Federal MUTCD sign codes and Part 6 temporary traffic-control concepts.
+- Standard Highway Signs 2024 designs were released in phases; the sixth/final phased release was published February 10, 2026, while additional design detail publication continues.
+
+OPEN PUBLIC-DOMAIN SIGN REFERENCE RESEARCH
+------------------------------------------
+whizy76/mutcd-svg on GitHub
+- Repository describes 1,054 FHWA MUTCD 11th Edition sign SVGs repackaged with a JSON manifest.
+- Repository identifies the sign graphics as originating from FHWA public-domain traffic-control-device designs and dedicates its packaging to CC0.
+- NXT Gen Plans R2 DOES NOT yet bundle that complete external SVG package. R2 contains an internal curated code/name reference catalog and lightweight plan-reference sign rendering. A later standards-asset milestone can replace these previews with a vetted complete offline asset set.
+
+IMPORTANT STANDARDS NOTE
+------------------------
+NXT Gen Plans is an editing/review tool. The built-in traffic library is a convenience reference and does not supersede current TMUTCD, TxDOT SHSD, TxDOT traffic standards, sealed project documents, or engineering judgment. Modified TxDOT standards may also create documentation/sealing requirements; always use the current official source for final design/construction documents.
