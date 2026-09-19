@@ -1,0 +1,16 @@
+/* NXT Gen Plans 0.1 R7 — Manual Road-Attached TCP */
+.r7ManualButton{font-weight:800!important;color:#8a4b08!important}
+.r7ManualPalette{right:8px!important;left:auto!important;top:145px!important;width:360px!important}
+.r7ManualNotice{border:1px solid #e1c08f;background:#fff7e8;color:#6c4a1f;padding:6px;border-radius:4px;font-size:8.5px;line-height:1.35;margin-bottom:6px;font-weight:700}
+.r7Grid2,.r7PropGrid{display:grid;grid-template-columns:1fr 1fr;gap:5px}
+.r7Grid2 label,.r7PropGrid label,.r7Field{font-size:8.5px;color:#53606a}
+.r7Grid2 input,.r7Grid2 select,.r7PropGrid input,.r7PropGrid select,.r7Field select{display:block;width:100%;height:27px;margin-top:2px;border:1px solid #b9c2c9;border-radius:3px;background:#fff;padding:3px 5px;font-size:9px}
+.r7Grid2 button,.r7Wide{border:1px solid #b8c2c9;background:#fff;border-radius:3px;padding:6px;font-size:8.5px}
+.r7Wide{display:block;width:100%;margin-top:5px;font-weight:700}
+.r7Wide:hover,.r7Grid2 button:hover{background:#fff0db;border-color:#d59b52}
+.r7AttachedProps{border-top:1px solid #d3d8dc;padding-top:5px;margin-top:6px}
+.r7AttachedProps summary{font-size:10px;font-weight:800;color:#8a4b08;cursor:pointer}
+.r7AttachedProps small{display:block;margin-top:5px;color:#68737c;font-size:8px;line-height:1.3}
+.r7StationHandle{fill:#e7f3ff;stroke:#1267b1;stroke-width:2;cursor:ew-resize;pointer-events:all}
+.r7AttachedMarkup{cursor:pointer}
+@media(max-width:700px){.r7ManualPalette{left:5px!important;right:5px!important;width:auto!important}.r7Grid2,.r7PropGrid{grid-template-columns:1fr}}
