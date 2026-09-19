@@ -1,0 +1,19 @@
+
+/* NXT Gen Plans 0.1 R4 additive plan/TCP design layer */
+.r4Rotate{font-size:16px!important;font-weight:700;min-width:28px!important}
+.r4PlanButton{font-weight:700!important;color:#245f24!important}
+.r4DesignPalette{left:auto!important;right:10px!important;top:112px!important;width:330px!important}
+.r4ChoiceGrid{display:grid;grid-template-columns:1fr 1fr;gap:7px;margin-bottom:10px}
+.r4ChoiceGrid button{min-height:78px;border:1px solid #bcc5cc;background:#f8f9fa;border-radius:5px;text-align:left;padding:9px}
+.r4ChoiceGrid button:hover,.r4ChoiceGrid button.active{border-color:#4d91c5;background:#e7f3fc;box-shadow:inset 0 0 0 1px #78abd0}
+.r4ChoiceGrid b{display:block;font-size:11px;margin-bottom:4px}.r4ChoiceGrid span{display:block;font-size:9px;line-height:1.35;color:#65717b}
+.r4FormGrid{display:grid;grid-template-columns:1fr 1fr;gap:7px}
+.r4FormGrid label{display:block;font-size:9px;color:#4d5963}
+.r4FormGrid input,.r4FormGrid select{display:block;width:100%;height:29px;margin-top:3px;border:1px solid #b8c0c7;border-radius:3px;background:#fff;padding:4px 6px;font-size:10px}
+.r4FormGrid.compact{gap:5px}.r4FormGrid.compact input,.r4FormGrid.compact select{height:27px}
+.r4Hidden{display:none!important}.r4InlineActions{display:flex;gap:5px;margin-top:10px}
+.r4InlineActions button,.r4BtnGrid button,.r4WideAction{border:1px solid #b9c2c9;background:#fff;border-radius:3px;padding:6px;font-size:10px}
+.r4InlineActions button:hover,.r4BtnGrid button:hover,.r4WideAction:hover{background:#e7f2fa;border-color:#6fa6ce}
+.r4BtnGrid{display:grid;grid-template-columns:1fr 1fr;gap:4px}.r4WideAction{width:100%;font-weight:700;margin-top:6px}
+.r4Modal{width:min(600px,94vw)!important}.r4Modal h2{margin-bottom:11px}
+@media(max-width:680px){.r4FormGrid,.r4ChoiceGrid{grid-template-columns:1fr}.r4DesignPalette{left:5px!important;right:5px!important;width:auto!important}}
