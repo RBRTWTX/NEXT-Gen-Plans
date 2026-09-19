@@ -1,0 +1,15 @@
+
+/* NXT Gen Plans 0.1 R11 — Manual Plan Documentation */
+.r11DocButton{font-weight:800!important;color:#6b4c22!important}
+.r11DocPalette{right:8px!important;left:auto!important;top:145px!important;width:430px!important;max-height:calc(100vh - 165px)!important;overflow:auto!important}
+.r11Notice{border:1px solid #d4bd94;background:#fff9ee;color:#6b4c22;padding:6px;border-radius:4px;font-size:8.5px;font-weight:700;line-height:1.35;margin-bottom:6px}
+.r11DocPalette details{border-bottom:1px solid #e1e4e6;padding:5px 0}.r11DocPalette summary{font-size:9px;font-weight:800;color:#4c5358;cursor:pointer}
+.r11Grid2{display:grid;grid-template-columns:1fr 1fr;gap:5px}.r11Grid3{display:grid;grid-template-columns:1fr 1fr 1fr;gap:5px}
+.r11Grid2 label,.r11Field{font-size:8.5px;color:#53606a}
+.r11Grid2 input,.r11Grid2 select,.r11Field input,.r11Field textarea,.r11Field select{display:block;width:100%;box-sizing:border-box;margin-top:2px;border:1px solid #b9c2c9;border-radius:3px;background:#fff;padding:4px 5px;font-size:9px}
+.r11Grid2 button,.r11Grid3 button,.r11Wide{border:1px solid #b8c2c9;background:#fff;border-radius:3px;padding:6px;font-size:8.5px}.r11Wide{display:block;width:100%;margin-top:5px;font-weight:700}
+.r11Grid2 button:hover,.r11Grid3 button:hover,.r11Wide:hover{background:#fff7e7;border-color:#c9a86c}
+.r11DocPalette small{display:block;margin-top:4px;font-size:8px;line-height:1.35;color:#68737c}
+.r11Props{border-top:1px solid #d3d8dc;padding-top:5px;margin-top:6px}.r11Props summary{font-size:10px;font-weight:800;color:#6b4c22}.r11PropMeta{display:flex;justify-content:space-between;gap:8px;font-size:8.5px;padding:4px 0}.r11PropActions{display:grid;grid-template-columns:1fr 1fr;gap:4px}.r11PropActions button{font-size:8px;padding:4px}
+.r11DocObject{cursor:pointer}
+@media(max-width:700px){.r11DocPalette{left:5px!important;right:5px!important;width:auto!important}.r11Grid2{grid-template-columns:1fr}}
