@@ -1,0 +1,12 @@
+
+/* NXT Gen Plans 0.1 R8.1 Universal Canvas Compatibility */
+.r81ModeBox{border:1px solid #9ebbd0;background:#eef7fc;border-radius:4px;padding:7px;margin-bottom:7px}
+.r81ModeBox>b{display:block;font-size:10px;color:#31576f;margin-bottom:4px}
+.r81ModeBox label,.r81InlineMode{display:block;font-size:8.5px;color:#53606a;margin-bottom:5px}
+.r81ModeBox select,.r81InlineMode select{display:block;width:100%;box-sizing:border-box;height:27px;margin-top:2px;border:1px solid #b9c2c9;border-radius:3px;background:#fff;padding:3px 5px;font-size:9px}
+.r81ModeBox small{display:block;font-size:8px;line-height:1.35;color:#60737f}
+.r81FreeProps{border-top:1px solid #d3d8dc;padding-top:5px;margin-top:6px}
+.r81FreeProps summary{font-size:10px;font-weight:800;color:#31576f}
+.r81PropGrid{display:grid;grid-template-columns:1fr 1fr;gap:5px}
+.r81PropGrid label{font-size:8.5px;color:#53606a}
+.r81PropGrid input,.r81PropGrid select{display:block;width:100%;box-sizing:border-box;margin-top:2px;border:1px solid #b9c2c9;border-radius:3px;background:#fff;padding:4px 5px;font-size:9px}
