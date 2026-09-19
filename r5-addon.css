@@ -1,0 +1,12 @@
+
+/* NXT Gen Plans 0.1 R5 Advanced TCP Design */
+.r5AdvancedButton{font-weight:800!important;color:#7c3f00!important}
+.r5DesignPalette{left:10px!important;right:auto!important;top:112px!important;width:350px!important}
+.r5Form{display:grid;grid-template-columns:1fr 1fr;gap:5px}
+.r5Form label,.r5Field{font-size:9px;color:#4e5963}
+.r5Form input,.r5Form select,.r5Field input{display:block;width:100%;height:27px;margin-top:2px;border:1px solid #b8c0c7;border-radius:3px;background:#fff;padding:3px 5px;font-size:10px}
+.r5Wide,.r5Grid2 button,.r5Grid3 button{border:1px solid #bbc4cb;background:#fff;border-radius:3px;padding:6px;font-size:9px}
+.r5Wide{width:100%;margin-top:6px;font-weight:700}.r5Wide:hover,.r5Grid2 button:hover,.r5Grid3 button:hover{background:#e6f2fa;border-color:#6ca6d0}
+.r5Grid2{display:grid;grid-template-columns:1fr 1fr;gap:4px}.r5Grid3{display:grid;grid-template-columns:repeat(3,1fr);gap:4px}
+.r5Check{display:flex!important;gap:6px;align-items:center;font-size:9px;margin:8px 0 5px}.r5Check input{width:auto!important}
+@media(max-width:700px){.r5DesignPalette{left:5px!important;right:5px!important;width:auto!important}.r5Grid3{grid-template-columns:1fr 1fr}}
