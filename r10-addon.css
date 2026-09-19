@@ -1,0 +1,14 @@
+
+/* NXT Gen Plans 0.1 R10 — Local Scratchpad */
+.r10LibraryButton{font-weight:800!important;color:#295f46!important}
+.r10LibraryPalette{right:8px!important;left:auto!important;top:145px!important;width:410px!important;max-height:calc(100vh - 165px)!important;overflow:auto!important}
+.r10Notice{border:1px solid #9ccbb4;background:#eef9f3;color:#295f46;padding:6px;border-radius:4px;font-size:8.5px;font-weight:700;line-height:1.35;margin-bottom:6px}
+.r10FolderRow{display:grid;grid-template-columns:1fr 30px 30px 30px;gap:4px}.r10FolderRow select{min-width:0;height:28px;border:1px solid #b9c2c9;border-radius:3px;background:#fff;font-size:9px;padding:3px}.r10FolderRow button{padding:3px}
+.r10Search{display:block;width:100%;box-sizing:border-box;margin:5px 0;border:1px solid #b9c2c9;border-radius:3px;padding:5px;font-size:9px}
+.r10PlaceMode label{font-size:8.5px;color:#53606a}.r10PlaceMode select{display:block;width:100%;box-sizing:border-box;height:27px;margin:2px 0 5px;border:1px solid #b9c2c9;border-radius:3px;background:#fff;font-size:9px}
+.r10Grid2{display:grid;grid-template-columns:1fr 1fr;gap:5px}.r10Grid2 button,.r10Wide{border:1px solid #b8c2c9;background:#fff;border-radius:3px;padding:6px;font-size:8.5px}.r10Wide{display:block;width:100%;margin-top:5px;font-weight:700}.r10Grid2 button:hover,.r10Wide:hover{background:#edf8f2;border-color:#7cb79a}
+.r10Items{margin-top:6px;max-height:260px;overflow:auto}.r10Item{display:grid;grid-template-columns:36px 1fr 42px 26px 26px;gap:4px;align-items:center;border:1px solid #d5dcda;background:#fff;padding:4px;margin-bottom:3px}.r10Item:hover{border-color:#8ebda5;background:#f8fcfa}.r10Item button{font-size:8px;padding:4px 2px}.r10ItemMeta{min-width:0}.r10ItemMeta b{display:block;font-size:8.8px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}.r10ItemMeta small{display:block;font-size:7.5px;color:#69756f}
+.r10Glyph{display:flex;align-items:center;justify-content:center;width:32px;height:28px;border:1px solid #ccd5d0;border-radius:3px;font-size:17px;color:#426a56;background:#f6faf8}.r10Thumb{width:32px;height:28px;object-fit:contain;border:1px solid #ccd5d0;background:#fff;border-radius:3px}
+.r10Styles{margin-top:5px}.r10StyleRow{display:grid;grid-template-columns:1fr 42px 48px 24px;gap:4px;align-items:center;border:1px solid #d5dcda;background:#fff;padding:4px;margin-bottom:3px;font-size:8.5px}.r10StyleRow button{font-size:7.8px;padding:3px 2px}
+.r10Empty{padding:8px;text-align:center;color:#78827d;font-size:8.5px;border:1px dashed #cbd3cf;background:#fafcfb}
+@media(max-width:700px){.r10LibraryPalette{left:5px!important;right:5px!important;width:auto!important}}
