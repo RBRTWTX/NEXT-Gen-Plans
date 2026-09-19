@@ -1,0 +1,21 @@
+
+/* NXT Gen Plans 0.1 R9 — Universal Manual Geometry */
+.r9EditButton{font-weight:800!important;color:#4f3a79!important}
+.r9EditPalette{right:8px!important;left:auto!important;top:145px!important;width:400px!important;max-height:calc(100vh - 165px)!important;overflow:auto!important}
+.r9Notice{border:1px solid #b8a6dc;background:#f6f1ff;color:#4f3a79;padding:6px;border-radius:4px;font-size:8.5px;font-weight:700;line-height:1.35;margin-bottom:6px}
+.r9Grid2{display:grid;grid-template-columns:1fr 1fr;gap:5px}.r9Grid3{display:grid;grid-template-columns:1fr 1fr 1fr;gap:5px}
+.r9Grid2 button,.r9Grid3 button,.r9Wide,.r9Nudge button{border:1px solid #b8c2c9;background:#fff;border-radius:3px;padding:6px;font-size:8.5px}
+.r9Wide{display:block;width:100%;margin-top:5px;font-weight:700}.r9Grid2 button:hover,.r9Grid3 button:hover,.r9Wide:hover,.r9Nudge button:hover{background:#f3edff;border-color:#9d82d0}
+.r9Field,.r9Grid2 label,.r9Grid3 label{font-size:8.5px;color:#53606a}
+.r9Field input,.r9Field select,.r9Grid2 input,.r9Grid2 select,.r9Grid3 input,.r9Grid3 select{display:block;width:100%;box-sizing:border-box;margin-top:2px;border:1px solid #b9c2c9;border-radius:3px;background:#fff;padding:4px 5px;font-size:9px}
+.r9Status{font-size:9px;font-weight:800;color:#5b3f91;margin-bottom:5px}.r9Nudge{display:grid;grid-template-columns:repeat(4,1fr);gap:4px;margin:5px 0}
+.r9Checks{display:grid;grid-template-columns:1fr 1fr;gap:3px;font-size:8.5px;color:#53606a;margin-bottom:4px}
+.r9Checks label{display:flex;align-items:center;gap:4px}
+.r9NodeHandle{fill:#e8f3ff;stroke:#1267b1;stroke-width:1.8;cursor:move;pointer-events:all}.r9NodeHandle.active{fill:#9ed0ff}
+.r9SegmentHandle{fill:#fff4d2;stroke:#bd7b00;stroke-width:1.5;cursor:pointer;pointer-events:all}.r9SegmentHandle.active{fill:#ffd36d}
+.r9CurveGuide{stroke:#7e57c2;stroke-width:1;stroke-dasharray:3 3;pointer-events:none}.r9CurveHandle{fill:#efe6ff;stroke:#6f42c1;stroke-width:1.6;cursor:move;pointer-events:all}
+.r9MultiBox{fill:none;stroke:#6f42c1;stroke-width:1.2;stroke-dasharray:5 3}.r9WindowRect{fill:#6f42c1;fill-opacity:.08;stroke:#6f42c1;stroke-width:1;stroke-dasharray:5 3;pointer-events:none}
+.r9PathProps{border-top:1px solid #d3d8dc;padding-top:5px;margin-top:6px}.r9PathProps summary{font-size:10px;font-weight:800;color:#4f3a79}
+.r9PropGrid{display:grid;grid-template-columns:1fr 1fr;gap:5px}.r9PropGrid label{font-size:8.5px;color:#53606a}.r9PropGrid input,.r9PropGrid select{display:block;width:100%;box-sizing:border-box;margin-top:2px;border:1px solid #b9c2c9;border-radius:3px;background:#fff;padding:4px 5px;font-size:9px}
+.r9PropActions{display:grid;grid-template-columns:1fr 1fr 1fr;gap:4px;margin-top:5px}.r9PropActions button{font-size:8px;padding:4px}.r9PathProps small{display:block;margin-top:5px;font-size:8px;line-height:1.35;color:#68737c}
+@media(max-width:700px){.r9EditPalette{left:5px!important;right:5px!important;width:auto!important}.r9Grid2,.r9PropGrid{grid-template-columns:1fr}}
