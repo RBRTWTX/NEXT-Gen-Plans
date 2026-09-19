@@ -350,22 +350,3 @@
   window.NXT_R5={openPalette,startRoadPath,startMarking,startZone,startMask,insertLegend,insertTaper};
   console.info('NXT Gen Plans R5 advanced traffic-control design module loaded.');
 })();
-
-/* NXT_R5_ROAD_POINTER_FIX1
-   R3's generic pointerdown handler treats unknown tools as box-drawing tools.
-   r5RoadPath is click-driven, so capture its pointerdown first and prevent
-   only the R3 pointerdown from changing the tool before R5 receives click.
-*/
-(() => {
-  if (window.__NXT_R5_ROAD_POINTER_FIX1) return;
-  window.__NXT_R5_ROAD_POINTER_FIX1 = true;
-  const svg = document.querySelector('#pageSvg');
-  if (!svg) { console.error('R5 FIX1: #pageSvg not found.'); return; }
-  svg.addEventListener('pointerdown', e => {
-    if (state.tool !== 'r5RoadPath' || e.button !== 0) return;
-    e.stopImmediatePropagation();
-  }, true);
-  const btn = document.querySelector('#r5AdvancedBtn');
-  if (btn) btn.title = 'Advanced temporary traffic-control design tools â€” R5 FIX1';
-  console.info('NXT R5 FIX1: multi-segment roadway pointer collision repaired.');
-})();
