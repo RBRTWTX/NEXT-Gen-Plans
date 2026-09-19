@@ -1,0 +1,21 @@
+
+/* NXT Gen Plans 0.1 R6 — editable roads / intersections / striping */
+.r6RoadButton{font-weight:800!important;color:#3949ab!important}
+.r6RoadPalette{left:auto!important;right:10px!important;top:145px!important;width:350px!important}
+.r6RoadDefaults,.r6PropGrid{display:grid;grid-template-columns:1fr 1fr;gap:5px}
+.r6RoadDefaults label,.r6PropGrid label,.r6LaneProps label{font-size:9px;color:#4e5963}
+.r6RoadDefaults input,.r6PropGrid input,.r6PropGrid select,.r6LaneProps select{display:block;width:100%;height:27px;margin-top:2px;border:1px solid #b8c0c7;border-radius:3px;background:#fff;padding:3px 5px;font-size:10px}
+.r6Wide,.r6Grid2 button,.r6RoadActions button,.r6TempRow button{border:1px solid #bbc4cb;background:#fff;border-radius:3px;padding:6px;font-size:9px}
+.r6Wide{width:100%;margin-top:5px;font-weight:700}.r6Wide:hover,.r6Grid2 button:hover,.r6RoadActions button:hover{background:#e8f2fa;border-color:#6ca6d0}
+.r6Grid2,.r6RoadActions{display:grid;grid-template-columns:1fr 1fr;gap:4px;margin-top:5px}
+.r6RoadNode{fill:#fff;stroke:#1267b1;stroke-width:2;cursor:move;pointer-events:all}.r6RoadNode.active{fill:#cfe8fb}
+.r6CurveControl{fill:#fff7d6;stroke:#d17a00;stroke-width:1.5;cursor:crosshair;pointer-events:all}
+.r6CurveGuide{stroke:#d17a00;stroke-width:.8;stroke-dasharray:4 3;pointer-events:none}
+.r6CurveHit{cursor:crosshair}
+.r6RoadProps{border-top:1px solid #d3d7db;padding-top:4px;margin-top:5px}.r6RoadProps summary{font-size:10px;font-weight:800;color:#3949ab;cursor:pointer}
+.r6Checks{display:flex;gap:10px;margin:6px 0}.r6Checks label{display:flex;align-items:center;gap:4px;font-size:9px}.r6Checks input{width:auto!important}
+.r6LaneProps{display:grid;grid-template-columns:1fr 1fr;gap:5px;padding:6px 0}
+.r6TempBox{border-top:1px solid #d7dce0;margin-top:7px;padding-top:7px}.r6TempBox>b{font-size:9px;color:#59636c}
+.r6TempRow{display:grid;grid-template-columns:1fr 24px;align-items:center;gap:4px;border:1px solid #d7dde1;background:#fff;padding:3px 5px;margin-top:3px;font-size:8.5px}.r6TempRow button{padding:2px}
+.r6TempStriping{opacity:.95}.r6RoadMarking{opacity:1}
+@media(max-width:700px){.r6RoadPalette{left:5px!important;right:5px!important;width:auto!important}.r6PropGrid,.r6RoadDefaults{grid-template-columns:1fr}}
