@@ -1,0 +1,7380 @@
+{
+  "D01-01": {
+    "name": "Destination (1 line)",
+    "category": "guide",
+    "shape": "rectangle",
+    "background": "green",
+    "svg": "svg/D01-01.svg"
+  },
+  "D01-01A": {
+    "name": "Destination and Distance (1 line)",
+    "category": "guide",
+    "shape": "rectangle",
+    "background": "green",
+    "svg": "svg/D01-01A.svg"
+  },
+  "D01-01B": {
+    "name": "Bicycle Destination (1 line)",
+    "category": "guide",
+    "shape": "rectangle",
+    "background": "green",
+    "svg": "svg/D01-01B.svg"
+  },
+  "D01-01C": {
+    "name": "Bicycle Destination and Distance (1 line)",
+    "category": "guide",
+    "shape": "rectangle",
+    "background": "green",
+    "svg": "svg/D01-01C.svg"
+  },
+  "D01-01D": {
+    "name": "Circular Intersection Destination (1 line)",
+    "category": "guide",
+    "shape": "rectangle",
+    "background": "green",
+    "svg": "svg/D01-01D.svg"
+  },
+  "D01-01E": {
+    "name": "Circular Intersection Departure Guide",
+    "category": "guide",
+    "shape": "rectangle",
+    "background": "green",
+    "svg": "svg/D01-01E.svg"
+  },
+  "D01-02": {
+    "name": "Destination (2 lines)",
+    "category": "guide",
+    "shape": "rectangle",
+    "background": "green",
+    "svg": "svg/D01-02.svg"
+  },
+  "D01-02A": {
+    "name": "Destination and Distance (2 lines)",
+    "category": "guide",
+    "shape": "rectangle",
+    "background": "green",
+    "svg": "svg/D01-02A.svg"
+  },
+  "D01-02B": {
+    "name": "Bicycle Destination (2 lines)",
+    "category": "guide",
+    "shape": "rectangle",
+    "background": "green",
+    "svg": "svg/D01-02B.svg"
+  },
+  "D01-02C": {
+    "name": "Bicycle Destination and Distance (2 lines)",
+    "category": "guide",
+    "shape": "rectangle",
+    "background": "green",
+    "svg": "svg/D01-02C.svg"
+  },
+  "D01-02D": {
+    "name": "Circular Intersection Destination (2 lines)",
+    "category": "guide",
+    "shape": "rectangle",
+    "background": "green",
+    "svg": "svg/D01-02D.svg"
+  },
+  "D01-03": {
+    "name": "Destination (3 lines)",
+    "category": "guide",
+    "shape": "rectangle",
+    "background": "green",
+    "svg": "svg/D01-03.svg"
+  },
+  "D01-03A": {
+    "name": "Destination and Distance (3 lines)",
+    "category": "guide",
+    "shape": "rectangle",
+    "background": "green",
+    "svg": "svg/D01-03A.svg"
+  },
+  "D01-03B": {
+    "name": "Bicycle Destination (3 lines)",
+    "category": "guide",
+    "shape": "rectangle",
+    "background": "green",
+    "svg": "svg/D01-03B.svg"
+  },
+  "D01-03C": {
+    "name": "Bicycle Destination and DIstance (3 lines)",
+    "category": "guide",
+    "shape": "rectangle",
+    "background": "green",
+    "svg": "svg/D01-03C.svg"
+  },
+  "D01-03D": {
+    "name": "Circular Intersection Destination (3 lines)",
+    "category": "guide",
+    "shape": "rectangle",
+    "background": "green",
+    "svg": "svg/D01-03D.svg"
+  },
+  "D01-05": {
+    "name": "Circular Intersection Diagrammatic Destination",
+    "category": "guide",
+    "shape": "rectangle",
+    "background": "green",
+    "svg": "svg/D01-05.svg"
+  },
+  "D01-05A": {
+    "name": "Circular Intersection Diagrammatic Destination, Right-Turn Bypass",
+    "category": "guide",
+    "shape": "rectangle",
+    "background": "green",
+    "svg": "svg/D01-05A.svg"
+  },
+  "D02-01": {
+    "name": "Distance (1 line)",
+    "category": "guide",
+    "shape": "rectangle",
+    "background": "green",
+    "svg": "svg/D02-01.svg"
+  },
+  "D02-01A": {
+    "name": "Bike Route Destination and Distance (1 Line)",
+    "category": "guide",
+    "shape": "rectangle",
+    "background": "green",
+    "svg": "svg/D02-01A.svg"
+  },
+  "D02-02": {
+    "name": "Distance (2 lines)",
+    "category": "guide",
+    "shape": "rectangle",
+    "background": "green",
+    "svg": "svg/D02-02.svg"
+  },
+  "D02-02A": {
+    "name": "Bike Route Destination and Distance (2 Lines)",
+    "category": "guide",
+    "shape": "rectangle",
+    "background": "green",
+    "svg": "svg/D02-02A.svg"
+  },
+  "D02-03": {
+    "name": "Distance (3 lines)",
+    "category": "guide",
+    "shape": "rectangle",
+    "background": "green",
+    "svg": "svg/D02-03.svg"
+  },
+  "D02-03A": {
+    "name": "Bike Route Destination and Distance (3 Lines)",
+    "category": "guide",
+    "shape": "rectangle",
+    "background": "green",
+    "svg": "svg/D02-03A.svg"
+  },
+  "D03-01A": {
+    "name": "Street Name with Route Sign (1 line)",
+    "category": "guide",
+    "shape": "rectangle",
+    "background": "green",
+    "svg": "svg/D03-01A.svg"
+  },
+  "D03-02": {
+    "name": "Advance Street Name",
+    "category": "guide",
+    "shape": "rectangle",
+    "background": "green",
+    "svg": "svg/D03-02.svg"
+  },
+  "D04-01": {
+    "name": "Parking Area Directional",
+    "category": "guide",
+    "shape": "rectangle",
+    "background": "green",
+    "svg": "svg/D04-01.svg"
+  },
+  "D04-02": {
+    "name": "Park - Ride",
+    "category": "guide",
+    "shape": "rectangle",
+    "background": "green",
+    "svg": "svg/D04-02.svg"
+  },
+  "D04-03": {
+    "name": "Bicycle Parking Area Directional",
+    "category": "guide",
+    "shape": "rectangle",
+    "background": "green",
+    "svg": "svg/D04-03.svg"
+  },
+  "D04-04": {
+    "name": "Bicycle Sharing Station Directional",
+    "category": "guide",
+    "shape": "rectangle",
+    "background": "green",
+    "svg": "svg/D04-04.svg"
+  },
+  "D04-04A": {
+    "name": "Bicycle Lockers Directional",
+    "category": "guide",
+    "shape": "rectangle",
+    "background": "green",
+    "svg": "svg/D04-04A.svg"
+  },
+  "D05-01": {
+    "name": "Rest Area Advance",
+    "category": "guide",
+    "shape": "rectangle",
+    "background": "green",
+    "svg": "svg/D05-01.svg"
+  },
+  "D05-01A": {
+    "name": "Rest Area Advance Direction",
+    "category": "guide",
+    "shape": "rectangle",
+    "background": "green",
+    "svg": "svg/D05-01A.svg"
+  },
+  "D05-02": {
+    "name": "Rest Area Entrance Direction",
+    "category": "guide",
+    "shape": "rectangle",
+    "background": "green",
+    "svg": "svg/D05-02.svg"
+  },
+  "D05-02A": {
+    "name": "Rest Area Gore",
+    "category": "guide",
+    "shape": "rectangle",
+    "background": "green",
+    "svg": "svg/D05-02A.svg"
+  },
+  "D05-05": {
+    "name": "Rest Area Directional",
+    "category": "guide",
+    "shape": "rectangle",
+    "background": "green",
+    "svg": "svg/D05-05.svg"
+  },
+  "D05-06": {
+    "name": "Next Rest Area",
+    "category": "guide",
+    "shape": "rectangle",
+    "background": "green",
+    "svg": "svg/D05-06.svg"
+  },
+  "D05-07": {
+    "name": "Rest Area Tourist Info Center Advance",
+    "category": "guide",
+    "shape": "rectangle",
+    "background": "green",
+    "svg": "svg/D05-07.svg"
+  },
+  "D05-07A": {
+    "name": "Rest Area Tourist Info Center Advance Direction",
+    "category": "guide",
+    "shape": "rectangle",
+    "background": "green",
+    "svg": "svg/D05-07A.svg"
+  },
+  "D05-08": {
+    "name": "Rest Area Tourist Info Center Entrance Direction",
+    "category": "guide",
+    "shape": "rectangle",
+    "background": "green",
+    "svg": "svg/D05-08.svg"
+  },
+  "D05-09": {
+    "name": "Parking Area Advance",
+    "category": "guide",
+    "shape": "rectangle",
+    "background": "green",
+    "svg": "svg/D05-09.svg"
+  },
+  "D05-09A": {
+    "name": "Parking Area Entrance Direction",
+    "category": "guide",
+    "shape": "rectangle",
+    "background": "green",
+    "svg": "svg/D05-09A.svg"
+  },
+  "D05-09B": {
+    "name": "Parking Area Gore",
+    "category": "guide",
+    "shape": "rectangle",
+    "background": "green",
+    "svg": "svg/D05-09B.svg"
+  },
+  "D05-10": {
+    "name": "Picnic Area (Roadside Table, Roadside Park) Advance",
+    "category": "guide",
+    "shape": "rectangle",
+    "background": "green",
+    "svg": "svg/D05-10.svg"
+  },
+  "D05-10A": {
+    "name": "Picnic Area (Roadside Table, Roadside Park) Entrance Direction",
+    "category": "guide",
+    "shape": "rectangle",
+    "background": "green",
+    "svg": "svg/D05-10A.svg"
+  },
+  "D05-10B": {
+    "name": "Picnic Area Gore",
+    "category": "guide",
+    "shape": "rectangle",
+    "background": "green",
+    "svg": "svg/D05-10B.svg"
+  },
+  "D05-11": {
+    "name": "Scenic Area (Scenic View, Scenic Overlook) Advance",
+    "category": "guide",
+    "shape": "rectangle",
+    "background": "green",
+    "svg": "svg/D05-11.svg"
+  },
+  "D05-11A": {
+    "name": "Scenic Area (Scenic View, Scenic Overlook) Entrance Direction",
+    "category": "guide",
+    "shape": "rectangle",
+    "background": "green",
+    "svg": "svg/D05-11A.svg"
+  },
+  "D05-11B": {
+    "name": "Scenic Area Gore",
+    "category": "guide",
+    "shape": "rectangle",
+    "background": "green",
+    "svg": "svg/D05-11B.svg"
+  },
+  "D05-12": {
+    "name": "Interstate Oasis",
+    "category": "guide",
+    "shape": "rectangle",
+    "background": "green",
+    "svg": "svg/D05-12.svg"
+  },
+  "D05-12AP": {
+    "name": "Interstate Oasis (plaque)",
+    "category": "guide",
+    "shape": "rectangle",
+    "background": "green",
+    "svg": "svg/D05-12AP.svg"
+  },
+  "D05-12B": {
+    "name": "Interstate Oasis Directional",
+    "category": "guide",
+    "shape": "rectangle",
+    "background": "green",
+    "svg": "svg/D05-12B.svg"
+  },
+  "D05-13": {
+    "name": "Brake Check Area Advance",
+    "category": "guide",
+    "shape": "rectangle",
+    "background": "green",
+    "svg": "svg/D05-13.svg"
+  },
+  "D05-14": {
+    "name": "Brake Check Area Entrance Direction",
+    "category": "guide",
+    "shape": "rectangle",
+    "background": "green",
+    "svg": "svg/D05-14.svg"
+  },
+  "D05-15": {
+    "name": "Chain-Up Area Advance",
+    "category": "guide",
+    "shape": "rectangle",
+    "background": "green",
+    "svg": "svg/D05-15.svg"
+  },
+  "D05-16": {
+    "name": "Chain-Up Area Entrance Direction",
+    "category": "guide",
+    "shape": "rectangle",
+    "background": "green",
+    "svg": "svg/D05-16.svg"
+  },
+  "D08-01": {
+    "name": "Advance Weigh Station Distance",
+    "category": "guide",
+    "shape": "rectangle",
+    "background": "green",
+    "svg": "svg/D08-01.svg"
+  },
+  "D08-01A": {
+    "name": "Weigh Station Ahead",
+    "category": "guide",
+    "shape": "rectangle",
+    "background": "green",
+    "svg": "svg/D08-01A.svg"
+  },
+  "D08-02": {
+    "name": "Weigh Station Advance Direction",
+    "category": "guide",
+    "shape": "rectangle",
+    "background": "green",
+    "svg": "svg/D08-02.svg"
+  },
+  "D08-03": {
+    "name": "Weigh Station Entrance Direction",
+    "category": "guide",
+    "shape": "rectangle",
+    "background": "green",
+    "svg": "svg/D08-03.svg"
+  },
+  "D09-01": {
+    "name": "Telephone",
+    "category": "guide",
+    "shape": "rectangle",
+    "background": "green",
+    "svg": "svg/D09-01.svg"
+  },
+  "D09-02": {
+    "name": "Hospital",
+    "category": "guide",
+    "shape": "rectangle",
+    "background": "green",
+    "svg": "svg/D09-02.svg"
+  },
+  "D09-03": {
+    "name": "Camping",
+    "category": "guide",
+    "shape": "rectangle",
+    "background": "green",
+    "svg": "svg/D09-03.svg"
+  },
+  "D09-04": {
+    "name": "Litter Container",
+    "category": "guide",
+    "shape": "rectangle",
+    "background": "green",
+    "svg": "svg/D09-04.svg"
+  },
+  "D09-06": {
+    "name": "International Symbol of Accessibility",
+    "category": "guide",
+    "shape": "rectangle",
+    "background": "green",
+    "svg": "svg/D09-06.svg"
+  },
+  "D09-06P": {
+    "name": "Van Accessible (plaque)",
+    "category": "guide",
+    "shape": "rectangle",
+    "background": "green",
+    "svg": "svg/D09-06P.svg"
+  },
+  "D09-07": {
+    "name": "Gas",
+    "category": "guide",
+    "shape": "rectangle",
+    "background": "green",
+    "svg": "svg/D09-07.svg"
+  },
+  "D09-08": {
+    "name": "Food",
+    "category": "guide",
+    "shape": "rectangle",
+    "background": "green",
+    "svg": "svg/D09-08.svg"
+  },
+  "D09-09": {
+    "name": "Lodging",
+    "category": "guide",
+    "shape": "rectangle",
+    "background": "green",
+    "svg": "svg/D09-09.svg"
+  },
+  "D09-10": {
+    "name": "Tourist Information",
+    "category": "guide",
+    "shape": "rectangle",
+    "background": "green",
+    "svg": "svg/D09-10.svg"
+  },
+  "D09-11": {
+    "name": "Diesel Fuel",
+    "category": "guide",
+    "shape": "rectangle",
+    "background": "green",
+    "svg": "svg/D09-11.svg"
+  },
+  "D09-11A": {
+    "name": "Alternative Fuel - Compressed Natural Gas",
+    "category": "guide",
+    "shape": "rectangle",
+    "background": "green",
+    "svg": "svg/D09-11A.svg"
+  },
+  "D09-11B": {
+    "name": "Electric Vehicle Charging",
+    "category": "guide",
+    "shape": "rectangle",
+    "background": "green",
+    "svg": "svg/D09-11B.svg"
+  },
+  "D09-11BP": {
+    "name": "Electric Vehicle Charging (plaque)",
+    "category": "guide",
+    "shape": "rectangle",
+    "background": "green",
+    "svg": "svg/D09-11BP.svg"
+  },
+  "D09-11C": {
+    "name": "Alternative Fuel - Ethanol",
+    "category": "guide",
+    "shape": "rectangle",
+    "background": "green",
+    "svg": "svg/D09-11C.svg"
+  },
+  "D09-11D": {
+    "name": "Alternative Fuel - Liquefied Natural Gas",
+    "category": "guide",
+    "shape": "rectangle",
+    "background": "green",
+    "svg": "svg/D09-11D.svg"
+  },
+  "D09-11E": {
+    "name": "Alternative Fuel - Liquefied Petroleum Gas",
+    "category": "guide",
+    "shape": "rectangle",
+    "background": "green",
+    "svg": "svg/D09-11E.svg"
+  },
+  "D09-11F": {
+    "name": "Alternative Fuel - Hydrogen",
+    "category": "guide",
+    "shape": "rectangle",
+    "background": "green",
+    "svg": "svg/D09-11F.svg"
+  },
+  "D09-11G": {
+    "name": "Alternative Fuel - Biofuel",
+    "category": "guide",
+    "shape": "rectangle",
+    "background": "green",
+    "svg": "svg/D09-11G.svg"
+  },
+  "D09-12": {
+    "name": "RV Sanitary Station",
+    "category": "guide",
+    "shape": "rectangle",
+    "background": "green",
+    "svg": "svg/D09-12.svg"
+  },
+  "D09-13": {
+    "name": "Emergency Medical Services",
+    "category": "guide",
+    "shape": "rectangle",
+    "background": "green",
+    "svg": "svg/D09-13.svg"
+  },
+  "D09-13AP": {
+    "name": "Hospital (plaque)",
+    "category": "guide",
+    "shape": "rectangle",
+    "background": "green",
+    "svg": "svg/D09-13AP.svg"
+  },
+  "D09-13BP": {
+    "name": "Ambulance Station (plaque)",
+    "category": "guide",
+    "shape": "rectangle",
+    "background": "green",
+    "svg": "svg/D09-13BP.svg"
+  },
+  "D09-13CP": {
+    "name": "Emergency Medical Care (plaque)",
+    "category": "guide",
+    "shape": "rectangle",
+    "background": "green",
+    "svg": "svg/D09-13CP.svg"
+  },
+  "D09-13DP": {
+    "name": "Trauma Center (plaque)",
+    "category": "guide",
+    "shape": "rectangle",
+    "background": "green",
+    "svg": "svg/D09-13DP.svg"
+  },
+  "D09-14": {
+    "name": "Police",
+    "category": "guide",
+    "shape": "rectangle",
+    "background": "green",
+    "svg": "svg/D09-14.svg"
+  },
+  "D09-16": {
+    "name": "Truck Parking",
+    "category": "guide",
+    "shape": "rectangle",
+    "background": "green",
+    "svg": "svg/D09-16.svg"
+  },
+  "D09-16AP": {
+    "name": "Truck External Power (plaque)",
+    "category": "guide",
+    "shape": "rectangle",
+    "background": "green",
+    "svg": "svg/D09-16AP.svg"
+  },
+  "D09-16B": {
+    "name": "Truck Parking Availability - Exit Number",
+    "category": "guide",
+    "shape": "rectangle",
+    "background": "green",
+    "svg": "svg/D09-16B.svg"
+  },
+  "D09-16C": {
+    "name": "Truck Parking Availability - Distance 4-155",
+    "category": "guide",
+    "shape": "rectangle",
+    "background": "green",
+    "svg": "svg/D09-16C.svg"
+  },
+  "D09-16D": {
+    "name": "Truck Parking Availability - Rest Areas",
+    "category": "guide",
+    "shape": "rectangle",
+    "background": "green",
+    "svg": "svg/D09-16D.svg"
+  },
+  "D09-16E": {
+    "name": "Truck Parking Availability",
+    "category": "guide",
+    "shape": "rectangle",
+    "background": "green",
+    "svg": "svg/D09-16E.svg"
+  },
+  "D09-17A": {
+    "name": "Next EV Charging XX Miles",
+    "category": "guide",
+    "shape": "rectangle",
+    "background": "green",
+    "svg": "svg/D09-17A.svg"
+  },
+  "D09-17P": {
+    "name": "Next Services Advance (plaque)",
+    "category": "guide",
+    "shape": "rectangle",
+    "background": "green",
+    "svg": "svg/D09-17P.svg"
+  },
+  "D09-18": {
+    "name": "General Services (up to 6 symbols) with Exit Number",
+    "category": "guide",
+    "shape": "rectangle",
+    "background": "green",
+    "svg": "svg/D09-18.svg"
+  },
+  "D09-18A": {
+    "name": "General Services with Exit Number",
+    "category": "guide",
+    "shape": "rectangle",
+    "background": "green",
+    "svg": "svg/D09-18A.svg"
+  },
+  "D09-18B": {
+    "name": "General Services (up to 6 symbols) with Action Message",
+    "category": "guide",
+    "shape": "rectangle",
+    "background": "green",
+    "svg": "svg/D09-18B.svg"
+  },
+  "D09-18C": {
+    "name": "General Services with Action Message",
+    "category": "guide",
+    "shape": "rectangle",
+    "background": "green",
+    "svg": "svg/D09-18C.svg"
+  },
+  "D09-18DP": {
+    "name": "Rural Interchange General Services (up to 3 symbols) (plaque)",
+    "category": "guide",
+    "shape": "rectangle",
+    "background": "green",
+    "svg": "svg/D09-18DP.svg"
+  },
+  "D09-18EP": {
+    "name": "Rural Interchange General Services (1 line) (plaque)",
+    "category": "guide",
+    "shape": "rectangle",
+    "background": "green",
+    "svg": "svg/D09-18EP.svg"
+  },
+  "D09-18FP": {
+    "name": "Rural Interchange General Services (2 lines) (plaque)",
+    "category": "guide",
+    "shape": "rectangle",
+    "background": "green",
+    "svg": "svg/D09-18FP.svg"
+  },
+  "D09-19": {
+    "name": "Alternative Fuels Corridor",
+    "category": "guide",
+    "shape": "rectangle",
+    "background": "green",
+    "svg": "svg/D09-19.svg"
+  },
+  "D09-19AP": {
+    "name": "Alternative Fuels Corridor (1 line) (plaque)",
+    "category": "guide",
+    "shape": "rectangle",
+    "background": "green",
+    "svg": "svg/D09-19AP.svg"
+  },
+  "D09-19BP": {
+    "name": "Alternative Fuels Corridor (2 lines) (plaque)",
+    "category": "guide",
+    "shape": "rectangle",
+    "background": "green",
+    "svg": "svg/D09-19BP.svg"
+  },
+  "D09-20": {
+    "name": "Pharmacy",
+    "category": "guide",
+    "shape": "rectangle",
+    "background": "green",
+    "svg": "svg/D09-20.svg"
+  },
+  "D09-20AP": {
+    "name": "2 4-Hour (plaque)",
+    "category": "guide",
+    "shape": "rectangle",
+    "background": "green",
+    "svg": "svg/D09-20AP.svg"
+  },
+  "D09-21": {
+    "name": "Telecommunication Device for the Deaf",
+    "category": "guide",
+    "shape": "rectangle",
+    "background": "green",
+    "svg": "svg/D09-21.svg"
+  },
+  "D09-22": {
+    "name": "Wireless Internet",
+    "category": "guide",
+    "shape": "rectangle",
+    "background": "green",
+    "svg": "svg/D09-22.svg"
+  },
+  "D10-01": {
+    "name": "Reference Location (1 digit)",
+    "category": "guide",
+    "shape": "rectangle",
+    "background": "green",
+    "svg": "svg/D10-01.svg"
+  },
+  "D10-01A": {
+    "name": "Intermediate Reference Location (2 digits)",
+    "category": "guide",
+    "shape": "rectangle",
+    "background": "green",
+    "svg": "svg/D10-01A.svg"
+  },
+  "D10-02": {
+    "name": "Reference Location (2 digits)",
+    "category": "guide",
+    "shape": "rectangle",
+    "background": "green",
+    "svg": "svg/D10-02.svg"
+  },
+  "D10-02A": {
+    "name": "Intermediate Reference Location (3 digits)",
+    "category": "guide",
+    "shape": "rectangle",
+    "background": "green",
+    "svg": "svg/D10-02A.svg"
+  },
+  "D10-03": {
+    "name": "Reference Location (3 digits)",
+    "category": "guide",
+    "shape": "rectangle",
+    "background": "green",
+    "svg": "svg/D10-03.svg"
+  },
+  "D10-03A": {
+    "name": "Intermediate Reference Location (4 digits)",
+    "category": "guide",
+    "shape": "rectangle",
+    "background": "green",
+    "svg": "svg/D10-03A.svg"
+  },
+  "D10-04": {
+    "name": "Enhanced Reference Location",
+    "category": "guide",
+    "shape": "rectangle",
+    "background": "green",
+    "svg": "svg/D10-04.svg"
+  },
+  "D10-05": {
+    "name": "Intermediate Enhanced Reference Location",
+    "category": "guide",
+    "shape": "rectangle",
+    "background": "green",
+    "svg": "svg/D10-05.svg"
+  },
+  "D11-01": {
+    "name": "Bike Route",
+    "category": "guide",
+    "shape": "rectangle",
+    "background": "green",
+    "svg": "svg/D11-01.svg"
+  },
+  "D11-01BP": {
+    "name": "Bike Route (plaque)",
+    "category": "guide",
+    "shape": "rectangle",
+    "background": "green",
+    "svg": "svg/D11-01BP.svg"
+  },
+  "D11-01C": {
+    "name": "Bike Route (Destination)",
+    "category": "guide",
+    "shape": "rectangle",
+    "background": "green",
+    "svg": "svg/D11-01C.svg"
+  },
+  "D11-10A": {
+    "name": "Shared-Use Path Destination (1 line)",
+    "category": "guide",
+    "shape": "rectangle",
+    "background": "green",
+    "svg": "svg/D11-10A.svg"
+  },
+  "D11-10B": {
+    "name": "Shared-Use Path Destination (2 lines)",
+    "category": "guide",
+    "shape": "rectangle",
+    "background": "green",
+    "svg": "svg/D11-10B.svg"
+  },
+  "D11-10C": {
+    "name": "Shared-Use Path Destination (3 lines)",
+    "category": "guide",
+    "shape": "rectangle",
+    "background": "green",
+    "svg": "svg/D11-10C.svg"
+  },
+  "D11-10D": {
+    "name": "Shared-Use Path Destination and Distance (1 line)",
+    "category": "guide",
+    "shape": "rectangle",
+    "background": "green",
+    "svg": "svg/D11-10D.svg"
+  },
+  "D11-10E": {
+    "name": "Shared-Use Path Destination and Distance (2 lines)",
+    "category": "guide",
+    "shape": "rectangle",
+    "background": "green",
+    "svg": "svg/D11-10E.svg"
+  },
+  "D11-10F": {
+    "name": "Shared-Use Path Destination and Distance (3 lines)",
+    "category": "guide",
+    "shape": "rectangle",
+    "background": "green",
+    "svg": "svg/D11-10F.svg"
+  },
+  "D11-11": {
+    "name": "Bicycles Directional",
+    "category": "guide",
+    "shape": "rectangle",
+    "background": "green",
+    "svg": "svg/D11-11.svg"
+  },
+  "D11-12": {
+    "name": "Pedestrians Directional",
+    "category": "guide",
+    "shape": "rectangle",
+    "background": "green",
+    "svg": "svg/D11-12.svg"
+  },
+  "D11-13": {
+    "name": "Skaters Directional",
+    "category": "guide",
+    "shape": "rectangle",
+    "background": "green",
+    "svg": "svg/D11-13.svg"
+  },
+  "D11-14": {
+    "name": "Equestrians Directional",
+    "category": "guide",
+    "shape": "rectangle",
+    "background": "green",
+    "svg": "svg/D11-14.svg"
+  },
+  "D11-20": {
+    "name": "Bicycle Left_Right Turn May Use Turn Box",
+    "category": "guide",
+    "shape": "rectangle",
+    "background": "green",
+    "svg": "svg/D11-20.svg"
+  },
+  "D11-20A": {
+    "name": "Bicycle Left_Right Turn Box (with arrow, oblique)",
+    "category": "guide",
+    "shape": "rectangle",
+    "background": "green",
+    "svg": "svg/D11-20A.svg"
+  },
+  "D12-01": {
+    "name": "Radio - Weather Information",
+    "category": "guide",
+    "shape": "rectangle",
+    "background": "green",
+    "svg": "svg/D12-01.svg"
+  },
+  "D12-01A": {
+    "name": "Radio-Traffic Information",
+    "category": "guide",
+    "shape": "rectangle",
+    "background": "green",
+    "svg": "svg/D12-01A.svg"
+  },
+  "D12-01BP": {
+    "name": "Urgent Message When Flashing (plaque)",
+    "category": "guide",
+    "shape": "rectangle",
+    "background": "green",
+    "svg": "svg/D12-01BP.svg"
+  },
+  "D12-02": {
+    "name": "Carpool Information",
+    "category": "guide",
+    "shape": "rectangle",
+    "background": "green",
+    "svg": "svg/D12-02.svg"
+  },
+  "D12-03": {
+    "name": "Channel 9 Monitored 4-201",
+    "category": "guide",
+    "shape": "rectangle",
+    "background": "green",
+    "svg": "svg/D12-03.svg"
+  },
+  "D12-04": {
+    "name": "Emergency Call 911",
+    "category": "guide",
+    "shape": "rectangle",
+    "background": "green",
+    "svg": "svg/D12-04.svg"
+  },
+  "D12-05": {
+    "name": "Travel Info Call 511 (Pictograph)",
+    "category": "guide",
+    "shape": "rectangle",
+    "background": "green",
+    "svg": "svg/D12-05.svg"
+  },
+  "D12-05A": {
+    "name": "Travel Info Call 511",
+    "category": "guide",
+    "shape": "rectangle",
+    "background": "green",
+    "svg": "svg/D12-05A.svg"
+  },
+  "D12-06": {
+    "name": "Roadside Assistance",
+    "category": "guide",
+    "shape": "rectangle",
+    "background": "green",
+    "svg": "svg/D12-06.svg"
+  },
+  "D13-01": {
+    "name": "Crossover (Directional)",
+    "category": "guide",
+    "shape": "rectangle",
+    "background": "green",
+    "svg": "svg/D13-01.svg"
+  },
+  "D13-02": {
+    "name": "Advance Crossover",
+    "category": "guide",
+    "shape": "rectangle",
+    "background": "green",
+    "svg": "svg/D13-02.svg"
+  },
+  "D13-03": {
+    "name": "Expressway Entrance",
+    "category": "guide",
+    "shape": "rectangle",
+    "background": "green",
+    "svg": "svg/D13-03.svg"
+  },
+  "D13-03A": {
+    "name": "Expressway Entrance (directional)",
+    "category": "guide",
+    "shape": "rectangle",
+    "background": "green",
+    "svg": "svg/D13-03A.svg"
+  },
+  "D15-01": {
+    "name": "Combination Lane Use - Destination",
+    "category": "guide",
+    "shape": "rectangle",
+    "background": "green",
+    "svg": "svg/D15-01.svg"
+  },
+  "D17-01": {
+    "name": "Next Truck Lane 4-211",
+    "category": "guide",
+    "shape": "rectangle",
+    "background": "green",
+    "svg": "svg/D17-01.svg"
+  },
+  "D17-02": {
+    "name": "Advance Truck Lane",
+    "category": "guide",
+    "shape": "rectangle",
+    "background": "green",
+    "svg": "svg/D17-02.svg"
+  },
+  "D17-03": {
+    "name": "Next Passing Lane",
+    "category": "guide",
+    "shape": "rectangle",
+    "background": "green",
+    "svg": "svg/D17-03.svg"
+  },
+  "D17-04": {
+    "name": "Advance Passing Lane",
+    "category": "guide",
+    "shape": "rectangle",
+    "background": "green",
+    "svg": "svg/D17-04.svg"
+  },
+  "D17-05": {
+    "name": "Advance Emergency Turn-Out",
+    "category": "guide",
+    "shape": "rectangle",
+    "background": "green",
+    "svg": "svg/D17-05.svg"
+  },
+  "D17-06": {
+    "name": "Emergency Turn-Out (Directional)",
+    "category": "guide",
+    "shape": "rectangle",
+    "background": "green",
+    "svg": "svg/D17-06.svg"
+  },
+  "D17-07": {
+    "name": "Advance Slow Vehicle Turn-Out",
+    "category": "guide",
+    "shape": "rectangle",
+    "background": "green",
+    "svg": "svg/D17-07.svg"
+  },
+  "E01-01": {
+    "name": "Advance Guide",
+    "category": "other",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/E01-01.svg"
+  },
+  "E01-02": {
+    "name": "Advance Guide",
+    "category": "other",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/E01-02.svg"
+  },
+  "E01-03": {
+    "name": "Advance Guide",
+    "category": "other",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/E01-03.svg"
+  },
+  "E01-05AP": {
+    "name": "Exit Number (3 digits) (plaque)",
+    "category": "other",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/E01-05AP.svg"
+  },
+  "E01-05BP": {
+    "name": "Exit Number (1, 2 digits with single-letter suffix) (plaque)",
+    "category": "other",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/E01-05BP.svg"
+  },
+  "E01-05CP": {
+    "name": "Exit Number (3 digits with single-letter suffix) (plaque)",
+    "category": "other",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/E01-05CP.svg"
+  },
+  "E01-05DP": {
+    "name": "Exit Number (1, 2 digits with dual-letter suffix) (plaque)",
+    "category": "other",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/E01-05DP.svg"
+  },
+  "E01-05EP": {
+    "name": "Exit Number (3 digits with dual-letter suffix) (plaque)",
+    "category": "other",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/E01-05EP.svg"
+  },
+  "E01-05FP": {
+    "name": "Left Exit Number (1, 2 digits) (plaque)",
+    "category": "other",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/E01-05FP.svg"
+  },
+  "E01-05GP": {
+    "name": "Left Exit Number (3 digits) (plaque)",
+    "category": "other",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/E01-05GP.svg"
+  },
+  "E01-05HP": {
+    "name": "Left Exit Number (1, 2 digits with single-letter suffix) (plaque)",
+    "category": "other",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/E01-05HP.svg"
+  },
+  "E01-05IP": {
+    "name": "Left Exit Number (3 digits with single-letter suffix) (plaque)",
+    "category": "other",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/E01-05IP.svg"
+  },
+  "E01-05JP": {
+    "name": "Left Exit Number (1 and 2 digits with dual-letter suffix) (plaque)",
+    "category": "other",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/E01-05JP.svg"
+  },
+  "E01-05KP": {
+    "name": "Left Exit Number (3 digits with dual-letter suffix) (plaque)",
+    "category": "other",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/E01-05KP.svg"
+  },
+  "E01-05MP": {
+    "name": "Left (plaque)",
+    "category": "other",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/E01-05MP.svg"
+  },
+  "E01-05P": {
+    "name": "Exit Number (1, 2 digits) (plaque)",
+    "category": "other",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/E01-05P.svg"
+  },
+  "E02-01AP": {
+    "name": "Next Exit (2-line plaque)",
+    "category": "other",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/E02-01AP.svg"
+  },
+  "E02-01P": {
+    "name": "Next Exit (2-line plaque)",
+    "category": "other",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/E02-01P.svg"
+  },
+  "E03-01": {
+    "name": "Supplemental",
+    "category": "other",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/E03-01.svg"
+  },
+  "E03-02": {
+    "name": "Supplemental (2 destinations)",
+    "category": "other",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/E03-02.svg"
+  },
+  "E04-01": {
+    "name": "Exit Direction",
+    "category": "other",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/E04-01.svg"
+  },
+  "E04-02": {
+    "name": "Exit Direction",
+    "category": "other",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/E04-02.svg"
+  },
+  "E04-03": {
+    "name": "Exit Direction",
+    "category": "other",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/E04-03.svg"
+  },
+  "E05-01": {
+    "name": "Exit Gore (no exit number)",
+    "category": "other",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/E05-01.svg"
+  },
+  "E05-01A": {
+    "name": "Exit Gore 1, 2 and 3 Numbers",
+    "category": "other",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/E05-01A.svg"
+  },
+  "E05-01BP": {
+    "name": "Exit Number (plaque)",
+    "category": "other",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/E05-01BP.svg"
+  },
+  "E05-01C": {
+    "name": "Narrow Exit Gore",
+    "category": "other",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/E05-01C.svg"
+  },
+  "E05-02": {
+    "name": "Exit Open",
+    "category": "other",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/E05-02.svg"
+  },
+  "E05-02A": {
+    "name": "Exit Closed",
+    "category": "other",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/E05-02A.svg"
+  },
+  "E05-03": {
+    "name": "Exit Only",
+    "category": "other",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/E05-03.svg"
+  },
+  "E06-01": {
+    "name": "Pull-Through",
+    "category": "other",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/E06-01.svg"
+  },
+  "E06-01A": {
+    "name": "Pull-Through (Destination)",
+    "category": "other",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/E06-01A.svg"
+  },
+  "E06-02": {
+    "name": "Pull-Through (Down Arrows)",
+    "category": "other",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/E06-02.svg"
+  },
+  "E06-02A": {
+    "name": "Pull-Through (Destination, Down Arrows)",
+    "category": "other",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/E06-02A.svg"
+  },
+  "E07-01": {
+    "name": "Post Interchange Distance",
+    "category": "other",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/E07-01.svg"
+  },
+  "E07-02": {
+    "name": "Post Interchange Distance",
+    "category": "other",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/E07-02.svg"
+  },
+  "E07-03": {
+    "name": "Post-Interchange Distance",
+    "category": "other",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/E07-03.svg"
+  },
+  "E07-04": {
+    "name": "Post-Interchange Travel Time",
+    "category": "other",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/E07-04.svg"
+  },
+  "E07-05": {
+    "name": "Distance and Travel Time",
+    "category": "other",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/E07-05.svg"
+  },
+  "E07-06": {
+    "name": "Comparative Travel Time",
+    "category": "other",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/E07-06.svg"
+  },
+  "E08-01": {
+    "name": "Preferential Lane Entrance Gore",
+    "category": "other",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/E08-01.svg"
+  },
+  "E08-01A": {
+    "name": "Preferential Lane Intermediate Entrance Gore",
+    "category": "other",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/E08-01A.svg"
+  },
+  "E08-02": {
+    "name": "Preferential Lane Entrance Direction (overhead)",
+    "category": "other",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/E08-02.svg"
+  },
+  "E08-02A": {
+    "name": "Preferential Lane Entrance Direction (post-mounted)",
+    "category": "other",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/E08-02A.svg"
+  },
+  "E08-03": {
+    "name": "Preferential Lane Entrance Advance",
+    "category": "other",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/E08-03.svg"
+  },
+  "E08-04": {
+    "name": "Preferential Lane Direct Exit Gore",
+    "category": "other",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/E08-04.svg"
+  },
+  "E08-05": {
+    "name": "Preferential Lane Intermediate Egress Direction",
+    "category": "other",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/E08-05.svg"
+  },
+  "E08-06": {
+    "name": "Preferential Lane Intermediate Egress Advance",
+    "category": "other",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/E08-06.svg"
+  },
+  "E09-01": {
+    "name": "Interchange Sequence (2 interchanges)",
+    "category": "other",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/E09-01.svg"
+  },
+  "E09-02": {
+    "name": "Interchange Sequence (3 interchanges)",
+    "category": "other",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/E09-02.svg"
+  },
+  "E09-03": {
+    "name": "Next Exits (1 destination)",
+    "category": "other",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/E09-03.svg"
+  },
+  "E09-03A": {
+    "name": "Next Exits (2 destinations)",
+    "category": "other",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/E09-03A.svg"
+  },
+  "E09-04": {
+    "name": "Community Interchanges (2 interchanges)",
+    "category": "other",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/E09-04.svg"
+  },
+  "E09-05": {
+    "name": "Community Interchanges (3 interchanges)",
+    "category": "other",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/E09-05.svg"
+  },
+  "E11-01": {
+    "name": "Exit Only (down arrow)",
+    "category": "other",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/E11-01.svg"
+  },
+  "E11-01A": {
+    "name": "Exit",
+    "category": "other",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/E11-01A.svg"
+  },
+  "E11-01B": {
+    "name": "Only",
+    "category": "other",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/E11-01B.svg"
+  },
+  "E11-01C": {
+    "name": "Exit Only",
+    "category": "other",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/E11-01C.svg"
+  },
+  "E11-01D": {
+    "name": "Exit Only (with Directional arrow)",
+    "category": "other",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/E11-01D.svg"
+  },
+  "E11-01E": {
+    "name": "Exit Only (with Directional arrow)",
+    "category": "other",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/E11-01E.svg"
+  },
+  "E11-01F": {
+    "name": "Exit Only (with 2 down arrows)",
+    "category": "other",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/E11-01F.svg"
+  },
+  "E11-02": {
+    "name": "Left (panel)",
+    "category": "other",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/E11-02.svg"
+  },
+  "E13-02": {
+    "name": "Exit Direction Advisory Speed - Ramp, Exit (panel)",
+    "category": "other",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/E13-02.svg"
+  },
+  "EM01-01": {
+    "name": "Evacuation Route",
+    "category": "other",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/EM01-01.svg"
+  },
+  "EM01-01A": {
+    "name": "Evacuation Route - Hurricane",
+    "category": "other",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/EM01-01A.svg"
+  },
+  "EM01-02": {
+    "name": "Evacuation Route - Tsunami",
+    "category": "other",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/EM01-02.svg"
+  },
+  "EM02-01": {
+    "name": "Area Closed",
+    "category": "other",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/EM02-01.svg"
+  },
+  "EM02-02": {
+    "name": "Traffic Control Point",
+    "category": "other",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/EM02-02.svg"
+  },
+  "EM02-03": {
+    "name": "Maintain Top Safe Speed",
+    "category": "other",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/EM02-03.svg"
+  },
+  "EM02-04": {
+    "name": "Permit Required",
+    "category": "other",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/EM02-04.svg"
+  },
+  "EM03-01": {
+    "name": "Emergency Aid Center - Medical",
+    "category": "other",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/EM03-01.svg"
+  },
+  "EM03-01A": {
+    "name": "Emergency Aid Center - Welfare",
+    "category": "other",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/EM03-01A.svg"
+  },
+  "EM03-01B": {
+    "name": "Emergency Aid Center - Registration",
+    "category": "other",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/EM03-01B.svg"
+  },
+  "EM03-01C": {
+    "name": "Emergency Aid Center - Decontamination",
+    "category": "other",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/EM03-01C.svg"
+  },
+  "EM04-01": {
+    "name": "Shelter Directional - Emergency",
+    "category": "other",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/EM04-01.svg"
+  },
+  "EM04-01A": {
+    "name": "Shelter Directional - Hurricane",
+    "category": "other",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/EM04-01A.svg"
+  },
+  "EM04-01B": {
+    "name": "Shelter Directional - Fallout",
+    "category": "other",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/EM04-01B.svg"
+  },
+  "EM04-01C": {
+    "name": "Shelter Directional - Chemical",
+    "category": "other",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/EM04-01C.svg"
+  },
+  "G20-01": {
+    "name": "Road Work Next XX Miles",
+    "category": "guide",
+    "shape": "rectangle",
+    "background": "green",
+    "svg": "svg/G20-01.svg"
+  },
+  "G20-02": {
+    "name": "End Road Work",
+    "category": "guide",
+    "shape": "rectangle",
+    "background": "green",
+    "svg": "svg/G20-02.svg"
+  },
+  "G20-04": {
+    "name": "Pilot Car Follow Me",
+    "category": "guide",
+    "shape": "rectangle",
+    "background": "green",
+    "svg": "svg/G20-04.svg"
+  },
+  "G20-05AP": {
+    "name": "Work Zone (plaque)",
+    "category": "guide",
+    "shape": "rectangle",
+    "background": "green",
+    "svg": "svg/G20-05AP.svg"
+  },
+  "I01-01": {
+    "name": "Traffic Signal Speed",
+    "category": "guide",
+    "shape": "rectangle",
+    "background": "blue",
+    "svg": "svg/I01-01.svg"
+  },
+  "I02-01": {
+    "name": "Jurisdictional Boundary",
+    "category": "guide",
+    "shape": "rectangle",
+    "background": "blue",
+    "svg": "svg/I02-01.svg"
+  },
+  "I02-02": {
+    "name": "Geographical Feature",
+    "category": "guide",
+    "shape": "rectangle",
+    "background": "blue",
+    "svg": "svg/I02-02.svg"
+  },
+  "I02-03": {
+    "name": "Grade Separation Identification",
+    "category": "guide",
+    "shape": "rectangle",
+    "background": "blue",
+    "svg": "svg/I02-03.svg"
+  },
+  "I02-03A": {
+    "name": "Grade Separation Identification (2 lines)",
+    "category": "guide",
+    "shape": "rectangle",
+    "background": "blue",
+    "svg": "svg/I02-03A.svg"
+  },
+  "I02-04": {
+    "name": "Future Interstate Corridor",
+    "category": "guide",
+    "shape": "rectangle",
+    "background": "blue",
+    "svg": "svg/I02-04.svg"
+  },
+  "I02-04A": {
+    "name": "Future I-XX Corridor",
+    "category": "guide",
+    "shape": "rectangle",
+    "background": "blue",
+    "svg": "svg/I02-04A.svg"
+  },
+  "I02-05": {
+    "name": "Project Information",
+    "category": "guide",
+    "shape": "rectangle",
+    "background": "blue",
+    "svg": "svg/I02-05.svg"
+  },
+  "I03-05": {
+    "name": "Airport",
+    "category": "guide",
+    "shape": "rectangle",
+    "background": "blue",
+    "svg": "svg/I03-05.svg"
+  },
+  "I03-06": {
+    "name": "Bus Station",
+    "category": "guide",
+    "shape": "rectangle",
+    "background": "blue",
+    "svg": "svg/I03-06.svg"
+  },
+  "I03-07": {
+    "name": "Train Station",
+    "category": "guide",
+    "shape": "rectangle",
+    "background": "blue",
+    "svg": "svg/I03-07.svg"
+  },
+  "I03-08": {
+    "name": "Light Rail Transit Station",
+    "category": "guide",
+    "shape": "rectangle",
+    "background": "blue",
+    "svg": "svg/I03-08.svg"
+  },
+  "I03-09": {
+    "name": "Vehicle Ferry Terminal",
+    "category": "guide",
+    "shape": "rectangle",
+    "background": "blue",
+    "svg": "svg/I03-09.svg"
+  },
+  "I03-10": {
+    "name": "Passengers Only Ferry Terminal",
+    "category": "guide",
+    "shape": "rectangle",
+    "background": "blue",
+    "svg": "svg/I03-10.svg"
+  },
+  "I03-10P": {
+    "name": "Ferry (plaque)",
+    "category": "guide",
+    "shape": "rectangle",
+    "background": "blue",
+    "svg": "svg/I03-10P.svg"
+  },
+  "I04-01": {
+    "name": "Library",
+    "category": "guide",
+    "shape": "rectangle",
+    "background": "blue",
+    "svg": "svg/I04-01.svg"
+  },
+  "I04-02": {
+    "name": "Recycling Center",
+    "category": "guide",
+    "shape": "rectangle",
+    "background": "blue",
+    "svg": "svg/I04-02.svg"
+  },
+  "I13-01": {
+    "name": "Emergency Notification",
+    "category": "guide",
+    "shape": "rectangle",
+    "background": "blue",
+    "svg": "svg/I13-01.svg"
+  },
+  "I13-02": {
+    "name": "Push to Exit",
+    "category": "guide",
+    "shape": "rectangle",
+    "background": "blue",
+    "svg": "svg/I13-02.svg"
+  },
+  "I20-01": {
+    "name": "Acknowledgement",
+    "category": "guide",
+    "shape": "rectangle",
+    "background": "blue",
+    "svg": "svg/I20-01.svg"
+  },
+  "I20-02": {
+    "name": "Acknowledgement",
+    "category": "guide",
+    "shape": "rectangle",
+    "background": "blue",
+    "svg": "svg/I20-02.svg"
+  },
+  "I20-03": {
+    "name": "Acknowledgment",
+    "category": "guide",
+    "shape": "rectangle",
+    "background": "blue",
+    "svg": "svg/I20-03.svg"
+  },
+  "I20-04": {
+    "name": "Acknowledgement - Rest Area",
+    "category": "guide",
+    "shape": "rectangle",
+    "background": "blue",
+    "svg": "svg/I20-04.svg"
+  },
+  "I20-04A": {
+    "name": "Acknowledgment - Welcome Center",
+    "category": "guide",
+    "shape": "rectangle",
+    "background": "blue",
+    "svg": "svg/I20-04A.svg"
+  },
+  "I20-05P": {
+    "name": "Acknowledgment (plaque)",
+    "category": "guide",
+    "shape": "rectangle",
+    "background": "blue",
+    "svg": "svg/I20-05P.svg"
+  },
+  "M01-01": {
+    "name": "Interstate Route Sign",
+    "category": "guide",
+    "shape": "rectangle",
+    "background": "brown",
+    "svg": "svg/M01-01.svg"
+  },
+  "M01-01A": {
+    "name": "Interstate Route",
+    "category": "guide",
+    "shape": "rectangle",
+    "background": "brown",
+    "svg": "svg/M01-01A.svg"
+  },
+  "M01-02": {
+    "name": "Off-Interstate Route Sign - Loop",
+    "category": "guide",
+    "shape": "rectangle",
+    "background": "brown",
+    "svg": "svg/M01-02.svg"
+  },
+  "M01-03": {
+    "name": "Off-Interstate Route Sign - Spur",
+    "category": "guide",
+    "shape": "rectangle",
+    "background": "brown",
+    "svg": "svg/M01-03.svg"
+  },
+  "M01-04": {
+    "name": "U. S. Route Sign",
+    "category": "guide",
+    "shape": "rectangle",
+    "background": "brown",
+    "svg": "svg/M01-04.svg"
+  },
+  "M01-05": {
+    "name": "State Route",
+    "category": "guide",
+    "shape": "rectangle",
+    "background": "brown",
+    "svg": "svg/M01-05.svg"
+  },
+  "M01-06": {
+    "name": "County Route",
+    "category": "guide",
+    "shape": "rectangle",
+    "background": "brown",
+    "svg": "svg/M01-06.svg"
+  },
+  "M01-07": {
+    "name": "Forest Route",
+    "category": "guide",
+    "shape": "rectangle",
+    "background": "brown",
+    "svg": "svg/M01-07.svg"
+  },
+  "M01-08": {
+    "name": "State or Local Bicycle Route",
+    "category": "guide",
+    "shape": "rectangle",
+    "background": "brown",
+    "svg": "svg/M01-08.svg"
+  },
+  "M01-08A": {
+    "name": "State or Local Bicycle Route",
+    "category": "guide",
+    "shape": "rectangle",
+    "background": "brown",
+    "svg": "svg/M01-08A.svg"
+  },
+  "M01-08B": {
+    "name": "Non-Numbered Bicycle Route (2 lines)",
+    "category": "guide",
+    "shape": "rectangle",
+    "background": "brown",
+    "svg": "svg/M01-08B.svg"
+  },
+  "M01-08C": {
+    "name": "Non-Numbered Bicycle Route (3 lines)",
+    "category": "guide",
+    "shape": "rectangle",
+    "background": "brown",
+    "svg": "svg/M01-08C.svg"
+  },
+  "M01-09": {
+    "name": "U. S. Bicycle Route",
+    "category": "guide",
+    "shape": "rectangle",
+    "background": "brown",
+    "svg": "svg/M01-09.svg"
+  },
+  "M01-10": {
+    "name": "Eisenhower Interstate System",
+    "category": "guide",
+    "shape": "rectangle",
+    "background": "brown",
+    "svg": "svg/M01-10.svg"
+  },
+  "M01-10A": {
+    "name": "Eisenhower Interstate System",
+    "category": "guide",
+    "shape": "rectangle",
+    "background": "brown",
+    "svg": "svg/M01-10A.svg"
+  },
+  "M02-01P": {
+    "name": "Junction (plaque)",
+    "category": "guide",
+    "shape": "rectangle",
+    "background": "brown",
+    "svg": "svg/M02-01P.svg"
+  },
+  "M02-02": {
+    "name": "Combination Junction (2 route signs)",
+    "category": "guide",
+    "shape": "rectangle",
+    "background": "brown",
+    "svg": "svg/M02-02.svg"
+  },
+  "M03-01P": {
+    "name": "Cardinal Direction - North (plaque)",
+    "category": "guide",
+    "shape": "rectangle",
+    "background": "brown",
+    "svg": "svg/M03-01P.svg"
+  },
+  "M03-02P": {
+    "name": "Cardinal Direction - East (plaque)",
+    "category": "guide",
+    "shape": "rectangle",
+    "background": "brown",
+    "svg": "svg/M03-02P.svg"
+  },
+  "M03-03P": {
+    "name": "Cardinal Direction - South (plaque)",
+    "category": "guide",
+    "shape": "rectangle",
+    "background": "brown",
+    "svg": "svg/M03-03P.svg"
+  },
+  "M03-04P": {
+    "name": "Cardinal Direction - West (plaque)",
+    "category": "guide",
+    "shape": "rectangle",
+    "background": "brown",
+    "svg": "svg/M03-04P.svg"
+  },
+  "M04-01AP": {
+    "name": "Alternate (plaque)",
+    "category": "guide",
+    "shape": "rectangle",
+    "background": "brown",
+    "svg": "svg/M04-01AP.svg"
+  },
+  "M04-01P": {
+    "name": "Alternate (plaque)",
+    "category": "guide",
+    "shape": "rectangle",
+    "background": "brown",
+    "svg": "svg/M04-01P.svg"
+  },
+  "M04-02P": {
+    "name": "By-Pass (plaque)",
+    "category": "guide",
+    "shape": "rectangle",
+    "background": "brown",
+    "svg": "svg/M04-02P.svg"
+  },
+  "M04-03P": {
+    "name": "Business (plaque)",
+    "category": "guide",
+    "shape": "rectangle",
+    "background": "brown",
+    "svg": "svg/M04-03P.svg"
+  },
+  "M04-04P": {
+    "name": "Truck (plaque)",
+    "category": "guide",
+    "shape": "rectangle",
+    "background": "brown",
+    "svg": "svg/M04-04P.svg"
+  },
+  "M04-05P": {
+    "name": "To (plaque)",
+    "category": "guide",
+    "shape": "rectangle",
+    "background": "brown",
+    "svg": "svg/M04-05P.svg"
+  },
+  "M04-06P": {
+    "name": "End (plaque)",
+    "category": "guide",
+    "shape": "rectangle",
+    "background": "brown",
+    "svg": "svg/M04-06P.svg"
+  },
+  "M04-07AP": {
+    "name": "Temporary (plaque)",
+    "category": "guide",
+    "shape": "rectangle",
+    "background": "brown",
+    "svg": "svg/M04-07AP.svg"
+  },
+  "M04-07P": {
+    "name": "Temporary (plaque)",
+    "category": "guide",
+    "shape": "rectangle",
+    "background": "brown",
+    "svg": "svg/M04-07P.svg"
+  },
+  "M04-08A": {
+    "name": "End Detour",
+    "category": "guide",
+    "shape": "rectangle",
+    "background": "brown",
+    "svg": "svg/M04-08A.svg"
+  },
+  "M04-08BP": {
+    "name": "End (plaque)",
+    "category": "guide",
+    "shape": "rectangle",
+    "background": "brown",
+    "svg": "svg/M04-08BP.svg"
+  },
+  "M04-08P": {
+    "name": "Detour",
+    "category": "guide",
+    "shape": "rectangle",
+    "background": "brown",
+    "svg": "svg/M04-08P.svg"
+  },
+  "M04-09": {
+    "name": "Detour",
+    "category": "guide",
+    "shape": "rectangle",
+    "background": "brown",
+    "svg": "svg/M04-09.svg"
+  },
+  "M04-09A": {
+    "name": "Bicyclist_Pedestrian Detour",
+    "category": "guide",
+    "shape": "rectangle",
+    "background": "brown",
+    "svg": "svg/M04-09A.svg"
+  },
+  "M04-09B": {
+    "name": "Pedestrian Detour",
+    "category": "guide",
+    "shape": "rectangle",
+    "background": "brown",
+    "svg": "svg/M04-09B.svg"
+  },
+  "M04-09C": {
+    "name": "Bike Detour",
+    "category": "guide",
+    "shape": "rectangle",
+    "background": "brown",
+    "svg": "svg/M04-09C.svg"
+  },
+  "M04-10": {
+    "name": "Detour",
+    "category": "guide",
+    "shape": "rectangle",
+    "background": "brown",
+    "svg": "svg/M04-10.svg"
+  },
+  "M04-11": {
+    "name": "Emergency Route",
+    "category": "guide",
+    "shape": "rectangle",
+    "background": "brown",
+    "svg": "svg/M04-11.svg"
+  },
+  "M04-11A": {
+    "name": "Emergency Route",
+    "category": "guide",
+    "shape": "rectangle",
+    "background": "brown",
+    "svg": "svg/M04-11A.svg"
+  },
+  "M04-11BP": {
+    "name": "Emergency Route",
+    "category": "guide",
+    "shape": "rectangle",
+    "background": "brown",
+    "svg": "svg/M04-11BP.svg"
+  },
+  "M04-11CP": {
+    "name": "Emergency Route (Plaque)",
+    "category": "guide",
+    "shape": "rectangle",
+    "background": "brown",
+    "svg": "svg/M04-11CP.svg"
+  },
+  "M04-12": {
+    "name": "End Emergency Route",
+    "category": "guide",
+    "shape": "rectangle",
+    "background": "brown",
+    "svg": "svg/M04-12.svg"
+  },
+  "M04-14P": {
+    "name": "Begin (plaque)",
+    "category": "guide",
+    "shape": "rectangle",
+    "background": "brown",
+    "svg": "svg/M04-14P.svg"
+  },
+  "M04-17": {
+    "name": "Toll Collector Symbol Panel",
+    "category": "guide",
+    "shape": "rectangle",
+    "background": "brown",
+    "svg": "svg/M04-17.svg"
+  },
+  "M04-18": {
+    "name": "Exact Change Symbol Panel",
+    "category": "guide",
+    "shape": "rectangle",
+    "background": "brown",
+    "svg": "svg/M04-18.svg"
+  },
+  "M05-01P": {
+    "name": "Advance Turn Arrow (plaque)",
+    "category": "guide",
+    "shape": "rectangle",
+    "background": "brown",
+    "svg": "svg/M05-01P.svg"
+  },
+  "M05-02P": {
+    "name": "Advance Turn Arrow - Oblique (plaque)",
+    "category": "guide",
+    "shape": "rectangle",
+    "background": "brown",
+    "svg": "svg/M05-02P.svg"
+  },
+  "M05-03P": {
+    "name": "Advance Turn Arrow Auxiliary - Circular Intersection (plaque)",
+    "category": "guide",
+    "shape": "rectangle",
+    "background": "brown",
+    "svg": "svg/M05-03P.svg"
+  },
+  "M05-04P": {
+    "name": "Lane Designation - Left Lane (plaque)",
+    "category": "guide",
+    "shape": "rectangle",
+    "background": "brown",
+    "svg": "svg/M05-04P.svg"
+  },
+  "M05-05P": {
+    "name": "Lane Designation - Center Lane (plaque)",
+    "category": "guide",
+    "shape": "rectangle",
+    "background": "brown",
+    "svg": "svg/M05-05P.svg"
+  },
+  "M05-06P": {
+    "name": "Lane Designation - Right Lane (plaque)",
+    "category": "guide",
+    "shape": "rectangle",
+    "background": "brown",
+    "svg": "svg/M05-06P.svg"
+  },
+  "M06-01P": {
+    "name": "Directional Arrow - Turn (plaque)",
+    "category": "guide",
+    "shape": "rectangle",
+    "background": "brown",
+    "svg": "svg/M06-01P.svg"
+  },
+  "M06-02AP": {
+    "name": "Directional Arrow - Oblique, Downward (plaque)",
+    "category": "guide",
+    "shape": "rectangle",
+    "background": "brown",
+    "svg": "svg/M06-02AP.svg"
+  },
+  "M06-02P": {
+    "name": "Directional Arrow - Oblique (plaque)",
+    "category": "guide",
+    "shape": "rectangle",
+    "background": "brown",
+    "svg": "svg/M06-02P.svg"
+  },
+  "M06-03P": {
+    "name": "Directional Arrow - Through (plaque)",
+    "category": "guide",
+    "shape": "rectangle",
+    "background": "brown",
+    "svg": "svg/M06-03P.svg"
+  },
+  "M06-04P": {
+    "name": "Directional Arrow - Turn (Two-Way) (plaque)",
+    "category": "guide",
+    "shape": "rectangle",
+    "background": "brown",
+    "svg": "svg/M06-04P.svg"
+  },
+  "M06-05P": {
+    "name": "Directional Arrow - Oblique (Two-Way) (plaque)",
+    "category": "guide",
+    "shape": "rectangle",
+    "background": "brown",
+    "svg": "svg/M06-05P.svg"
+  },
+  "M06-06P": {
+    "name": "Directional Arrow - Through and Turn (plaque)",
+    "category": "guide",
+    "shape": "rectangle",
+    "background": "brown",
+    "svg": "svg/M06-06P.svg"
+  },
+  "M06-07P": {
+    "name": "Directional Arrow - Through and Oblique (plaque)",
+    "category": "guide",
+    "shape": "rectangle",
+    "background": "brown",
+    "svg": "svg/M06-07P.svg"
+  },
+  "M10-01": {
+    "name": "National Scenic Byway",
+    "category": "guide",
+    "shape": "rectangle",
+    "background": "brown",
+    "svg": "svg/M10-01.svg"
+  },
+  "M10-01AP": {
+    "name": "National Scenic Byway (plaque)",
+    "category": "guide",
+    "shape": "rectangle",
+    "background": "brown",
+    "svg": "svg/M10-01AP.svg"
+  },
+  "M10-02": {
+    "name": "Byway Identification",
+    "category": "guide",
+    "shape": "rectangle",
+    "background": "brown",
+    "svg": "svg/M10-02.svg"
+  },
+  "M10-02AP": {
+    "name": "Byway Identification",
+    "category": "guide",
+    "shape": "rectangle",
+    "background": "brown",
+    "svg": "svg/M10-02AP.svg"
+  },
+  "M10-03": {
+    "name": "State Scenic Byway System",
+    "category": "guide",
+    "shape": "rectangle",
+    "background": "brown",
+    "svg": "svg/M10-03.svg"
+  },
+  "M10-03A": {
+    "name": "State Scenic Byway - Simple Graphic and Byway Identification",
+    "category": "guide",
+    "shape": "rectangle",
+    "background": "brown",
+    "svg": "svg/M10-03A.svg"
+  },
+  "M10-03BP": {
+    "name": "Scenic Byway (plaque)",
+    "category": "guide",
+    "shape": "rectangle",
+    "background": "brown",
+    "svg": "svg/M10-03BP.svg"
+  },
+  "M11-01": {
+    "name": "National Historic Trail - Identification",
+    "category": "guide",
+    "shape": "rectangle",
+    "background": "brown",
+    "svg": "svg/M11-01.svg"
+  },
+  "M11-1AP": {
+    "name": "National Historic Trail - Historic Route (plaque)",
+    "category": "guide",
+    "shape": "rectangle",
+    "background": "brown",
+    "svg": "svg/M11-1AP.svg"
+  },
+  "M11-1BP": {
+    "name": "National Historic Trail - Crossing (plaque)",
+    "category": "guide",
+    "shape": "rectangle",
+    "background": "brown",
+    "svg": "svg/M11-1BP.svg"
+  },
+  "M11-1CP": {
+    "name": "National Historic Trail - Auto Tour Route (plaque)",
+    "category": "guide",
+    "shape": "rectangle",
+    "background": "brown",
+    "svg": "svg/M11-1CP.svg"
+  },
+  "M11-1DP": {
+    "name": "National Historic Trail - Distance (plaque)",
+    "category": "guide",
+    "shape": "rectangle",
+    "background": "brown",
+    "svg": "svg/M11-1DP.svg"
+  },
+  "OM01-01": {
+    "name": "Object Marker Type 1",
+    "category": "other",
+    "shape": "diamond",
+    "background": "white",
+    "svg": "svg/OM01-01.svg"
+  },
+  "OM01-02": {
+    "name": "Object Marker Type 1",
+    "category": "other",
+    "shape": "diamond",
+    "background": "white",
+    "svg": "svg/OM01-02.svg"
+  },
+  "OM01-03": {
+    "name": "Object Marker Type 1",
+    "category": "other",
+    "shape": "diamond",
+    "background": "white",
+    "svg": "svg/OM01-03.svg"
+  },
+  "OM02-01H": {
+    "name": "Object Marker Type 2",
+    "category": "other",
+    "shape": "diamond",
+    "background": "white",
+    "svg": "svg/OM02-01H.svg"
+  },
+  "OM04-01": {
+    "name": "Series Type 4 Object Markers",
+    "category": "other",
+    "shape": "diamond",
+    "background": "white",
+    "svg": "svg/OM04-01.svg"
+  },
+  "OM04-02": {
+    "name": "Series Type 4 Object Markers",
+    "category": "other",
+    "shape": "diamond",
+    "background": "white",
+    "svg": "svg/OM04-02.svg"
+  },
+  "OM04-03": {
+    "name": "Series Type 4 Object Markers",
+    "category": "other",
+    "shape": "diamond",
+    "background": "white",
+    "svg": "svg/OM04-03.svg"
+  },
+  "OM2-01V": {
+    "name": "Series Type 2 Object Markers",
+    "category": "other",
+    "shape": "diamond",
+    "background": "white",
+    "svg": "svg/OM2-01V.svg"
+  },
+  "OM2-02H": {
+    "name": "Series Type 2 Object Markers",
+    "category": "other",
+    "shape": "diamond",
+    "background": "white",
+    "svg": "svg/OM2-02H.svg"
+  },
+  "OM2-02V": {
+    "name": "Series Type 2 Object Markers",
+    "category": "other",
+    "shape": "diamond",
+    "background": "white",
+    "svg": "svg/OM2-02V.svg"
+  },
+  "R01-01": {
+    "name": "Stop",
+    "category": "regulatory",
+    "shape": "octagon",
+    "background": "red",
+    "svg": "svg/R01-01.svg"
+  },
+  "R01-02": {
+    "name": "Yield",
+    "category": "regulatory",
+    "shape": "triangle",
+    "background": "red/white",
+    "svg": "svg/R01-02.svg"
+  },
+  "R01-02AP": {
+    "name": "To Oncoming Traffic (plaque)",
+    "category": "regulatory",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/R01-02AP.svg"
+  },
+  "R01-02BP": {
+    "name": "To Traffic In Circle (Plaque)",
+    "category": "regulatory",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/R01-02BP.svg"
+  },
+  "R01-02CP": {
+    "name": "To All Lanes (plaque)",
+    "category": "regulatory",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/R01-02CP.svg"
+  },
+  "R01-03P": {
+    "name": "All Way (plaque)",
+    "category": "regulatory",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/R01-03P.svg"
+  },
+  "R01-05": {
+    "name": "Yield Here to Pedestrians",
+    "category": "regulatory",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/R01-05.svg"
+  },
+  "R01-05A": {
+    "name": "Yield Here to School Crossing",
+    "category": "regulatory",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/R01-05A.svg"
+  },
+  "R01-05B": {
+    "name": "Stop Here for Pedestrians",
+    "category": "regulatory",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/R01-05B.svg"
+  },
+  "R01-05C": {
+    "name": "Stop Here for School Crossing",
+    "category": "regulatory",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/R01-05C.svg"
+  },
+  "R01-05D": {
+    "name": "Yield Here to Trail Crossing (Right)",
+    "category": "regulatory",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/R01-05D.svg"
+  },
+  "R01-05E": {
+    "name": "Stop Here for Trail Crossing",
+    "category": "regulatory",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/R01-05E.svg"
+  },
+  "R01-06": {
+    "name": "In-Street Pedestrian Crossing - Yield",
+    "category": "regulatory",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/R01-06.svg"
+  },
+  "R01-06A": {
+    "name": "In-Street Pedestrian Crossing - Stop",
+    "category": "regulatory",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/R01-06A.svg"
+  },
+  "R01-06B": {
+    "name": "In-Street School Crossing (Yield)",
+    "category": "regulatory",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/R01-06B.svg"
+  },
+  "R01-06C": {
+    "name": "In-Street School Crossing - Stop 12x36",
+    "category": "regulatory",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/R01-06C.svg"
+  },
+  "R01-06D": {
+    "name": "In-Street Trail Crossing - Yield",
+    "category": "regulatory",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/R01-06D.svg"
+  },
+  "R01-06E": {
+    "name": "In-Street Trail Crossing - Stop",
+    "category": "regulatory",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/R01-06E.svg"
+  },
+  "R01-07": {
+    "name": "Wait on Stop",
+    "category": "regulatory",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/R01-07.svg"
+  },
+  "R01-07A": {
+    "name": "Wait on Stop - Go on Slow",
+    "category": "regulatory",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/R01-07A.svg"
+  },
+  "R01-08": {
+    "name": "Go on Slow",
+    "category": "regulatory",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/R01-08.svg"
+  },
+  "R01-09": {
+    "name": "Overhead Pedestrian Crossing - Yield",
+    "category": "regulatory",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/R01-09.svg"
+  },
+  "R01-09A": {
+    "name": "Overhead Pedestrian Crossing - Stop",
+    "category": "regulatory",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/R01-09A.svg"
+  },
+  "R01-09B": {
+    "name": "Overhead School Crossing - Yield",
+    "category": "regulatory",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/R01-09B.svg"
+  },
+  "R01-09C": {
+    "name": "Overhead School Crossing - Stop",
+    "category": "regulatory",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/R01-09C.svg"
+  },
+  "R01-09D": {
+    "name": "Overhead Trail Crossing - Yield",
+    "category": "regulatory",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/R01-09D.svg"
+  },
+  "R01-09E": {
+    "name": "Overhead Trail Crossing - Stop",
+    "category": "regulatory",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/R01-09E.svg"
+  },
+  "R01-10P": {
+    "name": "Except Right Turn (plaque)",
+    "category": "regulatory",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/R01-10P.svg"
+  },
+  "R02-01": {
+    "name": "Speed Limit",
+    "category": "regulatory",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/R02-01.svg"
+  },
+  "R02-02AP": {
+    "name": "Bus Speed Limit (plaque)",
+    "category": "regulatory",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/R02-02AP.svg"
+  },
+  "R02-02BP": {
+    "name": "Truck Bus Speed Limit (plaque)",
+    "category": "regulatory",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/R02-02BP.svg"
+  },
+  "R02-02CP": {
+    "name": "Vehicles Over X Tons Speed Limit (plaque)",
+    "category": "regulatory",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/R02-02CP.svg"
+  },
+  "R02-02P": {
+    "name": "Truck Speed Limit (plaque)",
+    "category": "regulatory",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/R02-02P.svg"
+  },
+  "R02-03P": {
+    "name": "Night Speed Limit (plaque)",
+    "category": "regulatory",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/R02-03P.svg"
+  },
+  "R02-04A": {
+    "name": "Combined Maximum and Minimum Speed Limits",
+    "category": "regulatory",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/R02-04A.svg"
+  },
+  "R02-04P": {
+    "name": "Minimum Speed Limit (plaque)",
+    "category": "regulatory",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/R02-04P.svg"
+  },
+  "R02-05AP": {
+    "name": "Citywide (plaque)",
+    "category": "regulatory",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/R02-05AP.svg"
+  },
+  "R02-05BP": {
+    "name": "Neighborhood (plaque)",
+    "category": "regulatory",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/R02-05BP.svg"
+  },
+  "R02-05CP": {
+    "name": "Residential (plaque)",
+    "category": "regulatory",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/R02-05CP.svg"
+  },
+  "R02-05P": {
+    "name": "Unless Otherwise Posted (plaque)",
+    "category": "regulatory",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/R02-05P.svg"
+  },
+  "R02-06AP": {
+    "name": "Fines Double (plaque)",
+    "category": "regulatory",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/R02-06AP.svg"
+  },
+  "R02-06BP": {
+    "name": "$XX Fine (plaque)",
+    "category": "regulatory",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/R02-06BP.svg"
+  },
+  "R02-06P": {
+    "name": "Fines Higher (plaque)",
+    "category": "regulatory",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/R02-06P.svg"
+  },
+  "R02-10": {
+    "name": "Begin Higher Fines Zone",
+    "category": "regulatory",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/R02-10.svg"
+  },
+  "R02-11": {
+    "name": "End Higher Fines Zone",
+    "category": "regulatory",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/R02-11.svg"
+  },
+  "R02-12": {
+    "name": "End Work Zone Speed Limit",
+    "category": "regulatory",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/R02-12.svg"
+  },
+  "R02-13": {
+    "name": "End Variable Speed Limit",
+    "category": "regulatory",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/R02-13.svg"
+  },
+  "R02-14": {
+    "name": "End Truck Speed Limit",
+    "category": "regulatory",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/R02-14.svg"
+  },
+  "R03-01": {
+    "name": "Movement Prohibition - No Right Turn",
+    "category": "regulatory",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/R03-01.svg"
+  },
+  "R03-01A": {
+    "name": "No Right Turn Across Tracks (activated blank-out)",
+    "category": "regulatory",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/R03-01A.svg"
+  },
+  "R03-01B": {
+    "name": "Movement Prohibition, Vehicle Class (1 line)",
+    "category": "regulatory",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/R03-01B.svg"
+  },
+  "R03-01C": {
+    "name": "Movement Prohibition, Vehicle Class (2 lines)",
+    "category": "regulatory",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/R03-01C.svg"
+  },
+  "R03-01D": {
+    "name": "Movement Prohibition, Vehicle Class (3 lines)",
+    "category": "regulatory",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/R03-01D.svg"
+  },
+  "R03-01E": {
+    "name": "Movement Prohibition, Vehicle Exception (1 line)",
+    "category": "regulatory",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/R03-01E.svg"
+  },
+  "R03-01F": {
+    "name": "Movement Prohibition, Vehicle Exception (2 lines)",
+    "category": "regulatory",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/R03-01F.svg"
+  },
+  "R03-01G": {
+    "name": "Movement Prohibition, Part-Time (2 lines)",
+    "category": "regulatory",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/R03-01G.svg"
+  },
+  "R03-01H": {
+    "name": "Movement Prohibition, Part-Time (3 lines)",
+    "category": "regulatory",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/R03-01H.svg"
+  },
+  "R03-02": {
+    "name": "Movement Prohibition - No Left Turn",
+    "category": "regulatory",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/R03-02.svg"
+  },
+  "R03-02A": {
+    "name": "No Left Turn Across Tracks (activated blank-out)",
+    "category": "regulatory",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/R03-02A.svg"
+  },
+  "R03-03": {
+    "name": "Movement Prohibition (No Turns)",
+    "category": "regulatory",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/R03-03.svg"
+  },
+  "R03-04": {
+    "name": "Movement Prohibition (No U-Turn)",
+    "category": "regulatory",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/R03-04.svg"
+  },
+  "R03-05": {
+    "name": "Mandatory Movement Lane Control - Turn Only",
+    "category": "regulatory",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/R03-05.svg"
+  },
+  "R03-05A": {
+    "name": "Mandatory Movement Lane Control - Through Only",
+    "category": "regulatory",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/R03-05A.svg"
+  },
+  "R03-05BP": {
+    "name": "Left Lane (plaque)",
+    "category": "regulatory",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/R03-05BP.svg"
+  },
+  "R03-05CP": {
+    "name": "HOV 2+ (plaque)",
+    "category": "regulatory",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/R03-05CP.svg"
+  },
+  "R03-05DP": {
+    "name": "Taxi Lane (plaque)",
+    "category": "regulatory",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/R03-05DP.svg"
+  },
+  "R03-05FP": {
+    "name": "Right Lane (plaque)",
+    "category": "regulatory",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/R03-05FP.svg"
+  },
+  "R03-05GP": {
+    "name": "Bus Lane (plaque)",
+    "category": "regulatory",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/R03-05GP.svg"
+  },
+  "R03-05HP": {
+    "name": "Bike Lane (plaque)",
+    "category": "regulatory",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/R03-05HP.svg"
+  },
+  "R03-06": {
+    "name": "Optional Movement Lane Control - Thru and Turn",
+    "category": "regulatory",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/R03-06.svg"
+  },
+  "R03-06A": {
+    "name": "Optional Movement Lane Control - U and Left Turns",
+    "category": "regulatory",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/R03-06A.svg"
+  },
+  "R03-06B": {
+    "name": "Optional Movement Lane Control - Oblique",
+    "category": "regulatory",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/R03-06B.svg"
+  },
+  "R03-07": {
+    "name": "Right (Left) Lane Must Turn Right (Left)",
+    "category": "regulatory",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/R03-07.svg"
+  },
+  "R03-07AP": {
+    "name": "Except Buses (plaque)",
+    "category": "regulatory",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/R03-07AP.svg"
+  },
+  "R03-07BP": {
+    "name": "Except Bicycles (plaque)",
+    "category": "regulatory",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/R03-07BP.svg"
+  },
+  "R03-08": {
+    "name": "Advance Intersection Lane Control (2 lanes)",
+    "category": "regulatory",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/R03-08.svg"
+  },
+  "R03-08A": {
+    "name": "Advance Intersection Lane Control (3 lanes)",
+    "category": "regulatory",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/R03-08A.svg"
+  },
+  "R03-08B": {
+    "name": "Advance Intersection Lane Control (3 lanes)",
+    "category": "regulatory",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/R03-08B.svg"
+  },
+  "R03-08X": {
+    "name": "Advance Intersection Lane Control with Bike Lane",
+    "category": "regulatory",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/R03-08X.svg"
+  },
+  "R03-08ZD": {
+    "name": "Advance Circular Intersection Lane Control (2 lanes)",
+    "category": "regulatory",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/R03-08ZD.svg"
+  },
+  "R03-08ZE": {
+    "name": "Advance Circular Intersection Lane Control (2 lanes)",
+    "category": "regulatory",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/R03-08ZE.svg"
+  },
+  "R03-08ZF": {
+    "name": "Advance Circular Intersection Lane Control (2 lanes)",
+    "category": "regulatory",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/R03-08ZF.svg"
+  },
+  "R03-08ZG": {
+    "name": "Advance Circular Intersection Lane Control (2 lanes)",
+    "category": "regulatory",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/R03-08ZG.svg"
+  },
+  "R03-09A": {
+    "name": "Two-Way Left Turn Only (overhead)",
+    "category": "regulatory",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/R03-09A.svg"
+  },
+  "R03-09B": {
+    "name": "Two-Way Left Turn Only (post-mounted)",
+    "category": "regulatory",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/R03-09B.svg"
+  },
+  "R03-09CP": {
+    "name": "Begin (plaque)",
+    "category": "regulatory",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/R03-09CP.svg"
+  },
+  "R03-09DP": {
+    "name": "End (plaque)",
+    "category": "regulatory",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/R03-09DP.svg"
+  },
+  "R03-09E": {
+    "name": "Reversible Lane Control (overhead)",
+    "category": "regulatory",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/R03-09E.svg"
+  },
+  "R03-09F": {
+    "name": "Reversible Lane Control (post-mounted)",
+    "category": "regulatory",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/R03-09F.svg"
+  },
+  "R03-09G": {
+    "name": "Advance Reversible Lane Control Transition (END)",
+    "category": "regulatory",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/R03-09G.svg"
+  },
+  "R03-09H": {
+    "name": "Advance Reversible Lane Control Transition (BEGIN)",
+    "category": "regulatory",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/R03-09H.svg"
+  },
+  "R03-09I": {
+    "name": "End Reverse Lane",
+    "category": "regulatory",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/R03-09I.svg"
+  },
+  "R03-10": {
+    "name": "Preferential Lane Vehicle Occupancy Definition (post-mounted)",
+    "category": "regulatory",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/R03-10.svg"
+  },
+  "R03-10A": {
+    "name": "Preferential Lane Vehicle Class Allowed (post-mounted)",
+    "category": "regulatory",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/R03-10A.svg"
+  },
+  "R03-11": {
+    "name": "Preferential Lane Operation - High-Occupancy Vehicles (post-mounted)",
+    "category": "regulatory",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/R03-11.svg"
+  },
+  "R03-11A": {
+    "name": "Preferential Lane Operation - High-Occupancy Vehicles (left lane) (post-mounted)",
+    "category": "regulatory",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/R03-11A.svg"
+  },
+  "R03-11B": {
+    "name": "Preferential Lane Operation - High-Occupancy Vehicles, Full-Time (post-mounted)",
+    "category": "regulatory",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/R03-11B.svg"
+  },
+  "R03-11C": {
+    "name": "Preferential Lane Operation - High-Occupancy Vehicles, Full-Time (2 Right Lanes) (post-mounted)",
+    "category": "regulatory",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/R03-11C.svg"
+  },
+  "R03-11D": {
+    "name": "Preferential Lane Operation (post-mounted)",
+    "category": "regulatory",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/R03-11D.svg"
+  },
+  "R03-11E": {
+    "name": "Preferential Lane Operation - Full-Time (Right Lane Buses Only) (post-mounted)",
+    "category": "regulatory",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/R03-11E.svg"
+  },
+  "R03-11F": {
+    "name": "Preferential Lane Operation (part-time travel on shoulder Buses Only) (post-mounted)",
+    "category": "regulatory",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/R03-11F.svg"
+  },
+  "R03-11G": {
+    "name": "Preferential Lane Operation - Full-Time (post-mounted)",
+    "category": "regulatory",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/R03-11G.svg"
+  },
+  "R03-11HP": {
+    "name": "Motorcycles Allowed (plaque)",
+    "category": "regulatory",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/R03-11HP.svg"
+  },
+  "R03-12": {
+    "name": "Preferential Lane Ahead - High-Occupancy Vehicles (post-mounted)",
+    "category": "regulatory",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/R03-12.svg"
+  },
+  "R03-12A": {
+    "name": "Preferential Lane Ends - High-Occupancy Vehicles (post-mounted)",
+    "category": "regulatory",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/R03-12A.svg"
+  },
+  "R03-12B": {
+    "name": "Preferential Lane Ends - High-Occupancy Vehicles (post-mounted)",
+    "category": "regulatory",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/R03-12B.svg"
+  },
+  "R03-12C": {
+    "name": "Preferential Lane Restriction Ends - High-Occupancy Vehicles (post-mounted)",
+    "category": "regulatory",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/R03-12C.svg"
+  },
+  "R03-12D": {
+    "name": "Preferential Lane Restriction Ends - High-Occupancy Vehicles (post-mounted)",
+    "category": "regulatory",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/R03-12D.svg"
+  },
+  "R03-12E": {
+    "name": "HOV Lane Advance (post-mounted)",
+    "category": "regulatory",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/R03-12E.svg"
+  },
+  "R03-12F": {
+    "name": "Preferential Lane Ahead - Bus (post-mounted)",
+    "category": "regulatory",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/R03-12F.svg"
+  },
+  "R03-12G": {
+    "name": "Preferential Lane Ends - Bus (post-mounted)",
+    "category": "regulatory",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/R03-12G.svg"
+  },
+  "R03-12H": {
+    "name": "Preferential Lane Ends Advance (post-mounted)",
+    "category": "regulatory",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/R03-12H.svg"
+  },
+  "R03-13": {
+    "name": "Preferential Lane Vehicle Occupancy Definition (overhead)",
+    "category": "regulatory",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/R03-13.svg"
+  },
+  "R03-13A": {
+    "name": "Preferential Lane Vehicle Occupancy Definition (overhead)",
+    "category": "regulatory",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/R03-13A.svg"
+  },
+  "R03-14": {
+    "name": "HOV Lane Operation (overhead)",
+    "category": "regulatory",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/R03-14.svg"
+  },
+  "R03-14A": {
+    "name": "HOV Lane Operation (overhead)",
+    "category": "regulatory",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/R03-14A.svg"
+  },
+  "R03-14B": {
+    "name": "HOV Lane Operation (overhead)",
+    "category": "regulatory",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/R03-14B.svg"
+  },
+  "R03-14C": {
+    "name": "Preferential Lane Operation (overhead)",
+    "category": "regulatory",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/R03-14C.svg"
+  },
+  "R03-15": {
+    "name": "HOV Lane Ahead (overhead)",
+    "category": "regulatory",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/R03-15.svg"
+  },
+  "R03-15A": {
+    "name": "HOV Lane Advance (overhead)",
+    "category": "regulatory",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/R03-15A.svg"
+  },
+  "R03-15B": {
+    "name": "HOV Lane Ends (overhead)",
+    "category": "regulatory",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/R03-15B.svg"
+  },
+  "R03-15C": {
+    "name": "HOV Lane Ends - Restriction (overhead)",
+    "category": "regulatory",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/R03-15C.svg"
+  },
+  "R03-15D": {
+    "name": "Preferential Lane Ahead - Bus (overhead)",
+    "category": "regulatory",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/R03-15D.svg"
+  },
+  "R03-15E": {
+    "name": "Preferential Lane Ahead or Ends (overhead)",
+    "category": "regulatory",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/R03-15E.svg"
+  },
+  "R03-17": {
+    "name": "Bike Lane",
+    "category": "regulatory",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/R03-17.svg"
+  },
+  "R03-17AP": {
+    "name": "Ahead (plaque)",
+    "category": "regulatory",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/R03-17AP.svg"
+  },
+  "R03-17BP": {
+    "name": "Bike Lane Ends (plaque)",
+    "category": "regulatory",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/R03-17BP.svg"
+  },
+  "R03-18": {
+    "name": "Movement Prohibition - No U or Left Turn",
+    "category": "regulatory",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/R03-18.svg"
+  },
+  "R03-19": {
+    "name": "Lane for Left Turn Only",
+    "category": "regulatory",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/R03-19.svg"
+  },
+  "R03-19A": {
+    "name": "Lane for U Turn Only",
+    "category": "regulatory",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/R03-19A.svg"
+  },
+  "R03-19B": {
+    "name": "Lane for U and Left Turns Only",
+    "category": "regulatory",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/R03-19B.svg"
+  },
+  "R03-20": {
+    "name": "Begin Right (Left) Turn Lane",
+    "category": "regulatory",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/R03-20.svg"
+  },
+  "R03-23": {
+    "name": "All Turns from Right Lane",
+    "category": "regulatory",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/R03-23.svg"
+  },
+  "R03-23A": {
+    "name": "U Turn from Right Lane",
+    "category": "regulatory",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/R03-23A.svg"
+  },
+  "R03-24": {
+    "name": "All Turns Directional (Oblique)",
+    "category": "regulatory",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/R03-24.svg"
+  },
+  "R03-24A": {
+    "name": "U and Left Turns Directional (Oblique)",
+    "category": "regulatory",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/R03-24A.svg"
+  },
+  "R03-24B": {
+    "name": "U Turn Directional (Oblique)",
+    "category": "regulatory",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/R03-24B.svg"
+  },
+  "R03-25": {
+    "name": "All Turns Directional",
+    "category": "regulatory",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/R03-25.svg"
+  },
+  "R03-25A": {
+    "name": "U and Left Turns Directional",
+    "category": "regulatory",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/R03-25A.svg"
+  },
+  "R03-25B": {
+    "name": "U Turn Directional",
+    "category": "regulatory",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/R03-25B.svg"
+  },
+  "R03-26": {
+    "name": "U and Left Turns Directional (Through)",
+    "category": "regulatory",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/R03-26.svg"
+  },
+  "R03-26A": {
+    "name": "U Turn Directional (Through)",
+    "category": "regulatory",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/R03-26A.svg"
+  },
+  "R03-27": {
+    "name": "Movement Prohibition - No Straight Through",
+    "category": "regulatory",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/R03-27.svg"
+  },
+  "R03-28": {
+    "name": "Toll Rate",
+    "category": "regulatory",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/R03-28.svg"
+  },
+  "R03-29P": {
+    "name": "Pay Toll (plaque)",
+    "category": "regulatory",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/R03-29P.svg"
+  },
+  "R03-30P": {
+    "name": "Take Ticket (plaque)",
+    "category": "regulatory",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/R03-30P.svg"
+  },
+  "R03-31": {
+    "name": "ETC Account-Only",
+    "category": "regulatory",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/R03-31.svg"
+  },
+  "R03-32P": {
+    "name": "No Cash (plaque)",
+    "category": "regulatory",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/R03-32P.svg"
+  },
+  "R03-33": {
+    "name": "Right (Left) Lane Must Exit",
+    "category": "regulatory",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/R03-33.svg"
+  },
+  "R03-33A": {
+    "name": "Left Lane Must Exit",
+    "category": "regulatory",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/R03-33A.svg"
+  },
+  "R03-40": {
+    "name": "Priced Managed Lane Vehicle Occupancy (post-mounted)",
+    "category": "regulatory",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/R03-40.svg"
+  },
+  "R03-42": {
+    "name": "Priced Managed Lane Ends (post-mounted)",
+    "category": "regulatory",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/R03-42.svg"
+  },
+  "R03-42A": {
+    "name": "Priced Managed Lane Ends Advance (post-mounted)",
+    "category": "regulatory",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/R03-42A.svg"
+  },
+  "R03-42B": {
+    "name": "Priced Managed Lane Restriction Ends (post-mounted)",
+    "category": "regulatory",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/R03-42B.svg"
+  },
+  "R03-42C": {
+    "name": "Priced Managed Lane Restriction Ends Advance (post-mounted)",
+    "category": "regulatory",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/R03-42C.svg"
+  },
+  "R03-43": {
+    "name": "Priced Managed Lane Vehicle Occupancy Definition",
+    "category": "regulatory",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/R03-43.svg"
+  },
+  "R03-44": {
+    "name": "Priced Managed Lane Operation (overhead)",
+    "category": "regulatory",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/R03-44.svg"
+  },
+  "R03-44A": {
+    "name": "Priced Managed Lane Operation (overhead)",
+    "category": "regulatory",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/R03-44A.svg"
+  },
+  "R03-44B": {
+    "name": "Priced Managed Lane Operation (overhead)",
+    "category": "regulatory",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/R03-44B.svg"
+  },
+  "R03-45": {
+    "name": "Priced Managed Lane Ends (overhead)",
+    "category": "regulatory",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/R03-45.svg"
+  },
+  "R03-45A": {
+    "name": "Priced Managed Lane Restriction Ends (overhead)",
+    "category": "regulatory",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/R03-45A.svg"
+  },
+  "R03-48": {
+    "name": "Priced Managed Lane Toll Rate",
+    "category": "regulatory",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/R03-48.svg"
+  },
+  "R03-48A": {
+    "name": "Priced Managed Lane Toll Rate",
+    "category": "regulatory",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/R03-48A.svg"
+  },
+  "R03-51": {
+    "name": "Part-Time Travel on Shoulder Operation",
+    "category": "regulatory",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/R03-51.svg"
+  },
+  "R03-51AP": {
+    "name": "No Trucks (plaque)",
+    "category": "regulatory",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/R03-51AP.svg"
+  },
+  "R03-51BP": {
+    "name": "No Trucks or Buses (plaque)",
+    "category": "regulatory",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/R03-51BP.svg"
+  },
+  "R03-51CP": {
+    "name": "Emergency Stopping Only Other Times (plaque)",
+    "category": "regulatory",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/R03-51CP.svg"
+  },
+  "R03-51D": {
+    "name": "Part-Time Travel on Shoulder Variable Operation",
+    "category": "regulatory",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/R03-51D.svg"
+  },
+  "R03-51E": {
+    "name": "Part-Time Travel on Shoulder on Green Arrow",
+    "category": "regulatory",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/R03-51E.svg"
+  },
+  "R03-52": {
+    "name": "Part-Time Travel on Shoulder Ends",
+    "category": "regulatory",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/R03-52.svg"
+  },
+  "R03-52A": {
+    "name": "Part-Time Travel on Shoulder Ends Advance",
+    "category": "regulatory",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/R03-52A.svg"
+  },
+  "R03-52B": {
+    "name": "Shoulder Must Exit Advance",
+    "category": "regulatory",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/R03-52B.svg"
+  },
+  "R03-52C": {
+    "name": "Part-Time Travel on Shoulder Begins Advance",
+    "category": "regulatory",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/R03-52C.svg"
+  },
+  "R03-56": {
+    "name": "Begin Exit Lane",
+    "category": "regulatory",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/R03-56.svg"
+  },
+  "R03-57P": {
+    "name": "To Traffic on Shoulder (plaque)",
+    "category": "regulatory",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/R03-57P.svg"
+  },
+  "R04-01": {
+    "name": "Do Not Pass",
+    "category": "regulatory",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/R04-01.svg"
+  },
+  "R04-02": {
+    "name": "Pass With Care",
+    "category": "regulatory",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/R04-02.svg"
+  },
+  "R04-03": {
+    "name": "Slower Traffic Keep Right",
+    "category": "regulatory",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/R04-03.svg"
+  },
+  "R04-04": {
+    "name": "Begin Right Turn Lane Yield to Bikes",
+    "category": "regulatory",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/R04-04.svg"
+  },
+  "R04-05": {
+    "name": "Trucks Use Right Lane",
+    "category": "regulatory",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/R04-05.svg"
+  },
+  "R04-07": {
+    "name": "Keep Right",
+    "category": "regulatory",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/R04-07.svg"
+  },
+  "R04-07A": {
+    "name": "Keep Right",
+    "category": "regulatory",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/R04-07A.svg"
+  },
+  "R04-07B": {
+    "name": "Keep Right",
+    "category": "regulatory",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/R04-07B.svg"
+  },
+  "R04-07C": {
+    "name": "Narrow Keep Right",
+    "category": "regulatory",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/R04-07C.svg"
+  },
+  "R04-08": {
+    "name": "Keep Left",
+    "category": "regulatory",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/R04-08.svg"
+  },
+  "R04-08A": {
+    "name": "Keep Left",
+    "category": "regulatory",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/R04-08A.svg"
+  },
+  "R04-08B": {
+    "name": "Keep Left",
+    "category": "regulatory",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/R04-08B.svg"
+  },
+  "R04-08C": {
+    "name": "Narrow Keep Left",
+    "category": "regulatory",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/R04-08C.svg"
+  },
+  "R04-09": {
+    "name": "Stay In Lane",
+    "category": "regulatory",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/R04-09.svg"
+  },
+  "R04-09A": {
+    "name": "Stay in Lane to Merge Point",
+    "category": "regulatory",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/R04-09A.svg"
+  },
+  "R04-10": {
+    "name": "Runaway Vehicles Only",
+    "category": "regulatory",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/R04-10.svg"
+  },
+  "R04-12": {
+    "name": "Slow Vehicles with XX or More Following Vehicles Must Use Turn-Out",
+    "category": "regulatory",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/R04-12.svg"
+  },
+  "R04-13": {
+    "name": "Slow Vehicles Must Use Turn-Out Ahead",
+    "category": "regulatory",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/R04-13.svg"
+  },
+  "R04-14": {
+    "name": "Slow Vehicles Must Turn Out",
+    "category": "regulatory",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/R04-14.svg"
+  },
+  "R04-16": {
+    "name": "Keep Right Except to Pass",
+    "category": "regulatory",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/R04-16.svg"
+  },
+  "R04-17": {
+    "name": "Do Not Drive On Shoulder",
+    "category": "regulatory",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/R04-17.svg"
+  },
+  "R04-18": {
+    "name": "Do Not Pass on Shoulder",
+    "category": "regulatory",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/R04-18.svg"
+  },
+  "R04-19": {
+    "name": "Bicycles Passing Clearance",
+    "category": "regulatory",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/R04-19.svg"
+  },
+  "R04-20": {
+    "name": "All Traffic",
+    "category": "regulatory",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/R04-20.svg"
+  },
+  "R04-21": {
+    "name": "Right (Left) Turn Only",
+    "category": "regulatory",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/R04-21.svg"
+  },
+  "R05-01": {
+    "name": "Do Not Enter",
+    "category": "regulatory",
+    "shape": "circle",
+    "background": "red",
+    "svg": "svg/R05-01.svg"
+  },
+  "R05-01A": {
+    "name": "Wrong Way",
+    "category": "regulatory",
+    "shape": "rectangle",
+    "background": "red",
+    "svg": "svg/R05-01A.svg"
+  },
+  "R05-01B": {
+    "name": "Bicycle Wrong Way",
+    "category": "regulatory",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/R05-01B.svg"
+  },
+  "R05-02": {
+    "name": "No Trucks",
+    "category": "regulatory",
+    "shape": "circle",
+    "background": "white",
+    "svg": "svg/R05-02.svg"
+  },
+  "R05-02AP": {
+    "name": "Except Local Delivery (plaque)",
+    "category": "regulatory",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/R05-02AP.svg"
+  },
+  "R05-02B": {
+    "name": "No Thru Trucks",
+    "category": "regulatory",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/R05-02B.svg"
+  },
+  "R05-03": {
+    "name": "No Motor Vehicles",
+    "category": "regulatory",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/R05-03.svg"
+  },
+  "R05-04": {
+    "name": "No Commercial Vehicles",
+    "category": "regulatory",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/R05-04.svg"
+  },
+  "R05-05": {
+    "name": "No Vehicles with Lugs",
+    "category": "regulatory",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/R05-05.svg"
+  },
+  "R05-06": {
+    "name": "No Bicycles",
+    "category": "regulatory",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/R05-06.svg"
+  },
+  "R05-07": {
+    "name": "No Non-Motorized Traffic",
+    "category": "regulatory",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/R05-07.svg"
+  },
+  "R05-08": {
+    "name": "No Motor-Driven Cycles",
+    "category": "regulatory",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/R05-08.svg"
+  },
+  "R05-10": {
+    "name": "No Pedestrians, Bicycles, Motor-Driven Cycles",
+    "category": "regulatory",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/R05-10.svg"
+  },
+  "R05-10A": {
+    "name": "No Pedestrians, Bicycles, Motor-Driven Cycles on Freeway",
+    "category": "regulatory",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/R05-10A.svg"
+  },
+  "R05-10B": {
+    "name": "No Pedestrians or Bicycles",
+    "category": "regulatory",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/R05-10B.svg"
+  },
+  "R05-10C": {
+    "name": "No Pedestrians",
+    "category": "regulatory",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/R05-10C.svg"
+  },
+  "R05-10DP": {
+    "name": "On Freeway (plaque)",
+    "category": "regulatory",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/R05-10DP.svg"
+  },
+  "R05-11": {
+    "name": "Authorized Vehicles Only",
+    "category": "regulatory",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/R05-11.svg"
+  },
+  "R05-12": {
+    "name": "No Thru Traffic",
+    "category": "regulatory",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/R05-12.svg"
+  },
+  "R06-01": {
+    "name": "One Way",
+    "category": "regulatory",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/R06-01.svg"
+  },
+  "R06-02": {
+    "name": "One Way",
+    "category": "regulatory",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/R06-02.svg"
+  },
+  "R06-03": {
+    "name": "Divided Highway Crossing (crossing both lanes)",
+    "category": "regulatory",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/R06-03.svg"
+  },
+  "R06-05P": {
+    "name": "Roundabout Circulation (plaque)",
+    "category": "regulatory",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/R06-05P.svg"
+  },
+  "R06-06": {
+    "name": "Begin One Way",
+    "category": "regulatory",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/R06-06.svg"
+  },
+  "R06-07": {
+    "name": "End One Way",
+    "category": "regulatory",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/R06-07.svg"
+  },
+  "R07-01": {
+    "name": "No Parking Any Time",
+    "category": "regulatory",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/R07-01.svg"
+  },
+  "R07-02": {
+    "name": "No Parking (Part-Time)",
+    "category": "regulatory",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/R07-02.svg"
+  },
+  "R07-02A": {
+    "name": "No Parking (Part-Time)",
+    "category": "regulatory",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/R07-02A.svg"
+  },
+  "R07-03": {
+    "name": "No Parking Except Sundays and Holidays",
+    "category": "regulatory",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/R07-03.svg"
+  },
+  "R07-04": {
+    "name": "No Standing Any Time",
+    "category": "regulatory",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/R07-04.svg"
+  },
+  "R07-04A": {
+    "name": "No Stopping Any Time",
+    "category": "regulatory",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/R07-04A.svg"
+  },
+  "R07-05": {
+    "name": "Parking Permitted (Time Limit)",
+    "category": "regulatory",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/R07-05.svg"
+  },
+  "R07-06": {
+    "name": "No Parking Loading Zone",
+    "category": "regulatory",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/R07-06.svg"
+  },
+  "R07-08": {
+    "name": "Reserved Parking - Accessible",
+    "category": "regulatory",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/R07-08.svg"
+  },
+  "R07-08AP": {
+    "name": "Van Accessible (plaque)",
+    "category": "regulatory",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/R07-08AP.svg"
+  },
+  "R07-09": {
+    "name": "No Parking Bike Lane",
+    "category": "regulatory",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/R07-09.svg"
+  },
+  "R07-09A": {
+    "name": "No Parking Bike Lane",
+    "category": "regulatory",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/R07-09A.svg"
+  },
+  "R07-10": {
+    "name": "Back-In Parking",
+    "category": "regulatory",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/R07-10.svg"
+  },
+  "R07-107": {
+    "name": "No Parking Bus Stop",
+    "category": "regulatory",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/R07-107.svg"
+  },
+  "R07-107A": {
+    "name": "No Parking Bus Stop",
+    "category": "regulatory",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/R07-107A.svg"
+  },
+  "R07-107B": {
+    "name": "No Parking Bus Stop (with transit pictograph)",
+    "category": "regulatory",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/R07-107B.svg"
+  },
+  "R07-108": {
+    "name": "Parking Allowed (Time Limit, Part-Time)",
+    "category": "regulatory",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/R07-108.svg"
+  },
+  "R07-111": {
+    "name": "No Parking Except Electric Vehicles",
+    "category": "regulatory",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/R07-111.svg"
+  },
+  "R07-111A": {
+    "name": "No Parking Except Electric Vehicles (Part-Time)",
+    "category": "regulatory",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/R07-111A.svg"
+  },
+  "R07-112": {
+    "name": "Electric Vehicle Parking (Time Limit)",
+    "category": "regulatory",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/R07-112.svg"
+  },
+  "R07-112A": {
+    "name": "Electric Vehicle Parking (Time Limit, Part-Time)",
+    "category": "regulatory",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/R07-112A.svg"
+  },
+  "R07-112B": {
+    "name": "Electric Vehicle Parking (Time Limit, Part-Time)",
+    "category": "regulatory",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/R07-112B.svg"
+  },
+  "R07-113": {
+    "name": "No Parking Except While Charging",
+    "category": "regulatory",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/R07-113.svg"
+  },
+  "R07-113AP": {
+    "name": "Vehicle Must be Plugged In (plaque)",
+    "category": "regulatory",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/R07-113AP.svg"
+  },
+  "R07-113BP": {
+    "name": "Vacate Stall When Charging Completed (plaque)",
+    "category": "regulatory",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/R07-113BP.svg"
+  },
+  "R07-114": {
+    "name": "Vehicle Charging Only (Time Limit)",
+    "category": "regulatory",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/R07-114.svg"
+  },
+  "R07-114A": {
+    "name": "Vehicle Charging (Time Limit, Part-Time)",
+    "category": "regulatory",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/R07-114A.svg"
+  },
+  "R07-114B": {
+    "name": "Vehicle Charging Only (Time Limit, Part-Time)",
+    "category": "regulatory",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/R07-114B.svg"
+  },
+  "R07-20": {
+    "name": "Parking Fee Station, Multispace Meter",
+    "category": "regulatory",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/R07-20.svg"
+  },
+  "R07-200": {
+    "name": "No Parking-Restricted Parking (combined sign)",
+    "category": "regulatory",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/R07-200.svg"
+  },
+  "R07-200A": {
+    "name": "No Parking_Restricted Parking (combined sign)",
+    "category": "regulatory",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/R07-200A.svg"
+  },
+  "R07-201AP": {
+    "name": "Tow Away Zone (plaque)",
+    "category": "regulatory",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/R07-201AP.svg"
+  },
+  "R07-201P": {
+    "name": "Tow Away Zone (plaque)",
+    "category": "regulatory",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/R07-201P.svg"
+  },
+  "R07-202P": {
+    "name": "This Side of Sign (plaque)",
+    "category": "regulatory",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/R07-202P.svg"
+  },
+  "R07-203": {
+    "name": "Snow Emergency Route",
+    "category": "regulatory",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/R07-203.svg"
+  },
+  "R07-21": {
+    "name": "Parking Allowed - Metered (Time Limit)",
+    "category": "regulatory",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/R07-21.svg"
+  },
+  "R07-21AP": {
+    "name": "Mobile Parking Payment (plaque)",
+    "category": "regulatory",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/R07-21AP.svg"
+  },
+  "R07-22": {
+    "name": "Parking Allowed - Metered",
+    "category": "regulatory",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/R07-22.svg"
+  },
+  "R08-01": {
+    "name": "No Parking on Pavement",
+    "category": "regulatory",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/R08-01.svg"
+  },
+  "R08-02": {
+    "name": "No Parking Except on Shoulder",
+    "category": "regulatory",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/R08-02.svg"
+  },
+  "R08-03": {
+    "name": "No Parking (symbol)",
+    "category": "regulatory",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/R08-03.svg"
+  },
+  "R08-03A": {
+    "name": "No Parking",
+    "category": "regulatory",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/R08-03A.svg"
+  },
+  "R08-03C": {
+    "name": "No Parking (Symbol) On Pavement",
+    "category": "regulatory",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/R08-03C.svg"
+  },
+  "R08-03D": {
+    "name": "No Parking (Symbol) On Bridge",
+    "category": "regulatory",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/R08-03D.svg"
+  },
+  "R08-03E": {
+    "name": "No Parking (Symbol) On Tracks",
+    "category": "regulatory",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/R08-03E.svg"
+  },
+  "R08-03F": {
+    "name": "No Parking (Symbol) Except On Shoulder",
+    "category": "regulatory",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/R08-03F.svg"
+  },
+  "R08-04": {
+    "name": "Emergency Parking Only",
+    "category": "regulatory",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/R08-04.svg"
+  },
+  "R08-05": {
+    "name": "No Stopping on Pavement",
+    "category": "regulatory",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/R08-05.svg"
+  },
+  "R08-06": {
+    "name": "No Stopping Except on Shoulder",
+    "category": "regulatory",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/R08-06.svg"
+  },
+  "R08-07": {
+    "name": "Emergency Stopping Only",
+    "category": "regulatory",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/R08-07.svg"
+  },
+  "R08-08": {
+    "name": "Do Not Stop On Tracks",
+    "category": "regulatory",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/R08-08.svg"
+  },
+  "R08-09": {
+    "name": "Tracks Out of Service",
+    "category": "regulatory",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/R08-09.svg"
+  },
+  "R08-10": {
+    "name": "Stop Here When Flashing",
+    "category": "regulatory",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/R08-10.svg"
+  },
+  "R08-10A": {
+    "name": "Stop Here When Flashing",
+    "category": "regulatory",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/R08-10A.svg"
+  },
+  "R09-01": {
+    "name": "Walk on Left Facing Traffic",
+    "category": "regulatory",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/R09-01.svg"
+  },
+  "R09-02": {
+    "name": "Cross Only at Crosswalks",
+    "category": "regulatory",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/R09-02.svg"
+  },
+  "R09-03": {
+    "name": "No Pedestrian Crossing",
+    "category": "regulatory",
+    "shape": "circle",
+    "background": "white",
+    "svg": "svg/R09-03.svg"
+  },
+  "R09-03A": {
+    "name": "No Pedestrian Crossing",
+    "category": "regulatory",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/R09-03A.svg"
+  },
+  "R09-03BP": {
+    "name": "Use Crosswalk (plaque)",
+    "category": "regulatory",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/R09-03BP.svg"
+  },
+  "R09-03CP": {
+    "name": "Ride With Traffic (plaque)",
+    "category": "regulatory",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/R09-03CP.svg"
+  },
+  "R09-04": {
+    "name": "No Hitchhiking (symbol)",
+    "category": "regulatory",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/R09-04.svg"
+  },
+  "R09-04A": {
+    "name": "No Hitchhiking",
+    "category": "regulatory",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/R09-04A.svg"
+  },
+  "R09-05": {
+    "name": "Bicycles Use Pedestrian Signal",
+    "category": "regulatory",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/R09-05.svg"
+  },
+  "R09-06": {
+    "name": "Bicycles Yield to Pedestrians",
+    "category": "regulatory",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/R09-06.svg"
+  },
+  "R09-07": {
+    "name": "Shared-Use Path Restriction",
+    "category": "regulatory",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/R09-07.svg"
+  },
+  "R09-08": {
+    "name": "Pedestrian Crosswalk",
+    "category": "regulatory",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/R09-08.svg"
+  },
+  "R09-09": {
+    "name": "Sidewalk Closed",
+    "category": "regulatory",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/R09-09.svg"
+  },
+  "R09-10": {
+    "name": "Sidewalk Closed, Use Other Side",
+    "category": "regulatory",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/R09-10.svg"
+  },
+  "R09-11": {
+    "name": "Sidewalk Closed Ahead, Cross Here",
+    "category": "regulatory",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/R09-11.svg"
+  },
+  "R09-11A": {
+    "name": "Sidewalk Closed, Cross Here",
+    "category": "regulatory",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/R09-11A.svg"
+  },
+  "R09-12": {
+    "name": "Bike Lane Closed",
+    "category": "regulatory",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/R09-12.svg"
+  },
+  "R09-13": {
+    "name": "No Skaters 30x30",
+    "category": "regulatory",
+    "shape": "circle",
+    "background": "white",
+    "svg": "svg/R09-13.svg"
+  },
+  "R09-14": {
+    "name": "No Equestrians",
+    "category": "regulatory",
+    "shape": "circle",
+    "background": "white",
+    "svg": "svg/R09-14.svg"
+  },
+  "R09-15": {
+    "name": "No Snowmobiles",
+    "category": "regulatory",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/R09-15.svg"
+  },
+  "R09-16": {
+    "name": "No All-Terrain Vehicles",
+    "category": "regulatory",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/R09-16.svg"
+  },
+  "R09-19P": {
+    "name": "Except On Shoulder (plaque)",
+    "category": "regulatory",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/R09-19P.svg"
+  },
+  "R09-20": {
+    "name": "Bicycles Allowed Use of Full Lane",
+    "category": "regulatory",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/R09-20.svg"
+  },
+  "R09-21": {
+    "name": "Bicycles Use Shoulder Only",
+    "category": "regulatory",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/R09-21.svg"
+  },
+  "R09-22": {
+    "name": "Bicycles Must Exit",
+    "category": "regulatory",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/R09-22.svg"
+  },
+  "R09-23": {
+    "name": "Bicycle All Turns from Bike Lane",
+    "category": "regulatory",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/R09-23.svg"
+  },
+  "R09-23A": {
+    "name": "Bicycle Left Turn from Bike Lane",
+    "category": "regulatory",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/R09-23A.svg"
+  },
+  "R09-23B": {
+    "name": "Bicycle Left Turn Must Use Turn Box",
+    "category": "regulatory",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/R09-23B.svg"
+  },
+  "R09-23C": {
+    "name": "Bicycle Left Turn Must Use Turn Box (with arrow, oblique)",
+    "category": "regulatory",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/R09-23C.svg"
+  },
+  "R09-24": {
+    "name": "Bicycle All Turns (with arrow, oblique)",
+    "category": "regulatory",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/R09-24.svg"
+  },
+  "R09-24A": {
+    "name": "Bicycle All Turns (with arrow, horizontal)",
+    "category": "regulatory",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/R09-24A.svg"
+  },
+  "R09-25": {
+    "name": "Bicycle U and Left Turns (with arrow, oblique)",
+    "category": "regulatory",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/R09-25.svg"
+  },
+  "R09-25A": {
+    "name": "Bicycle U and Left Turns (with arrow, horizontal)",
+    "category": "regulatory",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/R09-25A.svg"
+  },
+  "R09-25B": {
+    "name": "Bicycle U and Left Turns (with arrow, through)",
+    "category": "regulatory",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/R09-25B.svg"
+  },
+  "R09-26": {
+    "name": "Bicycle U Turn (with arrow, oblique)",
+    "category": "regulatory",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/R09-26.svg"
+  },
+  "R09-26A": {
+    "name": "Bicycle U Turn (with arrow, horizontal)",
+    "category": "regulatory",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/R09-26A.svg"
+  },
+  "R09-26B": {
+    "name": "Bicycle U Turn (with arrow, through)",
+    "category": "regulatory",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/R09-26B.svg"
+  },
+  "R09-27": {
+    "name": "Bicycle Left Turn (with arrow, oblique)",
+    "category": "regulatory",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/R09-27.svg"
+  },
+  "R09-27A": {
+    "name": "Bicycle Left Turn (with arrow, horizontal)",
+    "category": "regulatory",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/R09-27A.svg"
+  },
+  "R09-27B": {
+    "name": "Bicycle Left Turn (with arrow, through)",
+    "category": "regulatory",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/R09-27B.svg"
+  },
+  "R10-01": {
+    "name": "Cross Only on Green",
+    "category": "regulatory",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/R10-01.svg"
+  },
+  "R10-02": {
+    "name": "Cross Only on Walk Signal",
+    "category": "regulatory",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/R10-02.svg"
+  },
+  "R10-03": {
+    "name": "Push Button for Walk Signal",
+    "category": "regulatory",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/R10-03.svg"
+  },
+  "R10-03A": {
+    "name": "Push Button to Cross Street - Wait for Walk",
+    "category": "regulatory",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/R10-03A.svg"
+  },
+  "R10-03B": {
+    "name": "Push Button Educational",
+    "category": "regulatory",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/R10-03B.svg"
+  },
+  "R10-03C": {
+    "name": "Push Button Educational",
+    "category": "regulatory",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/R10-03C.svg"
+  },
+  "R10-03D": {
+    "name": "Push Button Educational - Two-Stage Crossing",
+    "category": "regulatory",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/R10-03D.svg"
+  },
+  "R10-03E": {
+    "name": "Push Button Educational - Countdown Signal",
+    "category": "regulatory",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/R10-03E.svg"
+  },
+  "R10-03F": {
+    "name": "Push Button Educational - Street Name",
+    "category": "regulatory",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/R10-03F.svg"
+  },
+  "R10-03G": {
+    "name": "Push Button Educational - Street Name",
+    "category": "regulatory",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/R10-03G.svg"
+  },
+  "R10-03H": {
+    "name": "Push Button Educational - Street Name - Two-Stage Crossing",
+    "category": "regulatory",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/R10-03H.svg"
+  },
+  "R10-03I": {
+    "name": "Push Button Educational - Countdown Signal - Street Name",
+    "category": "regulatory",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/R10-03I.svg"
+  },
+  "R10-04": {
+    "name": "Push Button for Green",
+    "category": "regulatory",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/R10-04.svg"
+  },
+  "R10-04A": {
+    "name": "Push Button - Wait for Green",
+    "category": "regulatory",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/R10-04A.svg"
+  },
+  "R10-05": {
+    "name": "Left on Green Arrow Only",
+    "category": "regulatory",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/R10-05.svg"
+  },
+  "R10-06": {
+    "name": "Stop Here on Red",
+    "category": "regulatory",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/R10-06.svg"
+  },
+  "R10-06A": {
+    "name": "Stop Here on Red",
+    "category": "regulatory",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/R10-06A.svg"
+  },
+  "R10-07": {
+    "name": "Do Not Block Intersection",
+    "category": "regulatory",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/R10-07.svg"
+  },
+  "R10-08": {
+    "name": "Use Lane with Green Arrow",
+    "category": "regulatory",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/R10-08.svg"
+  },
+  "R10-10A": {
+    "name": "U Turn Signal",
+    "category": "regulatory",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/R10-10A.svg"
+  },
+  "R10-10BR": {
+    "name": "Right (Left) Lane Signal",
+    "category": "regulatory",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/R10-10BR.svg"
+  },
+  "R10-10CR": {
+    "name": "Right (Left) Turn Lane Signal",
+    "category": "regulatory",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/R10-10CR.svg"
+  },
+  "R10-10R": {
+    "name": "Right (Left) Turn Signal",
+    "category": "regulatory",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/R10-10R.svg"
+  },
+  "R10-11": {
+    "name": "No Turn on Red",
+    "category": "regulatory",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/R10-11.svg"
+  },
+  "R10-11A": {
+    "name": "No Turn on Circular Red",
+    "category": "regulatory",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/R10-11A.svg"
+  },
+  "R10-11B": {
+    "name": "No Turn on Red",
+    "category": "regulatory",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/R10-11B.svg"
+  },
+  "R10-11C": {
+    "name": "No Turn on Red Except From Right Lane",
+    "category": "regulatory",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/R10-11C.svg"
+  },
+  "R10-11D": {
+    "name": "No Turn on Red From This Lane",
+    "category": "regulatory",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/R10-11D.svg"
+  },
+  "R10-12": {
+    "name": "Left Turn Yield on Green",
+    "category": "regulatory",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/R10-12.svg"
+  },
+  "R10-12A": {
+    "name": "Left Turn Yield on Flashing Yellow Arrow",
+    "category": "regulatory",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/R10-12A.svg"
+  },
+  "R10-12B": {
+    "name": "Left Turn Yield to Bicycle",
+    "category": "regulatory",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/R10-12B.svg"
+  },
+  "R10-13": {
+    "name": "Emergency Signal",
+    "category": "regulatory",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/R10-13.svg"
+  },
+  "R10-14": {
+    "name": "Emergency Signal - Stop on Flashing Red",
+    "category": "regulatory",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/R10-14.svg"
+  },
+  "R10-14A": {
+    "name": "Emergency Signal - Stop on Flashing Red (overhead)",
+    "category": "regulatory",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/R10-14A.svg"
+  },
+  "R10-14B": {
+    "name": "Stop Here on Flashing Red",
+    "category": "regulatory",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/R10-14B.svg"
+  },
+  "R10-15": {
+    "name": "Turning Vehicles Yield to Pedestrians",
+    "category": "regulatory",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/R10-15.svg"
+  },
+  "R10-15A": {
+    "name": "Turning Vehicles Stop for Pedestrians",
+    "category": "regulatory",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/R10-15A.svg"
+  },
+  "R10-16": {
+    "name": "U-Turn Yield to Right Turn",
+    "category": "regulatory",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/R10-16.svg"
+  },
+  "R10-17A": {
+    "name": "Right on Red Arrow After Stop",
+    "category": "regulatory",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/R10-17A.svg"
+  },
+  "R10-18": {
+    "name": "Traffic Laws Photo Enforced",
+    "category": "regulatory",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/R10-18.svg"
+  },
+  "R10-18A": {
+    "name": "Traffic Signal Photo Enforced",
+    "category": "regulatory",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/R10-18A.svg"
+  },
+  "R10-19AP": {
+    "name": "Photo Enforced (plaque)",
+    "category": "regulatory",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/R10-19AP.svg"
+  },
+  "R10-19P": {
+    "name": "Photo Enforced (symbol plaque)",
+    "category": "regulatory",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/R10-19P.svg"
+  },
+  "R10-20AP": {
+    "name": "SUNDAY (2 lines) MON-FRI (3 lines) (and times) (plaque)",
+    "category": "regulatory",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/R10-20AP.svg"
+  },
+  "R10-22": {
+    "name": "Bicycle Request Green Signal",
+    "category": "regulatory",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/R10-22.svg"
+  },
+  "R10-23": {
+    "name": "Crosswalk - Stop on Red",
+    "category": "regulatory",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/R10-23.svg"
+  },
+  "R10-23A": {
+    "name": "Stop On Red - Yield On Flashing Red After Stop",
+    "category": "regulatory",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/R10-23A.svg"
+  },
+  "R10-24": {
+    "name": "Bike Push Button for Green Light",
+    "category": "regulatory",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/R10-24.svg"
+  },
+  "R10-25": {
+    "name": "Push Button to Turn On Warning Lights",
+    "category": "regulatory",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/R10-25.svg"
+  },
+  "R10-26": {
+    "name": "Bike Push Button for Green Light (arrow)",
+    "category": "regulatory",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/R10-26.svg"
+  },
+  "R10-27": {
+    "name": "Left Turn Yield on Flashing Red Arrow After Stop",
+    "category": "regulatory",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/R10-27.svg"
+  },
+  "R10-28": {
+    "name": "XX Vehicles Per Green",
+    "category": "regulatory",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/R10-28.svg"
+  },
+  "R10-29": {
+    "name": "XX Vehicles Per Green Each Lane",
+    "category": "regulatory",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/R10-29.svg"
+  },
+  "R10-30": {
+    "name": "Right Turn on Red Must Yield to U-Turn",
+    "category": "regulatory",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/R10-30.svg"
+  },
+  "R10-31P": {
+    "name": "At Signal (plaque)",
+    "category": "regulatory",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/R10-31P.svg"
+  },
+  "R10-32P": {
+    "name": "Push Button for 2 Seconds for Extra Crossing Time",
+    "category": "regulatory",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/R10-32P.svg"
+  },
+  "R10-40": {
+    "name": "Bicycle Signal Mandatory Movement (Turn)",
+    "category": "regulatory",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/R10-40.svg"
+  },
+  "R10-40A": {
+    "name": "Bicycle Signal Mandatory Movement (Thru)",
+    "category": "regulatory",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/R10-40A.svg"
+  },
+  "R10-41": {
+    "name": "Bicycle Signal Optional Movement (Thru and Turn)",
+    "category": "regulatory",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/R10-41.svg"
+  },
+  "R10-41A": {
+    "name": "Bicycle Signal Optional Movement (Left and Right Turns)",
+    "category": "regulatory",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/R10-41A.svg"
+  },
+  "R10-41B": {
+    "name": "Bicycle Signal Optional Movement (All)",
+    "category": "regulatory",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/R10-41B.svg"
+  },
+  "R10-41C": {
+    "name": "Bicycle Signal Optional Movement (Left and Thru)",
+    "category": "regulatory",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/R10-41C.svg"
+  },
+  "R11-01": {
+    "name": "Keep Off Median",
+    "category": "regulatory",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/R11-01.svg"
+  },
+  "R11-02": {
+    "name": "Road Closed",
+    "category": "regulatory",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/R11-02.svg"
+  },
+  "R11-02A": {
+    "name": "Street Closed",
+    "category": "regulatory",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/R11-02A.svg"
+  },
+  "R11-02B": {
+    "name": "Bridge Out",
+    "category": "regulatory",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/R11-02B.svg"
+  },
+  "R11-02C": {
+    "name": "Path Closed",
+    "category": "regulatory",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/R11-02C.svg"
+  },
+  "R11-03": {
+    "name": "Road Closed - Local Traffic Only",
+    "category": "regulatory",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/R11-03.svg"
+  },
+  "R11-03A": {
+    "name": "Street Closed - Local Traffic Only",
+    "category": "regulatory",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/R11-03A.svg"
+  },
+  "R11-03B": {
+    "name": "Bridge Out - Local Traffic Only",
+    "category": "regulatory",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/R11-03B.svg"
+  },
+  "R11-04": {
+    "name": "Road Closed to Thru Traffic",
+    "category": "regulatory",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/R11-04.svg"
+  },
+  "R12-01": {
+    "name": "Weight Limit",
+    "category": "regulatory",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/R12-01.svg"
+  },
+  "R12-02": {
+    "name": "Weight Limit",
+    "category": "regulatory",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/R12-02.svg"
+  },
+  "R12-04": {
+    "name": "Weight Limit Per Axle and Gross",
+    "category": "regulatory",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/R12-04.svg"
+  },
+  "R12-05": {
+    "name": "Weight Limit",
+    "category": "regulatory",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/R12-05.svg"
+  },
+  "R12-06": {
+    "name": "Weight Limit - (Specialized Hauling Vehicles)",
+    "category": "regulatory",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/R12-06.svg"
+  },
+  "R12-07": {
+    "name": "Weight Limit - (Emergency Vehicles)",
+    "category": "regulatory",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/R12-07.svg"
+  },
+  "R12-07AP": {
+    "name": "Weight Limit - (Emergency Vehicles) (plaque)",
+    "category": "regulatory",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/R12-07AP.svg"
+  },
+  "R13-01": {
+    "name": "Weigh Station",
+    "category": "regulatory",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/R13-01.svg"
+  },
+  "R14-01": {
+    "name": "Truck Route",
+    "category": "regulatory",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/R14-01.svg"
+  },
+  "R14-02": {
+    "name": "Hazardous Material Route",
+    "category": "regulatory",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/R14-02.svg"
+  },
+  "R14-03": {
+    "name": "Hazardous Material Prohibition",
+    "category": "regulatory",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/R14-03.svg"
+  },
+  "R14-04": {
+    "name": "National Network Route",
+    "category": "regulatory",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/R14-04.svg"
+  },
+  "R14-05": {
+    "name": "National Network Route Prohibition",
+    "category": "regulatory",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/R14-05.svg"
+  },
+  "R15-01": {
+    "name": "Grade Crossing (Crossbuck)",
+    "category": "regulatory",
+    "shape": "crossbuck",
+    "background": "white",
+    "svg": "svg/R15-01.svg"
+  },
+  "R15-02P": {
+    "name": "Number of Tracks (Plaque)",
+    "category": "regulatory",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/R15-02P.svg"
+  },
+  "R15-03P": {
+    "name": "Exempt (Plaque)",
+    "category": "regulatory",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/R15-03P.svg"
+  },
+  "R15-04A": {
+    "name": "Light Rail Only Right Lane",
+    "category": "regulatory",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/R15-04A.svg"
+  },
+  "R15-04B": {
+    "name": "Light Rail Only Left Lane",
+    "category": "regulatory",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/R15-04B.svg"
+  },
+  "R15-04C": {
+    "name": "Light Rail Only Center Lane",
+    "category": "regulatory",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/R15-04C.svg"
+  },
+  "R15-05": {
+    "name": "Light Rail Do Not Pass",
+    "category": "regulatory",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/R15-05.svg"
+  },
+  "R15-05A": {
+    "name": "Do Not Pass Stopped Train",
+    "category": "regulatory",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/R15-05A.svg"
+  },
+  "R15-06": {
+    "name": "No Motor Vehicles on Tracks",
+    "category": "regulatory",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/R15-06.svg"
+  },
+  "R15-06A": {
+    "name": "Do Not Drive On Tracks",
+    "category": "regulatory",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/R15-06A.svg"
+  },
+  "R15-07": {
+    "name": "Light Rail Divided Highway Symbol",
+    "category": "regulatory",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/R15-07.svg"
+  },
+  "R15-07A": {
+    "name": "Light Rail Divided Highway Symbol (T-intersection)",
+    "category": "regulatory",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/R15-07A.svg"
+  },
+  "R15-08": {
+    "name": "Look",
+    "category": "regulatory",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/R15-08.svg"
+  },
+  "R16-03": {
+    "name": "Move Over or Reduce Speed",
+    "category": "regulatory",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/R16-03.svg"
+  },
+  "R16-04": {
+    "name": "Minor Crashes Move Vehicles from Travel Lanes",
+    "category": "regulatory",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/R16-04.svg"
+  },
+  "R16-05": {
+    "name": "Lights On When Using Wipers",
+    "category": "regulatory",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/R16-05.svg"
+  },
+  "R16-06": {
+    "name": "Lights On When Raining",
+    "category": "regulatory",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/R16-06.svg"
+  },
+  "R16-07": {
+    "name": "Turn On Headlights Next XX Miles",
+    "category": "regulatory",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/R16-07.svg"
+  },
+  "R16-08": {
+    "name": "Turn On Headlights",
+    "category": "regulatory",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/R16-08.svg"
+  },
+  "R16-09": {
+    "name": "Check Headlights",
+    "category": "regulatory",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/R16-09.svg"
+  },
+  "R16-10": {
+    "name": "Begin Daytime Headlight Section",
+    "category": "regulatory",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/R16-10.svg"
+  },
+  "R16-11": {
+    "name": "End Daytime Headlight Section",
+    "category": "regulatory",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/R16-11.svg"
+  },
+  "R16-15": {
+    "name": "No Hand-Held Phone Use By Driver",
+    "category": "regulatory",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/R16-15.svg"
+  },
+  "R16-15A": {
+    "name": "No Hand-Held Phone Use By Driver",
+    "category": "regulatory",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/R16-15A.svg"
+  },
+  "R22-02": {
+    "name": "Turn Off 2-Way Radio and Cell Phone",
+    "category": "regulatory",
+    "shape": "rectangle",
+    "background": "white",
+    "svg": "svg/R22-02.svg"
+  },
+  "S01-01": {
+    "name": "School",
+    "category": "school",
+    "shape": "pentagon",
+    "background": "fluorescent-yellow-green",
+    "svg": "svg/S01-01.svg"
+  },
+  "S03-01": {
+    "name": "School Bus Stop Ahead",
+    "category": "school",
+    "shape": "pentagon",
+    "background": "fluorescent-yellow-green",
+    "svg": "svg/S03-01.svg"
+  },
+  "S03-02": {
+    "name": "School Bus Turn Ahead",
+    "category": "school",
+    "shape": "pentagon",
+    "background": "fluorescent-yellow-green",
+    "svg": "svg/S03-02.svg"
+  },
+  "S04-01P": {
+    "name": "Time of Day (plaque) X-XX to X-XX AM    X-XX to X-XX PM",
+    "category": "school",
+    "shape": "pentagon",
+    "background": "fluorescent-yellow-green",
+    "svg": "svg/S04-01P.svg"
+  },
+  "S04-02P": {
+    "name": "When Children Are Present",
+    "category": "school",
+    "shape": "pentagon",
+    "background": "fluorescent-yellow-green",
+    "svg": "svg/S04-02P.svg"
+  },
+  "S04-03P": {
+    "name": "School",
+    "category": "school",
+    "shape": "pentagon",
+    "background": "fluorescent-yellow-green",
+    "svg": "svg/S04-03P.svg"
+  },
+  "S04-04P": {
+    "name": "When Flashing",
+    "category": "school",
+    "shape": "pentagon",
+    "background": "fluorescent-yellow-green",
+    "svg": "svg/S04-04P.svg"
+  },
+  "S04-05": {
+    "name": "Reduced School Speed Limit Ahead",
+    "category": "school",
+    "shape": "pentagon",
+    "background": "fluorescent-yellow-green",
+    "svg": "svg/S04-05.svg"
+  },
+  "S04-05A": {
+    "name": "Reduced School Speed Limit Ahead",
+    "category": "school",
+    "shape": "pentagon",
+    "background": "fluorescent-yellow-green",
+    "svg": "svg/S04-05A.svg"
+  },
+  "S04-06P": {
+    "name": "Mon-Fri",
+    "category": "school",
+    "shape": "pentagon",
+    "background": "fluorescent-yellow-green",
+    "svg": "svg/S04-06P.svg"
+  },
+  "S04-07P": {
+    "name": "All Year",
+    "category": "school",
+    "shape": "pentagon",
+    "background": "fluorescent-yellow-green",
+    "svg": "svg/S04-07P.svg"
+  },
+  "S05-01": {
+    "name": "School Speed Limit XX When Flashing",
+    "category": "school",
+    "shape": "pentagon",
+    "background": "fluorescent-yellow-green",
+    "svg": "svg/S05-01.svg"
+  },
+  "S05-02": {
+    "name": "End School Zone",
+    "category": "school",
+    "shape": "pentagon",
+    "background": "fluorescent-yellow-green",
+    "svg": "svg/S05-02.svg"
+  },
+  "S05-03": {
+    "name": "End School Speed Limit",
+    "category": "school",
+    "shape": "pentagon",
+    "background": "fluorescent-yellow-green",
+    "svg": "svg/S05-03.svg"
+  },
+  "W01-01": {
+    "name": "Horizontal Alignment - Turn",
+    "category": "warning",
+    "shape": "diamond",
+    "background": "yellow",
+    "svg": "svg/W01-01.svg"
+  },
+  "W01-02": {
+    "name": "Horizontal Alignment - Curve",
+    "category": "warning",
+    "shape": "diamond",
+    "background": "yellow",
+    "svg": "svg/W01-02.svg"
+  },
+  "W01-03": {
+    "name": "Horizontal Alignment - Reverse Turn",
+    "category": "warning",
+    "shape": "diamond",
+    "background": "yellow",
+    "svg": "svg/W01-03.svg"
+  },
+  "W01-04": {
+    "name": "Horizontal Alignment - Reverse Curve",
+    "category": "warning",
+    "shape": "diamond",
+    "background": "yellow",
+    "svg": "svg/W01-04.svg"
+  },
+  "W01-04B": {
+    "name": "Reverse Curve (2 lanes)",
+    "category": "warning",
+    "shape": "diamond",
+    "background": "yellow",
+    "svg": "svg/W01-04B.svg"
+  },
+  "W01-04C": {
+    "name": "Reverse Curve (3 lanes)",
+    "category": "warning",
+    "shape": "diamond",
+    "background": "yellow",
+    "svg": "svg/W01-04C.svg"
+  },
+  "W01-05": {
+    "name": "Horizontal Alignment - Winding Road",
+    "category": "warning",
+    "shape": "diamond",
+    "background": "yellow",
+    "svg": "svg/W01-05.svg"
+  },
+  "W01-06": {
+    "name": "Large Arrow (1-direction)",
+    "category": "warning",
+    "shape": "diamond",
+    "background": "yellow",
+    "svg": "svg/W01-06.svg"
+  },
+  "W01-07": {
+    "name": "Large Arrow (2-direction)",
+    "category": "warning",
+    "shape": "diamond",
+    "background": "yellow",
+    "svg": "svg/W01-07.svg"
+  },
+  "W01-08": {
+    "name": "Chevron Alignment",
+    "category": "warning",
+    "shape": "diamond",
+    "background": "yellow",
+    "svg": "svg/W01-08.svg"
+  },
+  "W01-10": {
+    "name": "Combination Horizontal Alignment_Intersection - Curve with T",
+    "category": "warning",
+    "shape": "diamond",
+    "background": "yellow",
+    "svg": "svg/W01-10.svg"
+  },
+  "W01-10A": {
+    "name": "Combination Horizontal Alignment_Intersection - Curve After 4-Way Intersection",
+    "category": "warning",
+    "shape": "diamond",
+    "background": "yellow",
+    "svg": "svg/W01-10A.svg"
+  },
+  "W01-10B": {
+    "name": "Combination Horizontal Alignment_Intersection - Curve with Minor Street Straight Ahead",
+    "category": "warning",
+    "shape": "diamond",
+    "background": "yellow",
+    "svg": "svg/W01-10B.svg"
+  },
+  "W01-10C": {
+    "name": "Combination Horizontal Alignment_Intersection - Curve Into Minor Street",
+    "category": "warning",
+    "shape": "diamond",
+    "background": "yellow",
+    "svg": "svg/W01-10C.svg"
+  },
+  "W01-10D": {
+    "name": "Combination Horizontal Alignment_Intersection - Reverse Curve with T-Intersection",
+    "category": "warning",
+    "shape": "diamond",
+    "background": "yellow",
+    "svg": "svg/W01-10D.svg"
+  },
+  "W01-10E": {
+    "name": "Combination Horizontal Alignment_Intersection - Reverse Curve with 4-Way Intersection",
+    "category": "warning",
+    "shape": "diamond",
+    "background": "yellow",
+    "svg": "svg/W01-10E.svg"
+  },
+  "W01-11": {
+    "name": "Hairpin Curve",
+    "category": "warning",
+    "shape": "diamond",
+    "background": "yellow",
+    "svg": "svg/W01-11.svg"
+  },
+  "W01-13": {
+    "name": "Truck Rollover",
+    "category": "warning",
+    "shape": "diamond",
+    "background": "yellow",
+    "svg": "svg/W01-13.svg"
+  },
+  "W01-15": {
+    "name": "270-degree Curve",
+    "category": "warning",
+    "shape": "diamond",
+    "background": "yellow",
+    "svg": "svg/W01-15.svg"
+  },
+  "W02-01": {
+    "name": "Intersection Warning - Crossroad",
+    "category": "warning",
+    "shape": "diamond",
+    "background": "yellow",
+    "svg": "svg/W02-01.svg"
+  },
+  "W02-02": {
+    "name": "Intersection Warning - Side Road",
+    "category": "warning",
+    "shape": "diamond",
+    "background": "yellow",
+    "svg": "svg/W02-02.svg"
+  },
+  "W02-03": {
+    "name": "Intersection Warning - Oblique Side Road (Obtuse)",
+    "category": "warning",
+    "shape": "diamond",
+    "background": "yellow",
+    "svg": "svg/W02-03.svg"
+  },
+  "W02-03A": {
+    "name": "Intersection Warning - Oblique Side Road (Acute)",
+    "category": "warning",
+    "shape": "diamond",
+    "background": "yellow",
+    "svg": "svg/W02-03A.svg"
+  },
+  "W02-04": {
+    "name": "Intersection Warning - T-Intersection",
+    "category": "warning",
+    "shape": "diamond",
+    "background": "yellow",
+    "svg": "svg/W02-04.svg"
+  },
+  "W02-05": {
+    "name": "Intersection Warning - Y-Intersection",
+    "category": "warning",
+    "shape": "diamond",
+    "background": "yellow",
+    "svg": "svg/W02-05.svg"
+  },
+  "W02-06": {
+    "name": "Intersection Warning - Circular",
+    "category": "warning",
+    "shape": "diamond",
+    "background": "yellow",
+    "svg": "svg/W02-06.svg"
+  },
+  "W02-07": {
+    "name": "Intersection Warning - Offset Side Roads",
+    "category": "warning",
+    "shape": "diamond",
+    "background": "yellow",
+    "svg": "svg/W02-07.svg"
+  },
+  "W02-08": {
+    "name": "Intersection Warning - Side Roads",
+    "category": "warning",
+    "shape": "diamond",
+    "background": "yellow",
+    "svg": "svg/W02-08.svg"
+  },
+  "W02-10": {
+    "name": "Traffic Entering When Flashing",
+    "category": "warning",
+    "shape": "diamond",
+    "background": "yellow",
+    "svg": "svg/W02-10.svg"
+  },
+  "W02-11": {
+    "name": "Traffic Approaching When Flashing",
+    "category": "warning",
+    "shape": "diamond",
+    "background": "yellow",
+    "svg": "svg/W02-11.svg"
+  },
+  "W03-01": {
+    "name": "Stop Ahead",
+    "category": "warning",
+    "shape": "diamond",
+    "background": "yellow",
+    "svg": "svg/W03-01.svg"
+  },
+  "W03-02": {
+    "name": "Yield Ahead",
+    "category": "warning",
+    "shape": "diamond",
+    "background": "yellow",
+    "svg": "svg/W03-02.svg"
+  },
+  "W03-03": {
+    "name": "Signal Ahead",
+    "category": "warning",
+    "shape": "diamond",
+    "background": "yellow",
+    "svg": "svg/W03-03.svg"
+  },
+  "W03-04": {
+    "name": "Be Prepared to Stop",
+    "category": "warning",
+    "shape": "diamond",
+    "background": "yellow",
+    "svg": "svg/W03-04.svg"
+  },
+  "W03-05": {
+    "name": "Reduced Speed Limit Ahead",
+    "category": "warning",
+    "shape": "diamond",
+    "background": "yellow",
+    "svg": "svg/W03-05.svg"
+  },
+  "W03-05A": {
+    "name": "XX MPH Speed Zone Ahead",
+    "category": "warning",
+    "shape": "diamond",
+    "background": "yellow",
+    "svg": "svg/W03-05A.svg"
+  },
+  "W03-05B": {
+    "name": "Variable Speed Zone Ahead",
+    "category": "warning",
+    "shape": "diamond",
+    "background": "yellow",
+    "svg": "svg/W03-05B.svg"
+  },
+  "W03-05C": {
+    "name": "XX MPH Truck Speed Zone Ahead",
+    "category": "warning",
+    "shape": "diamond",
+    "background": "yellow",
+    "svg": "svg/W03-05C.svg"
+  },
+  "W03-06": {
+    "name": "Draw Bridge",
+    "category": "warning",
+    "shape": "diamond",
+    "background": "yellow",
+    "svg": "svg/W03-06.svg"
+  },
+  "W03-07": {
+    "name": "Ramp Meter Ahead",
+    "category": "warning",
+    "shape": "diamond",
+    "background": "yellow",
+    "svg": "svg/W03-07.svg"
+  },
+  "W03-08": {
+    "name": "Ramp Metered When Flashing",
+    "category": "warning",
+    "shape": "diamond",
+    "background": "yellow",
+    "svg": "svg/W03-08.svg"
+  },
+  "W03-09": {
+    "name": "Traffic Using Shoulder",
+    "category": "warning",
+    "shape": "diamond",
+    "background": "yellow",
+    "svg": "svg/W03-09.svg"
+  },
+  "W04-01": {
+    "name": "Merge",
+    "category": "warning",
+    "shape": "diamond",
+    "background": "yellow",
+    "svg": "svg/W04-01.svg"
+  },
+  "W04-02": {
+    "name": "Lane Ends",
+    "category": "warning",
+    "shape": "diamond",
+    "background": "yellow",
+    "svg": "svg/W04-02.svg"
+  },
+  "W04-03": {
+    "name": "Added Lane",
+    "category": "warning",
+    "shape": "diamond",
+    "background": "yellow",
+    "svg": "svg/W04-03.svg"
+  },
+  "W04-04AP": {
+    "name": "Traffic From Right (Left) Does Not Stop (plaque)",
+    "category": "warning",
+    "shape": "diamond",
+    "background": "yellow",
+    "svg": "svg/W04-04AP.svg"
+  },
+  "W04-04BP": {
+    "name": "Oncoming Traffic Does Not Stop (plaque)",
+    "category": "warning",
+    "shape": "diamond",
+    "background": "yellow",
+    "svg": "svg/W04-04BP.svg"
+  },
+  "W04-04P": {
+    "name": "Cross Traffic Does Not Stop (plaque)",
+    "category": "warning",
+    "shape": "diamond",
+    "background": "yellow",
+    "svg": "svg/W04-04P.svg"
+  },
+  "W04-05": {
+    "name": "Entering Roadway Merge",
+    "category": "warning",
+    "shape": "diamond",
+    "background": "yellow",
+    "svg": "svg/W04-05.svg"
+  },
+  "W04-05AP": {
+    "name": "No Merge Area (plaque)",
+    "category": "warning",
+    "shape": "diamond",
+    "background": "yellow",
+    "svg": "svg/W04-05AP.svg"
+  },
+  "W04-06": {
+    "name": "Entering Roadway Added Lane",
+    "category": "warning",
+    "shape": "diamond",
+    "background": "yellow",
+    "svg": "svg/W04-06.svg"
+  },
+  "W04-07": {
+    "name": "Heavy Merge From Right (Left)",
+    "category": "warning",
+    "shape": "diamond",
+    "background": "yellow",
+    "svg": "svg/W04-07.svg"
+  },
+  "W04-08": {
+    "name": "Single-Lane Transition",
+    "category": "warning",
+    "shape": "diamond",
+    "background": "yellow",
+    "svg": "svg/W04-08.svg"
+  },
+  "W05-01": {
+    "name": "Road Narrows",
+    "category": "warning",
+    "shape": "diamond",
+    "background": "yellow",
+    "svg": "svg/W05-01.svg"
+  },
+  "W05-02": {
+    "name": "Narrow Bridge",
+    "category": "warning",
+    "shape": "diamond",
+    "background": "yellow",
+    "svg": "svg/W05-02.svg"
+  },
+  "W05-02A": {
+    "name": "Narrow Underpass",
+    "category": "warning",
+    "shape": "diamond",
+    "background": "yellow",
+    "svg": "svg/W05-02A.svg"
+  },
+  "W05-03": {
+    "name": "One Lane Bridge",
+    "category": "warning",
+    "shape": "diamond",
+    "background": "yellow",
+    "svg": "svg/W05-03.svg"
+  },
+  "W05-03A": {
+    "name": "One Lane Underpass",
+    "category": "warning",
+    "shape": "diamond",
+    "background": "yellow",
+    "svg": "svg/W05-03A.svg"
+  },
+  "W05-04": {
+    "name": "Ramp Narrows",
+    "category": "warning",
+    "shape": "diamond",
+    "background": "yellow",
+    "svg": "svg/W05-04.svg"
+  },
+  "W05-04A": {
+    "name": "Path Narrows",
+    "category": "warning",
+    "shape": "diamond",
+    "background": "yellow",
+    "svg": "svg/W05-04A.svg"
+  },
+  "W06-01": {
+    "name": "Divided Highway",
+    "category": "warning",
+    "shape": "diamond",
+    "background": "yellow",
+    "svg": "svg/W06-01.svg"
+  },
+  "W06-02": {
+    "name": "Divided Highway Ends",
+    "category": "warning",
+    "shape": "diamond",
+    "background": "yellow",
+    "svg": "svg/W06-02.svg"
+  },
+  "W06-03": {
+    "name": "Two-Way Traffic",
+    "category": "warning",
+    "shape": "diamond",
+    "background": "yellow",
+    "svg": "svg/W06-03.svg"
+  },
+  "W06-04": {
+    "name": "Narrow Two-Way Traffic",
+    "category": "warning",
+    "shape": "diamond",
+    "background": "yellow",
+    "svg": "svg/W06-04.svg"
+  },
+  "W06-05": {
+    "name": "Two-Way Traffic (3-Lane)",
+    "category": "warning",
+    "shape": "diamond",
+    "background": "yellow",
+    "svg": "svg/W06-05.svg"
+  },
+  "W06-05A": {
+    "name": "Two-Way Traffic (3-Lane)",
+    "category": "warning",
+    "shape": "diamond",
+    "background": "yellow",
+    "svg": "svg/W06-05A.svg"
+  },
+  "W07-01": {
+    "name": "Hill",
+    "category": "warning",
+    "shape": "diamond",
+    "background": "yellow",
+    "svg": "svg/W07-01.svg"
+  },
+  "W07-01A": {
+    "name": "Hill with Grade",
+    "category": "warning",
+    "shape": "diamond",
+    "background": "yellow",
+    "svg": "svg/W07-01A.svg"
+  },
+  "W07-02BP": {
+    "name": "Trucks Use Lower Gear (plaque)",
+    "category": "warning",
+    "shape": "diamond",
+    "background": "yellow",
+    "svg": "svg/W07-02BP.svg"
+  },
+  "W07-02P": {
+    "name": "Use Low Gear (plaque)",
+    "category": "warning",
+    "shape": "diamond",
+    "background": "yellow",
+    "svg": "svg/W07-02P.svg"
+  },
+  "W07-03AP": {
+    "name": "Next XX Miles (plaque)",
+    "category": "warning",
+    "shape": "diamond",
+    "background": "yellow",
+    "svg": "svg/W07-03AP.svg"
+  },
+  "W07-03BP": {
+    "name": "XX% Grade, XX Miles (plaque)",
+    "category": "warning",
+    "shape": "diamond",
+    "background": "yellow",
+    "svg": "svg/W07-03BP.svg"
+  },
+  "W07-03P": {
+    "name": "XX% Grade (plaque)",
+    "category": "warning",
+    "shape": "diamond",
+    "background": "yellow",
+    "svg": "svg/W07-03P.svg"
+  },
+  "W07-04": {
+    "name": "Runaway Truck Ramp XX Miles",
+    "category": "warning",
+    "shape": "diamond",
+    "background": "yellow",
+    "svg": "svg/W07-04.svg"
+  },
+  "W07-04B": {
+    "name": "Runaway Truck Ramp Entrance Direction",
+    "category": "warning",
+    "shape": "diamond",
+    "background": "yellow",
+    "svg": "svg/W07-04B.svg"
+  },
+  "W07-04C": {
+    "name": "Truck Escape Ramp",
+    "category": "warning",
+    "shape": "diamond",
+    "background": "yellow",
+    "svg": "svg/W07-04C.svg"
+  },
+  "W07-04DP": {
+    "name": "Sand (Plaque)",
+    "category": "warning",
+    "shape": "diamond",
+    "background": "yellow",
+    "svg": "svg/W07-04DP.svg"
+  },
+  "W07-04EP": {
+    "name": "Gravel (Plaque)",
+    "category": "warning",
+    "shape": "diamond",
+    "background": "yellow",
+    "svg": "svg/W07-04EP.svg"
+  },
+  "W07-04FP": {
+    "name": "Paved (Plaque)",
+    "category": "warning",
+    "shape": "diamond",
+    "background": "yellow",
+    "svg": "svg/W07-04FP.svg"
+  },
+  "W07-05": {
+    "name": "Hill (Bicycle)",
+    "category": "warning",
+    "shape": "diamond",
+    "background": "yellow",
+    "svg": "svg/W07-05.svg"
+  },
+  "W07-06": {
+    "name": "Hill Blocks View",
+    "category": "warning",
+    "shape": "diamond",
+    "background": "yellow",
+    "svg": "svg/W07-06.svg"
+  },
+  "W08-01": {
+    "name": "Bump",
+    "category": "warning",
+    "shape": "diamond",
+    "background": "yellow",
+    "svg": "svg/W08-01.svg"
+  },
+  "W08-02": {
+    "name": "Dip",
+    "category": "warning",
+    "shape": "diamond",
+    "background": "yellow",
+    "svg": "svg/W08-02.svg"
+  },
+  "W08-03": {
+    "name": "Pavement Ends",
+    "category": "warning",
+    "shape": "diamond",
+    "background": "yellow",
+    "svg": "svg/W08-03.svg"
+  },
+  "W08-04": {
+    "name": "Soft Shoulder",
+    "category": "warning",
+    "shape": "diamond",
+    "background": "yellow",
+    "svg": "svg/W08-04.svg"
+  },
+  "W08-05": {
+    "name": "Slippery When Wet",
+    "category": "warning",
+    "shape": "diamond",
+    "background": "yellow",
+    "svg": "svg/W08-05.svg"
+  },
+  "W08-05AP": {
+    "name": "Ice (plaque)",
+    "category": "warning",
+    "shape": "diamond",
+    "background": "yellow",
+    "svg": "svg/W08-05AP.svg"
+  },
+  "W08-05BP": {
+    "name": "Steel Deck (plaque)",
+    "category": "warning",
+    "shape": "diamond",
+    "background": "yellow",
+    "svg": "svg/W08-05BP.svg"
+  },
+  "W08-05CP": {
+    "name": "Excess Oil (plaque)",
+    "category": "warning",
+    "shape": "diamond",
+    "background": "yellow",
+    "svg": "svg/W08-05CP.svg"
+  },
+  "W08-05P": {
+    "name": "When Wet (plaque)",
+    "category": "warning",
+    "shape": "diamond",
+    "background": "yellow",
+    "svg": "svg/W08-05P.svg"
+  },
+  "W08-06": {
+    "name": "Truck Crossing",
+    "category": "warning",
+    "shape": "diamond",
+    "background": "yellow",
+    "svg": "svg/W08-06.svg"
+  },
+  "W08-07": {
+    "name": "Loose Gravel",
+    "category": "warning",
+    "shape": "diamond",
+    "background": "yellow",
+    "svg": "svg/W08-07.svg"
+  },
+  "W08-08": {
+    "name": "Rough Road",
+    "category": "warning",
+    "shape": "diamond",
+    "background": "yellow",
+    "svg": "svg/W08-08.svg"
+  },
+  "W08-09": {
+    "name": "Low Shoulder",
+    "category": "warning",
+    "shape": "diamond",
+    "background": "yellow",
+    "svg": "svg/W08-09.svg"
+  },
+  "W08-10": {
+    "name": "Bicycle Surface Condition",
+    "category": "warning",
+    "shape": "diamond",
+    "background": "yellow",
+    "svg": "svg/W08-10.svg"
+  },
+  "W08-10P": {
+    "name": "Slippery When Wet (plaque)",
+    "category": "warning",
+    "shape": "diamond",
+    "background": "yellow",
+    "svg": "svg/W08-10P.svg"
+  },
+  "W08-11": {
+    "name": "Uneven Lanes",
+    "category": "warning",
+    "shape": "diamond",
+    "background": "yellow",
+    "svg": "svg/W08-11.svg"
+  },
+  "W08-12": {
+    "name": "No Center Line",
+    "category": "warning",
+    "shape": "diamond",
+    "background": "yellow",
+    "svg": "svg/W08-12.svg"
+  },
+  "W08-13": {
+    "name": "Bridge Ices Before Road",
+    "category": "warning",
+    "shape": "diamond",
+    "background": "yellow",
+    "svg": "svg/W08-13.svg"
+  },
+  "W08-14": {
+    "name": "Fallen Rocks",
+    "category": "warning",
+    "shape": "diamond",
+    "background": "yellow",
+    "svg": "svg/W08-14.svg"
+  },
+  "W08-15": {
+    "name": "Grooved Pavement",
+    "category": "warning",
+    "shape": "diamond",
+    "background": "yellow",
+    "svg": "svg/W08-15.svg"
+  },
+  "W08-15AP": {
+    "name": "Motorcycle (plaque)",
+    "category": "warning",
+    "shape": "diamond",
+    "background": "yellow",
+    "svg": "svg/W08-15AP.svg"
+  },
+  "W08-16": {
+    "name": "Metal Bridge Deck",
+    "category": "warning",
+    "shape": "diamond",
+    "background": "yellow",
+    "svg": "svg/W08-16.svg"
+  },
+  "W08-17": {
+    "name": "Shoulder Drop-off",
+    "category": "warning",
+    "shape": "diamond",
+    "background": "yellow",
+    "svg": "svg/W08-17.svg"
+  },
+  "W08-17P": {
+    "name": "Shoulder Drop-Off (plaque)",
+    "category": "warning",
+    "shape": "diamond",
+    "background": "yellow",
+    "svg": "svg/W08-17P.svg"
+  },
+  "W08-18": {
+    "name": "Road May Flood",
+    "category": "warning",
+    "shape": "diamond",
+    "background": "yellow",
+    "svg": "svg/W08-18.svg"
+  },
+  "W08-19": {
+    "name": "Depth Gauge",
+    "category": "warning",
+    "shape": "diamond",
+    "background": "yellow",
+    "svg": "svg/W08-19.svg"
+  },
+  "W08-21": {
+    "name": "Gusty Winds Area",
+    "category": "warning",
+    "shape": "diamond",
+    "background": "yellow",
+    "svg": "svg/W08-21.svg"
+  },
+  "W08-22": {
+    "name": "Fog Area",
+    "category": "warning",
+    "shape": "diamond",
+    "background": "yellow",
+    "svg": "svg/W08-22.svg"
+  },
+  "W08-23": {
+    "name": "No Shoulder",
+    "category": "warning",
+    "shape": "diamond",
+    "background": "yellow",
+    "svg": "svg/W08-23.svg"
+  },
+  "W08-24": {
+    "name": "Steel Plate Ahead",
+    "category": "warning",
+    "shape": "diamond",
+    "background": "yellow",
+    "svg": "svg/W08-24.svg"
+  },
+  "W08-25": {
+    "name": "Shoulder Ends",
+    "category": "warning",
+    "shape": "diamond",
+    "background": "yellow",
+    "svg": "svg/W08-25.svg"
+  },
+  "W08-26": {
+    "name": "Road Ends Advance",
+    "category": "warning",
+    "shape": "diamond",
+    "background": "yellow",
+    "svg": "svg/W08-26.svg"
+  },
+  "W08-26A": {
+    "name": "Street Ends Advance",
+    "category": "warning",
+    "shape": "diamond",
+    "background": "yellow",
+    "svg": "svg/W08-26A.svg"
+  },
+  "W09-01": {
+    "name": "Right (Left) Lane Ends",
+    "category": "warning",
+    "shape": "diamond",
+    "background": "yellow",
+    "svg": "svg/W09-01.svg"
+  },
+  "W09-02A": {
+    "name": "Merge Here Take Turns",
+    "category": "warning",
+    "shape": "diamond",
+    "background": "yellow",
+    "svg": "svg/W09-02A.svg"
+  },
+  "W09-03": {
+    "name": "Interior Lane Shift Ahead",
+    "category": "warning",
+    "shape": "diamond",
+    "background": "yellow",
+    "svg": "svg/W09-03.svg"
+  },
+  "W09-04": {
+    "name": "Lanes Merge",
+    "category": "warning",
+    "shape": "diamond",
+    "background": "yellow",
+    "svg": "svg/W09-04.svg"
+  },
+  "W09-05": {
+    "name": "Bicycle Lane Ends",
+    "category": "warning",
+    "shape": "diamond",
+    "background": "yellow",
+    "svg": "svg/W09-05.svg"
+  },
+  "W09-05A": {
+    "name": "Bicycles Merging",
+    "category": "warning",
+    "shape": "diamond",
+    "background": "yellow",
+    "svg": "svg/W09-05A.svg"
+  },
+  "W09-06": {
+    "name": "Pay Toll XX Miles Cars (price)",
+    "category": "warning",
+    "shape": "diamond",
+    "background": "yellow",
+    "svg": "svg/W09-06.svg"
+  },
+  "W09-06A": {
+    "name": "Stop Ahead Pay Toll Cars (price)",
+    "category": "warning",
+    "shape": "diamond",
+    "background": "yellow",
+    "svg": "svg/W09-06A.svg"
+  },
+  "W09-06BP": {
+    "name": "Pay Toll XX Miles Cars (price) (plaque)",
+    "category": "warning",
+    "shape": "diamond",
+    "background": "yellow",
+    "svg": "svg/W09-06BP.svg"
+  },
+  "W09-06CP": {
+    "name": "Stop Ahead Pay Toll (plaque)",
+    "category": "warning",
+    "shape": "diamond",
+    "background": "yellow",
+    "svg": "svg/W09-06CP.svg"
+  },
+  "W09-06DP": {
+    "name": "Stop Ahead Pay Toll (plaque)",
+    "category": "warning",
+    "shape": "diamond",
+    "background": "yellow",
+    "svg": "svg/W09-06DP.svg"
+  },
+  "W09-06E": {
+    "name": "Take Ticket XX Miles",
+    "category": "warning",
+    "shape": "diamond",
+    "background": "yellow",
+    "svg": "svg/W09-06E.svg"
+  },
+  "W09-06F": {
+    "name": "Stop Ahead Take Ticket",
+    "category": "warning",
+    "shape": "diamond",
+    "background": "yellow",
+    "svg": "svg/W09-06F.svg"
+  },
+  "W09-06GP": {
+    "name": "Take Ticket XX Miles (plaque)",
+    "category": "warning",
+    "shape": "diamond",
+    "background": "yellow",
+    "svg": "svg/W09-06GP.svg"
+  },
+  "W09-06HP": {
+    "name": "Stop Ahead Take Ticket (plaque)",
+    "category": "warning",
+    "shape": "diamond",
+    "background": "yellow",
+    "svg": "svg/W09-06HP.svg"
+  },
+  "W09-07": {
+    "name": "Right (Left) Lane for Exit Only",
+    "category": "warning",
+    "shape": "diamond",
+    "background": "yellow",
+    "svg": "svg/W09-07.svg"
+  },
+  "W10-01": {
+    "name": "Grade Crossing Advance Warning",
+    "category": "warning",
+    "shape": "diamond",
+    "background": "yellow",
+    "svg": "svg/W10-01.svg"
+  },
+  "W10-01AP": {
+    "name": "Exempt (plaque)",
+    "category": "warning",
+    "shape": "diamond",
+    "background": "yellow",
+    "svg": "svg/W10-01AP.svg"
+  },
+  "W10-02": {
+    "name": "Grade Crossing Advance Warning - Crossroad with Grade Crossing",
+    "category": "warning",
+    "shape": "diamond",
+    "background": "yellow",
+    "svg": "svg/W10-02.svg"
+  },
+  "W10-03": {
+    "name": "Grade Crossing Advance Warning - Side Road with Grade Crossing",
+    "category": "warning",
+    "shape": "diamond",
+    "background": "yellow",
+    "svg": "svg/W10-03.svg"
+  },
+  "W10-04": {
+    "name": "Grade Crossing Advance Warning - T-Intersection with Grade Crossing",
+    "category": "warning",
+    "shape": "diamond",
+    "background": "yellow",
+    "svg": "svg/W10-04.svg"
+  },
+  "W10-05": {
+    "name": "Low Ground Clearance",
+    "category": "warning",
+    "shape": "diamond",
+    "background": "yellow",
+    "svg": "svg/W10-05.svg"
+  },
+  "W10-05P": {
+    "name": "Low Ground Clearance (plaque)",
+    "category": "warning",
+    "shape": "diamond",
+    "background": "yellow",
+    "svg": "svg/W10-05P.svg"
+  },
+  "W10-07": {
+    "name": "Light Rail Activated Blank-Out Symbol",
+    "category": "warning",
+    "shape": "diamond",
+    "background": "yellow",
+    "svg": "svg/W10-07.svg"
+  },
+  "W10-08": {
+    "name": "Trains May Exceed 80 mph",
+    "category": "warning",
+    "shape": "diamond",
+    "background": "yellow",
+    "svg": "svg/W10-08.svg"
+  },
+  "W10-09": {
+    "name": "No Train Horn",
+    "category": "warning",
+    "shape": "diamond",
+    "background": "yellow",
+    "svg": "svg/W10-09.svg"
+  },
+  "W10-09P": {
+    "name": "No Train Horn (plaque)",
+    "category": "warning",
+    "shape": "diamond",
+    "background": "yellow",
+    "svg": "svg/W10-09P.svg"
+  },
+  "W10-11": {
+    "name": "Storage Space",
+    "category": "warning",
+    "shape": "diamond",
+    "background": "yellow",
+    "svg": "svg/W10-11.svg"
+  },
+  "W10-11A": {
+    "name": "Storage Space",
+    "category": "warning",
+    "shape": "diamond",
+    "background": "yellow",
+    "svg": "svg/W10-11A.svg"
+  },
+  "W10-11B": {
+    "name": "Storage Space Behind",
+    "category": "warning",
+    "shape": "diamond",
+    "background": "yellow",
+    "svg": "svg/W10-11B.svg"
+  },
+  "W10-12": {
+    "name": "Skewed Grade Crossing",
+    "category": "warning",
+    "shape": "diamond",
+    "background": "yellow",
+    "svg": "svg/W10-12.svg"
+  },
+  "W10-13P": {
+    "name": "No Gates or Lights (plaque)",
+    "category": "warning",
+    "shape": "diamond",
+    "background": "yellow",
+    "svg": "svg/W10-13P.svg"
+  },
+  "W10-14AP": {
+    "name": "Use Next Crossing (plaque)",
+    "category": "warning",
+    "shape": "diamond",
+    "background": "yellow",
+    "svg": "svg/W10-14AP.svg"
+  },
+  "W10-14P": {
+    "name": "Next Crossing (plaque)",
+    "category": "warning",
+    "shape": "diamond",
+    "background": "yellow",
+    "svg": "svg/W10-14P.svg"
+  },
+  "W10-15P": {
+    "name": "Rough Crossing (plaque)",
+    "category": "warning",
+    "shape": "diamond",
+    "background": "yellow",
+    "svg": "svg/W10-15P.svg"
+  },
+  "W10-16": {
+    "name": "Activated Blank-Out",
+    "category": "warning",
+    "shape": "diamond",
+    "background": "yellow",
+    "svg": "svg/W10-16.svg"
+  },
+  "W10-21": {
+    "name": "Busway Crossing",
+    "category": "warning",
+    "shape": "diamond",
+    "background": "yellow",
+    "svg": "svg/W10-21.svg"
+  },
+  "W10-21AP": {
+    "name": "Signal Ahead (plaque)",
+    "category": "warning",
+    "shape": "diamond",
+    "background": "yellow",
+    "svg": "svg/W10-21AP.svg"
+  },
+  "W11-01": {
+    "name": "Bicycle",
+    "category": "warning",
+    "shape": "diamond",
+    "background": "yellow",
+    "svg": "svg/W11-01.svg"
+  },
+  "W11-02": {
+    "name": "Pedestrian",
+    "category": "warning",
+    "shape": "diamond",
+    "background": "yellow",
+    "svg": "svg/W11-02.svg"
+  },
+  "W11-03": {
+    "name": "Large Animal - Deer",
+    "category": "warning",
+    "shape": "diamond",
+    "background": "yellow",
+    "svg": "svg/W11-03.svg"
+  },
+  "W11-04": {
+    "name": "Large Animal - Cattle",
+    "category": "warning",
+    "shape": "diamond",
+    "background": "yellow",
+    "svg": "svg/W11-04.svg"
+  },
+  "W11-05": {
+    "name": "Farm Vehicle",
+    "category": "warning",
+    "shape": "diamond",
+    "background": "yellow",
+    "svg": "svg/W11-05.svg"
+  },
+  "W11-06": {
+    "name": "Snowmobile",
+    "category": "warning",
+    "shape": "diamond",
+    "background": "yellow",
+    "svg": "svg/W11-06.svg"
+  },
+  "W11-07": {
+    "name": "Equestrian",
+    "category": "warning",
+    "shape": "diamond",
+    "background": "yellow",
+    "svg": "svg/W11-07.svg"
+  },
+  "W11-08": {
+    "name": "Emergency Vehicle",
+    "category": "warning",
+    "shape": "diamond",
+    "background": "yellow",
+    "svg": "svg/W11-08.svg"
+  },
+  "W11-09": {
+    "name": "Handicapped",
+    "category": "warning",
+    "shape": "diamond",
+    "background": "yellow",
+    "svg": "svg/W11-09.svg"
+  },
+  "W11-10": {
+    "name": "Truck",
+    "category": "warning",
+    "shape": "diamond",
+    "background": "yellow",
+    "svg": "svg/W11-10.svg"
+  },
+  "W11-11": {
+    "name": "Golf Cart",
+    "category": "warning",
+    "shape": "diamond",
+    "background": "yellow",
+    "svg": "svg/W11-11.svg"
+  },
+  "W11-12P": {
+    "name": "Emergency Signal Ahead (plaque)",
+    "category": "warning",
+    "shape": "diamond",
+    "background": "yellow",
+    "svg": "svg/W11-12P.svg"
+  },
+  "W11-14": {
+    "name": "Horse-Drawn Vehicle",
+    "category": "warning",
+    "shape": "diamond",
+    "background": "yellow",
+    "svg": "svg/W11-14.svg"
+  },
+  "W11-15": {
+    "name": "Trail Crossing",
+    "category": "warning",
+    "shape": "diamond",
+    "background": "yellow",
+    "svg": "svg/W11-15.svg"
+  },
+  "W11-15A": {
+    "name": "Trail Crossing",
+    "category": "warning",
+    "shape": "diamond",
+    "background": "yellow",
+    "svg": "svg/W11-15A.svg"
+  },
+  "W11-15P": {
+    "name": "Trail Crossing (plaque)",
+    "category": "warning",
+    "shape": "diamond",
+    "background": "yellow",
+    "svg": "svg/W11-15P.svg"
+  },
+  "W11-16": {
+    "name": "Large Animal - Bear",
+    "category": "warning",
+    "shape": "diamond",
+    "background": "yellow",
+    "svg": "svg/W11-16.svg"
+  },
+  "W11-17": {
+    "name": "Large Animal - Sheep",
+    "category": "warning",
+    "shape": "diamond",
+    "background": "yellow",
+    "svg": "svg/W11-17.svg"
+  },
+  "W11-18": {
+    "name": "Large Animal - Bighorn Sheep",
+    "category": "warning",
+    "shape": "diamond",
+    "background": "yellow",
+    "svg": "svg/W11-18.svg"
+  },
+  "W11-19": {
+    "name": "Large Animal - Donkey",
+    "category": "warning",
+    "shape": "diamond",
+    "background": "yellow",
+    "svg": "svg/W11-19.svg"
+  },
+  "W11-20": {
+    "name": "Large Animal - Elk",
+    "category": "warning",
+    "shape": "diamond",
+    "background": "yellow",
+    "svg": "svg/W11-20.svg"
+  },
+  "W11-21": {
+    "name": "Large Animal - Moose",
+    "category": "warning",
+    "shape": "diamond",
+    "background": "yellow",
+    "svg": "svg/W11-21.svg"
+  },
+  "W11-22": {
+    "name": "Large Animal - Wild Horse",
+    "category": "warning",
+    "shape": "diamond",
+    "background": "yellow",
+    "svg": "svg/W11-22.svg"
+  },
+  "W12-01": {
+    "name": "Double Arrow",
+    "category": "warning",
+    "shape": "diamond",
+    "background": "yellow",
+    "svg": "svg/W12-01.svg"
+  },
+  "W12-02": {
+    "name": "Low Clearance Advance",
+    "category": "warning",
+    "shape": "diamond",
+    "background": "yellow",
+    "svg": "svg/W12-02.svg"
+  },
+  "W12-02A": {
+    "name": "Low Clearance Overhead",
+    "category": "warning",
+    "shape": "diamond",
+    "background": "yellow",
+    "svg": "svg/W12-02A.svg"
+  },
+  "W12-02B": {
+    "name": "Low Clearance - Lane Overhead",
+    "category": "warning",
+    "shape": "diamond",
+    "background": "yellow",
+    "svg": "svg/W12-02B.svg"
+  },
+  "W13-01AP": {
+    "name": "Advisory Speed Confirmation (plaque)",
+    "category": "warning",
+    "shape": "diamond",
+    "background": "yellow",
+    "svg": "svg/W13-01AP.svg"
+  },
+  "W13-01P": {
+    "name": "Advisory Speed (plaque)",
+    "category": "warning",
+    "shape": "diamond",
+    "background": "yellow",
+    "svg": "svg/W13-01P.svg"
+  },
+  "W13-02": {
+    "name": "Advisory Exit Speed",
+    "category": "warning",
+    "shape": "diamond",
+    "background": "yellow",
+    "svg": "svg/W13-02.svg"
+  },
+  "W13-03": {
+    "name": "Advisory Ramp Speed",
+    "category": "warning",
+    "shape": "diamond",
+    "background": "yellow",
+    "svg": "svg/W13-03.svg"
+  },
+  "W13-04P": {
+    "name": "On Ramp (plaque)",
+    "category": "warning",
+    "shape": "diamond",
+    "background": "yellow",
+    "svg": "svg/W13-04P.svg"
+  },
+  "W13-06": {
+    "name": "Combination Horizontal Alignment Advisory Exit Speed",
+    "category": "warning",
+    "shape": "diamond",
+    "background": "yellow",
+    "svg": "svg/W13-06.svg"
+  },
+  "W13-07": {
+    "name": "Combination Horizontal Alignment-Advisory Ramp Speed",
+    "category": "warning",
+    "shape": "diamond",
+    "background": "yellow",
+    "svg": "svg/W13-07.svg"
+  },
+  "W13-08": {
+    "name": "Combination Horizontal Alignment-Advisory Exit Speed",
+    "category": "warning",
+    "shape": "diamond",
+    "background": "yellow",
+    "svg": "svg/W13-08.svg"
+  },
+  "W13-09": {
+    "name": "Combination Horizontal Alignment- Advisory Ramp Speed",
+    "category": "warning",
+    "shape": "diamond",
+    "background": "yellow",
+    "svg": "svg/W13-09.svg"
+  },
+  "W13-10": {
+    "name": "Combination Horizontal Alignment-Advisory Exit Speed - Turn",
+    "category": "warning",
+    "shape": "diamond",
+    "background": "yellow",
+    "svg": "svg/W13-10.svg"
+  },
+  "W13-11": {
+    "name": "Combination Horizontal Alignment-Advisory Ramp Speed - Turn",
+    "category": "warning",
+    "shape": "diamond",
+    "background": "yellow",
+    "svg": "svg/W13-11.svg"
+  },
+  "W13-12": {
+    "name": "Combination Horizontal Alignment-Advisory Exit Speed-Truck Rollover",
+    "category": "warning",
+    "shape": "diamond",
+    "background": "yellow",
+    "svg": "svg/W13-12.svg"
+  },
+  "W13-13": {
+    "name": "Combination Horizontal Alignment-Advisory Ramp Speed-Truck Rollover",
+    "category": "warning",
+    "shape": "diamond",
+    "background": "yellow",
+    "svg": "svg/W13-13.svg"
+  },
+  "W13-20": {
+    "name": "Variable Speed Feedback",
+    "category": "warning",
+    "shape": "diamond",
+    "background": "yellow",
+    "svg": "svg/W13-20.svg"
+  },
+  "W13-20AP": {
+    "name": "Variable Speed Feedback (plaque)",
+    "category": "warning",
+    "shape": "diamond",
+    "background": "yellow",
+    "svg": "svg/W13-20AP.svg"
+  },
+  "W14-01": {
+    "name": "Dead End",
+    "category": "warning",
+    "shape": "diamond",
+    "background": "yellow",
+    "svg": "svg/W14-01.svg"
+  },
+  "W14-01AR": {
+    "name": "Dead End (with arrow)",
+    "category": "warning",
+    "shape": "diamond",
+    "background": "yellow",
+    "svg": "svg/W14-01AR.svg"
+  },
+  "W14-02": {
+    "name": "No Outlet",
+    "category": "warning",
+    "shape": "diamond",
+    "background": "yellow",
+    "svg": "svg/W14-02.svg"
+  },
+  "W14-02A": {
+    "name": "No Outlet (with arrow)",
+    "category": "warning",
+    "shape": "diamond",
+    "background": "yellow",
+    "svg": "svg/W14-02A.svg"
+  },
+  "W14-03": {
+    "name": "No Passing Zone",
+    "category": "warning",
+    "shape": "diamond",
+    "background": "yellow",
+    "svg": "svg/W14-03.svg"
+  },
+  "W15-01": {
+    "name": "Playground",
+    "category": "warning",
+    "shape": "diamond",
+    "background": "yellow",
+    "svg": "svg/W15-01.svg"
+  },
+  "W16-01AP": {
+    "name": "In Street (plaque)",
+    "category": "warning",
+    "shape": "diamond",
+    "background": "yellow",
+    "svg": "svg/W16-01AP.svg"
+  },
+  "W16-01P": {
+    "name": "In Road (plaque)",
+    "category": "warning",
+    "shape": "diamond",
+    "background": "yellow",
+    "svg": "svg/W16-01P.svg"
+  },
+  "W16-02AP": {
+    "name": "XX Ft (1-line plaque)",
+    "category": "warning",
+    "shape": "diamond",
+    "background": "yellow",
+    "svg": "svg/W16-02AP.svg"
+  },
+  "W16-02P": {
+    "name": "XX Feet (2-line plaque)",
+    "category": "warning",
+    "shape": "diamond",
+    "background": "yellow",
+    "svg": "svg/W16-02P.svg"
+  },
+  "W16-03AP": {
+    "name": "XX Miles (1-line plaque)",
+    "category": "warning",
+    "shape": "diamond",
+    "background": "yellow",
+    "svg": "svg/W16-03AP.svg"
+  },
+  "W16-03P": {
+    "name": "XX Miles (2-line plaque)",
+    "category": "warning",
+    "shape": "diamond",
+    "background": "yellow",
+    "svg": "svg/W16-03P.svg"
+  },
+  "W16-04P": {
+    "name": "Next XX Feet (plaque)",
+    "category": "warning",
+    "shape": "diamond",
+    "background": "yellow",
+    "svg": "svg/W16-04P.svg"
+  },
+  "W16-05P": {
+    "name": "Directional Arrow (plaque)",
+    "category": "warning",
+    "shape": "diamond",
+    "background": "yellow",
+    "svg": "svg/W16-05P.svg"
+  },
+  "W16-06P": {
+    "name": "Advance Turn Arrow (plaque)",
+    "category": "warning",
+    "shape": "diamond",
+    "background": "yellow",
+    "svg": "svg/W16-06P.svg"
+  },
+  "W16-07AP": {
+    "name": "Dual Downward Diagonal Arrow (plaque)",
+    "category": "warning",
+    "shape": "diamond",
+    "background": "yellow",
+    "svg": "svg/W16-07AP.svg"
+  },
+  "W16-07P": {
+    "name": "Downward Diagonal Arrow (plaque)",
+    "category": "warning",
+    "shape": "diamond",
+    "background": "yellow",
+    "svg": "svg/W16-07P.svg"
+  },
+  "W16-08AP": {
+    "name": "Advance Street Name (2-line plaque)",
+    "category": "warning",
+    "shape": "diamond",
+    "background": "yellow",
+    "svg": "svg/W16-08AP.svg"
+  },
+  "W16-08P": {
+    "name": "Advance Street Name (1-line plaque)",
+    "category": "warning",
+    "shape": "diamond",
+    "background": "yellow",
+    "svg": "svg/W16-08P.svg"
+  },
+  "W16-09P": {
+    "name": "Ahead (plaque)",
+    "category": "warning",
+    "shape": "diamond",
+    "background": "yellow",
+    "svg": "svg/W16-09P.svg"
+  },
+  "W16-10AP": {
+    "name": "Photo Enforced (plaque)",
+    "category": "warning",
+    "shape": "diamond",
+    "background": "yellow",
+    "svg": "svg/W16-10AP.svg"
+  },
+  "W16-10P": {
+    "name": "Photo Enforced (symbol plaque)",
+    "category": "warning",
+    "shape": "diamond",
+    "background": "yellow",
+    "svg": "svg/W16-10P.svg"
+  },
+  "W16-11P": {
+    "name": "High-Occupancy Vehicles (plaque)",
+    "category": "warning",
+    "shape": "diamond",
+    "background": "yellow",
+    "svg": "svg/W16-11P.svg"
+  },
+  "W16-12AP": {
+    "name": "Roundabout (plaque)",
+    "category": "warning",
+    "shape": "diamond",
+    "background": "yellow",
+    "svg": "svg/W16-12AP.svg"
+  },
+  "W16-12P": {
+    "name": "Traffic Circle (plaque)",
+    "category": "warning",
+    "shape": "diamond",
+    "background": "yellow",
+    "svg": "svg/W16-12P.svg"
+  },
+  "W16-13P": {
+    "name": "When Flashing (plaque)",
+    "category": "warning",
+    "shape": "diamond",
+    "background": "yellow",
+    "svg": "svg/W16-13P.svg"
+  },
+  "W16-15P": {
+    "name": "New (plaque)",
+    "category": "warning",
+    "shape": "diamond",
+    "background": "yellow",
+    "svg": "svg/W16-15P.svg"
+  },
+  "W16-16AP": {
+    "name": "Last Exit Before Toll (2-line plaque)",
+    "category": "warning",
+    "shape": "diamond",
+    "background": "yellow",
+    "svg": "svg/W16-16AP.svg"
+  },
+  "W16-16P": {
+    "name": "Last Exit Before Toll (1-line plaque)",
+    "category": "warning",
+    "shape": "diamond",
+    "background": "yellow",
+    "svg": "svg/W16-16P.svg"
+  },
+  "W16-17P": {
+    "name": "Toll (plaque)",
+    "category": "warning",
+    "shape": "diamond",
+    "background": "yellow",
+    "svg": "svg/W16-17P.svg"
+  },
+  "W16-18P": {
+    "name": "Notice (plaque)",
+    "category": "warning",
+    "shape": "diamond",
+    "background": "yellow",
+    "svg": "svg/W16-18P.svg"
+  },
+  "W16-19P": {
+    "name": "Last In Corridor (plaque)",
+    "category": "warning",
+    "shape": "diamond",
+    "background": "yellow",
+    "svg": "svg/W16-19P.svg"
+  },
+  "W16-20P": {
+    "name": "Except Bicycles (plaque)",
+    "category": "warning",
+    "shape": "diamond",
+    "background": "yellow",
+    "svg": "svg/W16-20P.svg"
+  },
+  "W16-21P": {
+    "name": "2-Way Bicycle Cross Traffic (plaque)",
+    "category": "warning",
+    "shape": "diamond",
+    "background": "yellow",
+    "svg": "svg/W16-21P.svg"
+  },
+  "W17-01": {
+    "name": "Speed Hump",
+    "category": "warning",
+    "shape": "diamond",
+    "background": "yellow",
+    "svg": "svg/W17-01.svg"
+  },
+  "W18-01": {
+    "name": "No Traffic Signs",
+    "category": "warning",
+    "shape": "diamond",
+    "background": "yellow",
+    "svg": "svg/W18-01.svg"
+  },
+  "W19-01": {
+    "name": "Freeway Ends",
+    "category": "warning",
+    "shape": "diamond",
+    "background": "yellow",
+    "svg": "svg/W19-01.svg"
+  },
+  "W19-02": {
+    "name": "Expressway Ends",
+    "category": "warning",
+    "shape": "diamond",
+    "background": "yellow",
+    "svg": "svg/W19-02.svg"
+  },
+  "W19-03": {
+    "name": "Freeway Ends",
+    "category": "warning",
+    "shape": "diamond",
+    "background": "yellow",
+    "svg": "svg/W19-03.svg"
+  },
+  "W19-04": {
+    "name": "Expressway Ends",
+    "category": "warning",
+    "shape": "diamond",
+    "background": "yellow",
+    "svg": "svg/W19-04.svg"
+  },
+  "W19-05": {
+    "name": "All Traffic Must Exit",
+    "category": "warning",
+    "shape": "diamond",
+    "background": "yellow",
+    "svg": "svg/W19-05.svg"
+  },
+  "W20-01": {
+    "name": "Road (Street) Work (with distance)",
+    "category": "warning",
+    "shape": "diamond",
+    "background": "yellow",
+    "svg": "svg/W20-01.svg"
+  },
+  "W20-01B": {
+    "name": "Path Work Ahead (with distance)",
+    "category": "warning",
+    "shape": "diamond",
+    "background": "yellow",
+    "svg": "svg/W20-01B.svg"
+  },
+  "W20-02": {
+    "name": "Detour (with distance)",
+    "category": "warning",
+    "shape": "diamond",
+    "background": "yellow",
+    "svg": "svg/W20-02.svg"
+  },
+  "W20-02A": {
+    "name": "Bike Detour Ahead (with distance)",
+    "category": "warning",
+    "shape": "diamond",
+    "background": "yellow",
+    "svg": "svg/W20-02A.svg"
+  },
+  "W20-03": {
+    "name": "Road Closed Street Closed (with distance) Sheet",
+    "category": "warning",
+    "shape": "diamond",
+    "background": "yellow",
+    "svg": "svg/W20-03.svg"
+  },
+  "W20-03A": {
+    "name": "Path Closed (with distance)",
+    "category": "warning",
+    "shape": "diamond",
+    "background": "yellow",
+    "svg": "svg/W20-03A.svg"
+  },
+  "W20-04": {
+    "name": "One Lane Road (with distance)",
+    "category": "warning",
+    "shape": "diamond",
+    "background": "yellow",
+    "svg": "svg/W20-04.svg"
+  },
+  "W20-05": {
+    "name": "Right (Left) Lane Closed (with distance)",
+    "category": "warning",
+    "shape": "diamond",
+    "background": "yellow",
+    "svg": "svg/W20-05.svg"
+  },
+  "W20-05A": {
+    "name": "2 Lanes Closed (with distance)",
+    "category": "warning",
+    "shape": "diamond",
+    "background": "yellow",
+    "svg": "svg/W20-05A.svg"
+  },
+  "W20-05B": {
+    "name": "Bike Lane Closed (with distance)",
+    "category": "warning",
+    "shape": "diamond",
+    "background": "yellow",
+    "svg": "svg/W20-05B.svg"
+  },
+  "W20-07": {
+    "name": "Flagger",
+    "category": "warning",
+    "shape": "diamond",
+    "background": "yellow",
+    "svg": "svg/W20-07.svg"
+  },
+  "W20-07A": {
+    "name": "Flagger",
+    "category": "warning",
+    "shape": "diamond",
+    "background": "yellow",
+    "svg": "svg/W20-07A.svg"
+  },
+  "W20-08": {
+    "name": "Slow R01-01 Stop (on Stop_Slow Paddle)",
+    "category": "warning",
+    "shape": "diamond",
+    "background": "yellow",
+    "svg": "svg/W20-08.svg"
+  },
+  "W21-01": {
+    "name": "Workers",
+    "category": "warning",
+    "shape": "diamond",
+    "background": "yellow",
+    "svg": "svg/W21-01.svg"
+  },
+  "W21-01A": {
+    "name": "Workers",
+    "category": "warning",
+    "shape": "diamond",
+    "background": "yellow",
+    "svg": "svg/W21-01A.svg"
+  },
+  "W21-02": {
+    "name": "Fresh Oil Fresh Tar",
+    "category": "warning",
+    "shape": "diamond",
+    "background": "yellow",
+    "svg": "svg/W21-02.svg"
+  },
+  "W21-03": {
+    "name": "Road Machinery Ahead",
+    "category": "warning",
+    "shape": "diamond",
+    "background": "yellow",
+    "svg": "svg/W21-03.svg"
+  },
+  "W21-04": {
+    "name": "Slow Moving Vehicle",
+    "category": "warning",
+    "shape": "diamond",
+    "background": "yellow",
+    "svg": "svg/W21-04.svg"
+  },
+  "W21-05": {
+    "name": "Shoulder Work",
+    "category": "warning",
+    "shape": "diamond",
+    "background": "yellow",
+    "svg": "svg/W21-05.svg"
+  },
+  "W21-05A": {
+    "name": "Shoulder Closed",
+    "category": "warning",
+    "shape": "diamond",
+    "background": "yellow",
+    "svg": "svg/W21-05A.svg"
+  },
+  "W21-05B": {
+    "name": "Shoulder Closed (with distance)",
+    "category": "warning",
+    "shape": "diamond",
+    "background": "yellow",
+    "svg": "svg/W21-05B.svg"
+  },
+  "W21-06": {
+    "name": "Survey Crew",
+    "category": "warning",
+    "shape": "diamond",
+    "background": "yellow",
+    "svg": "svg/W21-06.svg"
+  },
+  "W21-07": {
+    "name": "Utility Work (with distance)",
+    "category": "warning",
+    "shape": "diamond",
+    "background": "yellow",
+    "svg": "svg/W21-07.svg"
+  },
+  "W21-08": {
+    "name": "Mowing Ahead",
+    "category": "warning",
+    "shape": "diamond",
+    "background": "yellow",
+    "svg": "svg/W21-08.svg"
+  },
+  "W22-01": {
+    "name": "Blasting Zone Ahead",
+    "category": "warning",
+    "shape": "diamond",
+    "background": "yellow",
+    "svg": "svg/W22-01.svg"
+  },
+  "W22-03": {
+    "name": "End Blasting Zone",
+    "category": "warning",
+    "shape": "diamond",
+    "background": "yellow",
+    "svg": "svg/W22-03.svg"
+  },
+  "W23-01": {
+    "name": "Slow Traffic Ahead",
+    "category": "warning",
+    "shape": "diamond",
+    "background": "yellow",
+    "svg": "svg/W23-01.svg"
+  },
+  "W23-02": {
+    "name": "New Traffic Pattern Ahead",
+    "category": "warning",
+    "shape": "diamond",
+    "background": "yellow",
+    "svg": "svg/W23-02.svg"
+  },
+  "W23-02A": {
+    "name": "New Signal Operation Ahead",
+    "category": "warning",
+    "shape": "diamond",
+    "background": "yellow",
+    "svg": "svg/W23-02A.svg"
+  },
+  "W24-01": {
+    "name": "Double Reverse Curve (1 lane)",
+    "category": "warning",
+    "shape": "diamond",
+    "background": "yellow",
+    "svg": "svg/W24-01.svg"
+  },
+  "W24-01A": {
+    "name": "Double Reverse Curve (2 lanes)",
+    "category": "warning",
+    "shape": "diamond",
+    "background": "yellow",
+    "svg": "svg/W24-01A.svg"
+  },
+  "W24-01B": {
+    "name": "Double Reverse Curve (3 lanes)",
+    "category": "warning",
+    "shape": "diamond",
+    "background": "yellow",
+    "svg": "svg/W24-01B.svg"
+  },
+  "W24-01CP": {
+    "name": "All Lanes (plaque)",
+    "category": "warning",
+    "shape": "diamond",
+    "background": "yellow",
+    "svg": "svg/W24-01CP.svg"
+  },
+  "W25-01": {
+    "name": "Oncoming Traffic Has Extended Green",
+    "category": "warning",
+    "shape": "diamond",
+    "background": "yellow",
+    "svg": "svg/W25-01.svg"
+  },
+  "W25-02": {
+    "name": "Oncoming Traffic May Have Extended Green",
+    "category": "warning",
+    "shape": "diamond",
+    "background": "yellow",
+    "svg": "svg/W25-02.svg"
+  },
+  "W26-01": {
+    "name": "Watch For Stopped Traffic",
+    "category": "warning",
+    "shape": "diamond",
+    "background": "yellow",
+    "svg": "svg/W26-01.svg"
+  }
+}
